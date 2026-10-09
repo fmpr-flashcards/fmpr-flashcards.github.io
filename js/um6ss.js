@@ -29,7 +29,7 @@ function subjectCard(s) {
   return `<a class="case-card" href="um6ss-quiz.html?bank=${s.id}">
     <h3>${EMOJI[s.id] || '📝'} ${esc(s.subject)}${lock()}</h3>
     <p>${esc(s.focus)}</p>
-    <div class="meta"><span>❓ ${s.n} QCM</span><span>🎲 100 tirés au hasard</span><span>⏱️ ${esc(s.time)}</span><span>⚖️ Coef ${s.coef}</span></div>
+    <div class="meta"><span>❓ ${s.n} QCM</span><span>🎲 100 tirés au hasard</span><span>🔁 sans répétition</span><span>⚖️ Coef ${s.coef}</span></div>
   </a>`;
 }
 
@@ -53,10 +53,10 @@ function render() {
     </div>`;
   let body = '';
   if (tab === 'admissibilite') {
-    body = `<p class="small">4 épreuves de <b>100 QCM</b> en 2 heures, comme le jour J — <b>1000 QCM par matière</b>, tirage aléatoire de 100 sans répétition. Chaque session apporte des questions inédites.</p>` +
+    body = `<p class="small">4 épreuves de <b>100 QCM</b> en 2 heures, comme le jour J — <b>2000 QCM par matière</b>, tirage aléatoire de 100 sans répétition. Chaque session apporte des questions inédites.</p>` +
       (index.admissibilite.length ? index.admissibilite.map(subjectCard).join('') : '<div class="empty">Chargement…</div>');
   } else {
-    body = `<p class="small"><b>Épreuve d'admission définitive</b> — 2 heures : <b>10 grands cas cliniques progressifs</b> par composante (5 à 15 QCM liés par cas). Un cas est tiré au hasard à chaque session, sans répétition.</p>` +
+    body = `<p class="small"><b>Épreuve d'admission définitive</b> — 2 heures : <b>50 grands cas cliniques progressifs</b> par composante (5 à 15 QCM liés par cas). Un cas est tiré au hasard à chaque session, sans répétition.</p>` +
       (index.admission.length ? index.admission.map(caseCard).join('') : '<div class="empty">Chargement…</div>');
   }
   app.innerHTML = head + body;
