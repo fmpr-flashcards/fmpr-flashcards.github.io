@@ -1,9 +1,9 @@
 /* Classement hebdo / tout temps. */
 import {
   requireAuth, user, profile, guardPro, fb, isoWeekId,
-  esc, $, $$, tabbar, toast, saveProfile, pushLeaderboard
+  esc, $, $$, tabbar, toast, saveProfile, pushLeaderboard,
+  collection, query, orderBy, limit, getDocs
 } from './common.js';
-import { collection, query, orderBy, limit, getDocs } from '../vendor/firebase/firebase-firestore.js';
 
 await requireAuth();
 if (!guardPro('Classement', 'leaderboard')) throw new Error('locked');
