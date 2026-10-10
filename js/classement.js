@@ -37,7 +37,10 @@ async function renderLb() {
         <div class="lb-xp">${(r.xp || 0).toLocaleString('fr-FR')} XP</div>
       </div>`).join('');
   } catch (e) {
-    list.innerHTML = `<div class="empty">Classement indisponible hors-ligne.<br>Reconnecte-toi pour le voir. 📶</div>`;
+    const offline = typeof navigator !== 'undefined' && navigator.onLine === false;
+    const detail = (e && e.code) ? ` (${e.code})` : '';
+    list.innerHTML = `<div class="empty">${offline ? 'Classement indisponible hors-ligne.<br>Reconnecte-toi pour le voir. 📶' : 'Impossible de charger le classement' + detail + '.<br>Réessaie dans un moment. 📶'}</div>`;
+    console.warn('[classement] load failed:', e);
   }
 }
 
