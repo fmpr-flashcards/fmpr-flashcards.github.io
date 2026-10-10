@@ -16,7 +16,7 @@ function tabCol() {
   try {
     return lbTab === 'weekly'
       ? fs.collection(db, 'lb_weekly', isoWeekId(), 'users')
-      : fs.collection(db, 'lb_alltime', 'users');
+      : fs.collection(db, 'lb_alltime');
   } catch (collErr) {
     const dbType = typeof db;
     const dbCtor = (db && db.constructor && db.constructor.name) || 'none';
