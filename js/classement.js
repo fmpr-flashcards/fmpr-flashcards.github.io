@@ -8,11 +8,12 @@ import { collection, query, orderBy, limit, getDocs } from '../vendor/firebase/f
 await requireAuth();
 if (!guardPro('Classement', 'leaderboard')) throw new Error('locked');
 
-const { db } = fb();
 let lbTab = 'weekly';
 const app = document.getElementById('app');
 
 function tabCol() {
+  const { db } = fb();
+  if (!db) throw new Error('firestore-unavailable');
   return lbTab === 'weekly'
     ? collection(db, 'lb_weekly', isoWeekId(), 'users')
     : collection(db, 'lb_alltime', 'users');
