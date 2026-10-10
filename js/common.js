@@ -118,7 +118,17 @@ export function fb() {
     }
     enableIndexedDbPersistence(_db).catch(() => {});
   }
-  return { app: _app, auth: _auth, db: _db };
+  // Singleton global : garantit que db et les helpers Firestore viennent
+  // toujours de la même instance du SDK, même si common.js est évalué
+  // deux fois (deux copies du module).
+  if (!globalThis.__fmpr_fs) {
+    globalThis.__fmpr_fs = {
+      db: _db, collection, query, where, limit, orderBy, getDocs,
+      doc, getDoc, setDoc, updateDoc, deleteDoc, runTransaction, serverTimestamp,
+    };
+  }
+  const fs = globalThis.__fmpr_fs;
+  return { app: _app, auth: _auth, db: fs.db, fs };
 }
 
 /* Ferme l'instance Firestore pour forcer une reconnexion propre au prochain
@@ -128,6 +138,7 @@ async function resetDb() {
   if (!_db) return;
   const old = _db;
   _db = null;
+  globalThis.__fmpr_fs = null;
   try {
     await Promise.race([
       terminate(old),
