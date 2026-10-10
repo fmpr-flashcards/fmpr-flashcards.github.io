@@ -23,8 +23,17 @@ async function renderLb() {
   const list = $('#lbList');
   if (!list) return;
   try {
-    const snap = await getDocs(query(tabCol(), orderBy('xp', 'desc'), limit(50)));
-    const rows = snap.docs.map(d => ({ uid: d.id, ...d.data() }));
+    let snap;
+    try {
+      snap = await getDocs(query(tabCol(), orderBy('xp', 'desc'), limit(50)));
+    } catch (qErr) {
+      // Fallback: sans orderBy/limit (tri côté client) si la requête échoue
+      console.warn('[classement] ordered query failed, fallback:', qErr);
+      snap = await getDocs(tabCol());
+    }
+    const rows = snap.docs.map(d => ({ uid: d.id, ...d.data() }))
+      .sort((a, b) => (b.xp || 0) - (a.xp || 0))
+      .slice(0, 50);
     if (!rows.length) {
       list.innerHTML = `<div class="empty">Personne pour l'instant.<br>Sois le premier à gagner de l'XP ! 🚀</div>`;
       return;
