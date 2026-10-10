@@ -365,7 +365,7 @@ export async function pushLeaderboard(force) {
   };
   try {
     await setDoc(doc(db, 'lb_weekly', isoWeekId(), 'users', user.uid), payload, { merge: true });
-    await setDoc(doc(db, 'lb_alltime', 'users', user.uid), payload, { merge: true });
+    await setDoc(doc(db, 'lb_alltime', user.uid), payload, { merge: true });
   } catch (e) { console.warn('leaderboard', e); }
 }
 
