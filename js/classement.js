@@ -14,9 +14,18 @@ const app = document.getElementById('app');
 function tabCol() {
   const { db } = fb();
   if (!db) throw new Error('firestore-unavailable');
-  return lbTab === 'weekly'
-    ? collection(db, 'lb_weekly', isoWeekId(), 'users')
-    : collection(db, 'lb_alltime', 'users');
+  const dbType = typeof db;
+  const dbCtor = (db && db.constructor && db.constructor.name) || 'none';
+  if (dbType !== 'object' || (dbCtor !== 'Firestore' && dbCtor !== 'none')) {
+    console.warn('[classement] suspicious db:', dbType, dbCtor, db);
+  }
+  try {
+    return lbTab === 'weekly'
+      ? collection(db, 'lb_weekly', isoWeekId(), 'users')
+      : collection(db, 'lb_alltime', 'users');
+  } catch (collErr) {
+    throw new Error('collection-failed dbType=' + dbType + ' dbCtor=' + dbCtor + ' orig=' + (collErr && collErr.code));
+  }
 }
 
 async function renderLb() {
