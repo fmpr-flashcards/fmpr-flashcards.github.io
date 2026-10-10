@@ -3,9 +3,9 @@ import {
   requireAuth, user, profile, fb, levelFor,
   esc, $, $$, tabbar, toast, signOutAll,
   waUnlockLink, bindRedeem, listSessions,
-  REF_COMMISSION, REF_MIN_WITHDRAW, WA_NUMBER
+  REF_COMMISSION, REF_MIN_WITHDRAW, WA_NUMBER,
+  doc, deleteDoc
 } from './common.js';
-import { doc, deleteDoc } from '../vendor/firebase/firebase-firestore.js';
 
 await requireAuth();
 

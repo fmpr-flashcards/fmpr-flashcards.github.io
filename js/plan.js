@@ -1,9 +1,9 @@
 /* Plan de révision 32 semaines. */
 import {
   requireAuth, user, guardPro, fb, loadPlan,
-  esc, $, $$, tabbar, toast, todayStr, touchStudy
+  esc, $, $$, tabbar, toast, todayStr, touchStudy,
+  doc, getDoc, setDoc
 } from './common.js';
-import { doc, getDoc, setDoc } from '../vendor/firebase/firebase-firestore.js';
 
 await requireAuth();
 if (!guardPro('Plan de révision', 'plan')) throw new Error('locked');
