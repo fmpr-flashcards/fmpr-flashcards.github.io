@@ -1,8 +1,7 @@
 /* Classement hebdo / tout temps. */
 import {
   requireAuth, user, profile, guardPro, fb, isoWeekId,
-  esc, $, $$, tabbar, toast, saveProfile, pushLeaderboard,
-  collection, query, orderBy, limit, getDocs
+  esc, $, $$, tabbar, toast, saveProfile, pushLeaderboard
 } from './common.js';
 
 await requireAuth();
@@ -12,18 +11,15 @@ let lbTab = 'weekly';
 const app = document.getElementById('app');
 
 function tabCol() {
-  const { db } = fb();
-  if (!db) throw new Error('firestore-unavailable');
-  const dbType = typeof db;
-  const dbCtor = (db && db.constructor && db.constructor.name) || 'none';
-  if (dbType !== 'object' || (dbCtor !== 'Firestore' && dbCtor !== 'none')) {
-    console.warn('[classement] suspicious db:', dbType, dbCtor, db);
-  }
+  const { db, fs } = fb();
+  if (!db || !fs) throw new Error('firestore-unavailable');
   try {
     return lbTab === 'weekly'
-      ? collection(db, 'lb_weekly', isoWeekId(), 'users')
-      : collection(db, 'lb_alltime', 'users');
+      ? fs.collection(db, 'lb_weekly', isoWeekId(), 'users')
+      : fs.collection(db, 'lb_alltime', 'users');
   } catch (collErr) {
+    const dbType = typeof db;
+    const dbCtor = (db && db.constructor && db.constructor.name) || 'none';
     throw new Error('collection-failed dbType=' + dbType + ' dbCtor=' + dbCtor + ' orig=' + (collErr && collErr.code));
   }
 }
@@ -31,14 +27,15 @@ function tabCol() {
 async function renderLb() {
   const list = $('#lbList');
   if (!list) return;
+  const { fs } = fb();
   try {
     let snap;
     try {
-      snap = await getDocs(query(tabCol(), orderBy('xp', 'desc'), limit(50)));
+      snap = await fs.getDocs(fs.query(tabCol(), fs.orderBy('xp', 'desc'), fs.limit(50)));
     } catch (qErr) {
       // Fallback: sans orderBy/limit (tri côté client) si la requête échoue
       console.warn('[classement] ordered query failed, fallback:', qErr);
-      snap = await getDocs(tabCol());
+      snap = await fs.getDocs(tabCol());
     }
     const rows = snap.docs.map(d => ({ uid: d.id, ...d.data() }))
       .sort((a, b) => (b.xp || 0) - (a.xp || 0))
