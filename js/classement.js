@@ -58,7 +58,8 @@ async function renderLb() {
   } catch (e) {
     const offline = typeof navigator !== 'undefined' && navigator.onLine === false;
     const detail = (e && e.code) ? ` (${e.code})` : '';
-    list.innerHTML = `<div class="empty">${offline ? 'Classement indisponible hors-ligne.<br>Reconnecte-toi pour le voir. 📶' : 'Impossible de charger le classement' + detail + '.<br>Réessaie dans un moment. 📶'}</div>`;
+    const msg = (e && e.message && !e.code) ? `<br><small>${esc(e.message)}</small>` : '';
+    list.innerHTML = `<div class="empty">${offline ? 'Classement indisponible hors-ligne.<br>Reconnecte-toi pour le voir. 📶' : 'Impossible de charger le classement' + detail + '.' + msg + '<br>Réessaie dans un moment. 📶'}</div>`;
     console.warn('[classement] load failed:', e);
   }
 }
