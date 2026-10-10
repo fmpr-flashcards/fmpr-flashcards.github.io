@@ -101,7 +101,12 @@ export function fb() {
     _auth = getAuth(_app);
   }
   if (!_db) {
-    _db = getFirestore(_app);
+    try {
+      _db = getFirestore(_app);
+    } catch (e) {
+      console.error('[fb] getFirestore failed:', e);
+      throw new Error('firestore-init-failed: ' + (e && e.message));
+    }
     enableIndexedDbPersistence(_db).catch(() => {});
   }
   return { app: _app, auth: _auth, db: _db };
@@ -235,6 +240,7 @@ export async function signOutAll() {
 /* --------------------------- auth & profile ---------------------------- */
 function defaultProfile(u) {
   return {
+    app: 'fmpr',
     email: u.email || '',
     displayName: u.displayName || (u.email ? u.email.split('@')[0] : 'Étudiant'),
     photoURL: u.photoURL || '',
