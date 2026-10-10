@@ -11,6 +11,15 @@ import {
 } from '../vendor/firebase/firebase-firestore.js';
 import { firebaseConfig } from '../firebase-config.js';
 
+/* Ré-export des primitives Firestore : garantit que db et les helpers
+   viennent TOUJOURS de la même instance du SDK (évite les conflits
+   "invalid-argument" quand deux copies du SDK sont chargées). */
+export {
+  getFirestore, doc, getDoc, setDoc, updateDoc, collection,
+  query, where, limit, orderBy, getDocs, runTransaction,
+  serverTimestamp, deleteDoc, enableIndexedDbPersistence, terminate
+} from '../vendor/firebase/firebase-firestore.js';
+
 export const WA_NUMBER = '212605235053';
 export const DEMO_N = 5;                 // cartes visibles en démo (non-Pro)
 export const REF_COMMISSION = 15;        // DH par filleul parrainé
