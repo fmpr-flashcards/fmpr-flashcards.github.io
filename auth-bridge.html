@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Connexion Google — Flashcards</title>
+<style>
+  body { font-family: system-ui, -apple-system, sans-serif; background: #0f1e33; color: #fff; margin: 0; display: flex; min-height: 100vh; align-items: center; justify-content: center; padding: 16px; }
+  main { max-width: 430px; width: 100%; text-align: center; background: #16263f; border-radius: 16px; padding: 28px 22px; box-shadow: 0 10px 40px rgba(0,0,0,.4); }
+  h1 { font-size: 22px; margin: 0 0 8px; }
+  p { color: #c9d6e8; line-height: 1.5; }
+  .btn { display: inline-block; margin-top: 14px; background: #fff; color: #111; border: 0; border-radius: 999px; padding: 12px 22px; font-size: 16px; font-weight: 700; cursor: pointer; }
+  .btn:active { opacity: .85; }
+  .link { display: inline-block; margin-top: 18px; color: #8fb6ff; text-decoration: underline; cursor: pointer; background: none; border: 0; font-size: 15px; }
+  #err { color: #ff9d9d; }
+  #userEmail { font-weight: 700; color: #fff; }
+</style>
+</head>
+<body>
+<main>
+  <div style="font-size:40px">🩺</div>
+  <h1>Connexion Google</h1>
+  <p id="facultyLine"></p>
+  <p id="status">Préparation de la connexion…</p>
+  <p id="who" hidden>Connecté en tant que <span id="userEmail"></span></p>
+  <button class="btn" id="gBtn" hidden>Continuer avec Google</button>
+  <button class="btn" id="continueBtn" hidden>Continuer vers l'app →</button>
+  <br><button class="link" id="switchBtn" hidden>Utiliser un autre compte</button>
+  <p id="err"></p>
+  <p><a class="link" id="backLink" href="#">← Retour à l'app</a></p>
+</main>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script>
+/* Page pont : l'app Android ouvre cette page dans le navigateur système
+   (la popup Firebase ne fonctionne pas en WebView). La page signe
+   l'utilisateur avec Firebase signInWithRedirect, puis renvoie le jeton
+   Firebase à l'app via le schéma com.fmpr.flashcards:/auth. */
+const CONFIGS = {"fmpr": {"apiKey": "AIzaSyA5nEYGxXgALKBDFAnvQFDCyaAcNcL9quA", "authDomain": "fmpr-flashcards.firebaseapp.com", "projectId": "fmpr-flashcards", "storageBucket": "fmpr-flashcards.firebasestorage.app", "messagingSenderId": "61524543799", "appId": "1:61524543799:web:1cfbc2d9a7afa8176d32b2"}, "fmpa": {"apiKey": "AIzaSyDex6lZqD5GTG8Kod_GHEavF7xKsgjFrdY", "authDomain": "fmpa-flashcards.firebaseapp.com", "projectId": "fmpa-flashcards", "storageBucket": "fmpa-flashcards.firebasestorage.app", "messagingSenderId": "540562510232", "appId": "1:540562510232:web:0e016f3b09e92157791bed"}, "fmpt": {"apiKey": "AIzaSyCqiN5-OzoM6w_1iXXYkfvIGL-JuVaMCL8", "authDomain": "fmpt-flashcards.firebaseapp.com", "projectId": "fmpt-flashcards", "storageBucket": "fmpt-flashcards.firebasestorage.app", "messagingSenderId": "143651699970", "appId": "1:143651699970:web:5b504c88e77f5ffabc561b"}, "fmpc": {"apiKey": "AIzaSyC0qaxGjyMSolZ1h17m5w3OJ2GMldPISK0", "authDomain": "fmpc-flashcards-app.firebaseapp.com", "projectId": "fmpc-flashcards-app", "storageBucket": "fmpc-flashcards-app.firebasestorage.app", "messagingSenderId": "626315239545", "appId": "1:626315239545:web:990071edf9b3a7c355b4a8"}, "fmpo": {"apiKey": "AIzaSyCBzr9P924fcjlSeNTcj4aLR9wIAX9szjA", "authDomain": "fmpo-flashcards.firebaseapp.com", "projectId": "fmpo-flashcards", "storageBucket": "fmpo-flashcards.firebasestorage.app", "messagingSenderId": "508196814300", "appId": "1:508196814300:web:b03e5058e41e6719d9a319"}, "fmpf": {"apiKey": "AIzaSyAOFlzGPTiWnkYeY8-sr7kMTWF7NZe-ao0", "authDomain": "fmpf-flashcards.firebaseapp.com", "projectId": "fmpf-flashcards", "storageBucket": "fmpf-flashcards.firebasestorage.app", "messagingSenderId": "712757382054", "appId": "1:712757382054:web:8416054165c060e8755d67"}, "fmpm": {"apiKey": "AIzaSyAXmdC45pDJrXzrtWvvpDZnHEej-RG0KWg", "authDomain": "fmpm-flashcards.firebaseapp.com", "projectId": "fmpm-flashcards", "storageBucket": "fmpm-flashcards.firebasestorage.app", "messagingSenderId": "643591051713", "appId": "1:643591051713:web:6ff0860675a056e73af740"}};
+const NAMES = { fmpr: 'FMPR — Rabat', fmpa: 'FMPA — Agadir', fmpt: 'FMPT — Tanger', fmpc: 'FMPC — Casablanca', fmpo: 'FMPO — Oujda', fmpf: 'FMPF — Fès', fmpm: 'FMPM — Marrakech' };
+const params = new URLSearchParams(location.search);
+const faculty = (params.get('faculty') || 'fmpr').toLowerCase();
+const cfg = CONFIGS[faculty] || CONFIGS.fmpr;
+document.getElementById('facultyLine').textContent = 'Faculté : ' + (NAMES[faculty] || faculty.toUpperCase());
+document.getElementById('backLink').href = 'com.fmpr.flashcards:/auth?faculty=' + encodeURIComponent(faculty);
+firebase.initializeApp(cfg);
+const auth = firebase.auth();
+const provider = new firebase.auth.GoogleAuthProvider();
+const $ = (id) => document.getElementById(id);
+let navigated = false;
+function goApp(token) {
+  if (navigated || !token) return;
+  navigated = true;
+  $('status').textContent = 'Connecté — retour à l\u2019app…';
+  location.href = 'com.fmpr.flashcards:/auth?token=' + encodeURIComponent(token) + '&faculty=' + encodeURIComponent(faculty);
+}
+function showErr(m) {
+  $('err').textContent = m;
+  $('status').textContent = 'Échec de la connexion.';
+  $('gBtn').hidden = false;
+}
+function showGoogleBtn(msg) {
+  $('status').textContent = msg;
+  $('gBtn').hidden = false;
+}
+$('gBtn').addEventListener('click', () => {
+  $('status').textContent = 'Ouverture de Google…';
+  $('err').textContent = '';
+  auth.signInWithRedirect(provider);
+});
+$('continueBtn').addEventListener('click', async () => {
+  const u = auth.currentUser;
+  if (u) { try { goApp(await u.getIdToken()); } catch (e) { showErr(e.message || String(e)); } }
+});
+$('switchBtn').addEventListener('click', async () => {
+  await auth.signOut();
+  $('who').hidden = true;
+  $('continueBtn').hidden = true;
+  $('switchBtn').hidden = true;
+  showGoogleBtn('Choisis le compte Google à utiliser.');
+});
+/* Deux signaux à attendre : le résultat de la redirection Google (si l'on
+   revient du flux OAuth) et l'état d'auth initial (session existante). */
+let redirectDone = false, redirectUser = null, authReady = false;
+function settle() {
+  if (!redirectDone || !authReady) return;
+  if (redirectUser) { redirectUser.getIdToken().then(goApp).catch((e) => showErr(e.message || String(e))); return; }
+  const cur = auth.currentUser;
+  if (cur) {
+    $('who').hidden = false;
+    $('userEmail').textContent = cur.email || '';
+    $('continueBtn').hidden = false;
+    $('switchBtn').hidden = false;
+    $('status').textContent = 'Tu es déjà connecté dans ce navigateur.';
+  } else {
+    showGoogleBtn('Connecte-toi avec ton compte Google.');
+  }
+}
+auth.getRedirectResult().then((res) => {
+  redirectDone = true;
+  if (res && res.user) redirectUser = res.user;
+  settle();
+}).catch((e) => { redirectDone = true; showErr(e.message || String(e)); });
+auth.onAuthStateChanged(() => { authReady = true; settle(); });
+</script>
+</body>
+</html>
