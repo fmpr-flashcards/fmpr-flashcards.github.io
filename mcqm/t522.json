@@ -1,0 +1,1104 @@
+[
+ {
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : les circuits involontaires sélectionnent et initient les programmes moteurs.",
+   "Vrai : ils règlent le tonus et la posture.",
+   "Vrai : la marche et l'écriture sont les exemples de mouvements automatiques cités.",
+   "Faux : ces circuits ne déclenchent pas le mouvement ; ils le conditionnent et modulent la voie corticospinale.",
+   "Faux : la transmission de ces circuits est globalement polysynaptique, pas monosynaptique."
+  ],
+  "options": [
+   "Elle sélectionne et initie les programmes moteurs",
+   "Elle règle le tonus et la posture",
+   "Elle assure les mouvements automatiques comme la marche et l'écriture",
+   "Elle déclenche directement le mouvement à la place de la voie corticospinale",
+   "Elle commande la contraction musculaire par une voie monosynaptique directe"
+  ],
+  "q": "Concernant la définition de la motricité involontaire, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1
+  ],
+  "explain": [
+   "Vrai : les boucles cortico-striato-thalamo-corticales forment le premier sous-ensemble.",
+   "Vrai : les voies descendantes du tronc cérébral forment le second sous-ensemble.",
+   "Faux : la voie corticospinale directe est la voie de la motricité volontaire, pas l'un des deux sous-ensembles involontaires.",
+   "Faux : les voies lemniscales concernent la sensibilité, pas la motricité involontaire.",
+   "Faux : les faisceaux spino-cérébelleux sont des voies de la proprioception inconsciente, pas un sous-ensemble de la motricité involontaire."
+  ],
+  "options": [
+   "Les boucles cortico-striato-thalamo-corticales, via les noyaux gris centraux",
+   "Les voies descendantes du tronc cérébral (réticulo-, vestibulo-, tecto-, rubro-spinales)",
+   "La voie corticospinale directe",
+   "Les voies lemniscales de la sensibilité",
+   "Les faisceaux spino-cérébelleux"
+  ],
+  "q": "Concernant les deux grands sous-ensembles de la motricité involontaire, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : la boucle part du cortex.",
+   "Vrai : elle passe par les ganglions de la base.",
+   "Vrai : elle passe par le thalamus avant de revenir au cortex.",
+   "Faux : la boucle revient au cortex ; elle ne se termine pas dans la moelle.",
+   "Faux : la boucle revient au cortex, elle ne le court-circuite pas."
+  ],
+  "options": [
+   "Elle part du cortex",
+   "Elle passe par les ganglions de la base",
+   "Elle passe par le thalamus",
+   "Elle se termine dans la moelle épinière",
+   "Elle court-circuite le cortex"
+  ],
+  "q": "Concernant le trajet de la boucle cortico-striato-thalamo-corticale, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : la transmission est globalement polysynaptique.",
+   "Vrai : elle est plus lente que la voie corticospinale directe.",
+   "Vrai : elle est indispensable à la fluidité du mouvement.",
+   "Faux : elle est polysynaptique et plus lente que la voie corticospinale directe.",
+   "Faux : elle est indispensable à la fluidité du mouvement."
+  ],
+  "options": [
+   "Elle est globalement polysynaptique",
+   "Elle est plus lente que la voie corticospinale directe",
+   "Elle est indispensable à la fluidité du mouvement",
+   "Elle est monosynaptique et plus rapide que la voie corticospinale",
+   "Elle est inutile à la fluidité du mouvement"
+  ],
+  "q": "Concernant la transmission des circuits de la motricité involontaire, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : le cortex moteur primaire (aire 4) est cité parmi les aires impliquées.",
+   "Vrai : le cortex prémoteur et la SMA (aire 6) sont cités.",
+   "Vrai : le cortex pariétal postérieur (aires 5 et 7) est cité.",
+   "Faux : le cortex occipital primaire n'est pas cité parmi les aires impliquées.",
+   "Faux : le cortex auditif primaire n'est pas cité parmi les aires impliquées."
+  ],
+  "options": [
+   "Le cortex moteur primaire (aire 4)",
+   "Le cortex prémoteur et l'aire motrice supplémentaire SMA (aire 6)",
+   "Le cortex pariétal postérieur (aires 5 et 7)",
+   "Le cortex occipital primaire (aire 17)",
+   "Le cortex auditif primaire (aires 41 et 42)"
+  ],
+  "q": "Parmi les aires corticales suivantes, lesquelles sont impliquées dans la motricité involontaire ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : le cortex préfrontal (aires 8, 9, 10, 46) est cité.",
+   "Vrai : la circonvolution cingulaire (aire 24) est citée.",
+   "Vrai : l'aire oculomotrice frontale (aire 8) est citée.",
+   "Faux : l'aire de Broca n'est pas citée parmi les aires impliquées.",
+   "Faux : l'aire de Wernicke n'est pas citée parmi les aires impliquées."
+  ],
+  "options": [
+   "Le cortex préfrontal (aires 8, 9, 10, 46)",
+   "La circonvolution cingulaire (aire 24)",
+   "L'aire oculomotrice frontale (aire 8)",
+   "L'aire de Broca (aires 44 et 45)",
+   "L'aire de Wernicke (aire 22)"
+  ],
+  "q": "Parmi ces autres aires corticales, lesquelles sont aussi impliquées dans la motricité involontaire ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : le striatum est formé du noyau caudé et du putamen.",
+   "Vrai : le striatum est la porte d'entrée des ganglions de la base.",
+   "Vrai : il reçoit le cortex et la dopamine de la SNc.",
+   "Faux : le GPe et le GPi forment le pallidum, pas le striatum.",
+   "Faux : les noyaux de sortie sont le GPi et la SNr, pas le striatum."
+  ],
+  "options": [
+   "Il est formé du noyau caudé et du putamen",
+   "Il est la porte d'entrée des ganglions de la base",
+   "Il reçoit des afférences du cortex et la dopamine de la SNc",
+   "Il est formé du GPe et du GPi",
+   "Il est un noyau de sortie des ganglions de la base"
+  ],
+  "q": "Concernant le striatum, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : le pallidum comprend le GPe (externe) et le GPi (interne).",
+   "Vrai : le GPe est inhibiteur du STN.",
+   "Vrai : les noyaux de sortie sont le GPi et la SNr.",
+   "Faux : le noyau caudé et le putamen forment le striatum, pas le pallidum.",
+   "Faux : le GPe inhibe le STN, il ne l'excite pas."
+  ],
+  "options": [
+   "Il comprend un segment externe (GPe) et un segment interne (GPi)",
+   "Le GPe est inhibiteur du STN",
+   "Le GPi fait partie des noyaux de sortie avec la SNr",
+   "Le pallidum est formé du noyau caudé et du putamen",
+   "Le GPe excite le STN"
+  ],
+  "q": "Concernant le pallidum, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : le noyau sous-thalamique est aussi appelé noyau de Luys.",
+   "Vrai : le STN est glutamatergique.",
+   "Vrai : dans la voie indirecte, le STN désinhibé excite fortement le GPi/SNr.",
+   "Faux : c'est la SNc qui est dopaminergique, pas le STN.",
+   "Faux : le STN est un noyau des ganglions de la base, pas du thalamus."
+  ],
+  "options": [
+   "Il est aussi appelé noyau de Luys",
+   "Il est glutamatergique",
+   "Dans la voie indirecte, sa désinhibition l'amène à exciter fortement le GPi/SNr",
+   "Il est dopaminergique",
+   "Il est un noyau du thalamus"
+  ],
+  "q": "Concernant le noyau sous-thalamique (STN), lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : la SNc est la partie compacte, dopaminergique.",
+   "Vrai : la SNr est la partie réticulée, noyau de sortie.",
+   "Vrai : la SNc exerce la modulation dopaminergique du striatum.",
+   "Faux : c'est le STN qui est glutamatergique, pas la SNc.",
+   "Faux : la porte d'entrée des ganglions de la base est le striatum, pas la SNr."
+  ],
+  "options": [
+   "La SNc est la partie compacte, dopaminergique",
+   "La SNr est la partie réticulée, noyau de sortie",
+   "La SNc module le striatum par la dopamine",
+   "La SNc est glutamatergique",
+   "La SNr est la porte d'entrée des ganglions de la base"
+  ],
+  "q": "Concernant la substance noire, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : les noyaux VA et VL servent de relais thalamiques.",
+   "Vrai : les noyaux intralaminaires (CM-Pf) servent aussi de relais.",
+   "Vrai : dans la voie directe, le thalamus libéré excite le cortex moteur.",
+   "Faux : la porte d'entrée des ganglions de la base est le striatum, pas le thalamus.",
+   "Faux : les boucles passent par le thalamus, elles ne le court-circuitent pas."
+  ],
+  "options": [
+   "Les noyaux ventral antérieur (VA) et ventral latéral (VL) servent de relais",
+   "Les noyaux intralaminaires (CM-Pf) servent aussi de relais",
+   "Le thalamus, libéré par la désinhibition, excite le cortex moteur dans la voie directe",
+   "Le thalamus est la porte d'entrée des ganglions de la base",
+   "Le thalamus est court-circuité par les boucles"
+  ],
+  "q": "Concernant les relais thalamiques de la motricité involontaire, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la formation réticulée est citée parmi les structures associées du tronc cérébral.",
+   "Vrai : les noyaux vestibulaires sont cités.",
+   "Vrai : le noyau rouge (rubrospinal) est cité.",
+   "Vrai : le colliculus supérieur (tectospinal) est cité.",
+   "Faux : le noyau dentelé n'est pas cité parmi les structures associées."
+  ],
+  "options": [
+   "La formation réticulée",
+   "Les noyaux vestibulaires",
+   "Le noyau rouge (rubrospinal)",
+   "Le colliculus supérieur (tectospinal)",
+   "Le noyau dentelé"
+  ],
+  "q": "Parmi les structures suivantes, lesquelles font partie des structures du tronc cérébral associées à la motricité involontaire ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : le noyau pédonculopontin fait partie des structures associées du tronc cérébral.",
+   "Vrai : il reçoit des sorties du GPi/SNr pour la posture et la marche.",
+   "Vrai : les structures du tronc cérébral citées ont des interconnexions fonctionnelles avec le cervelet.",
+   "Faux : les noyaux de sortie sont le GPi et la SNr ; le noyau pédonculopontin est une cible de ces sorties.",
+   "Faux : le noyau pédonculopontin est une structure du tronc cérébral, pas du cortex."
+  ],
+  "options": [
+   "Il fait partie des structures associées du tronc cérébral",
+   "Il reçoit des sorties du GPi/SNr pour la posture et la marche",
+   "Les structures du tronc cérébral citées ont des interconnexions fonctionnelles avec le cervelet",
+   "Il est un noyau de sortie des ganglions de la base",
+   "Il se situe dans le cortex"
+  ],
+  "q": "Concernant le noyau pédonculopontin, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : le cervelet intervient via la boucle cortico-ponto-cérébelleuse-thalamo-corticale.",
+   "Vrai : son rôle est la coordination et les ajustements.",
+   "Vrai : le cervelet assure la calibration et la correction d'erreur.",
+   "Faux : la porte d'entrée des ganglions de la base est le striatum, pas le cervelet.",
+   "Faux : ces circuits ne déclenchent pas le mouvement ; le cervelet le calibre et le corrige."
+  ],
+  "options": [
+   "Il intervient via la boucle cortico-ponto-cérébelleuse-thalamo-corticale",
+   "Son rôle est la coordination et les ajustements",
+   "Il assure la calibration et la correction d'erreur",
+   "Il est la porte d'entrée des ganglions de la base",
+   "Il déclenche directement le mouvement"
+  ],
+  "q": "Concernant le cervelet dans la motricité involontaire, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : les afférences corticales vers le striatum sont glutamatergiques.",
+   "Vrai : la SNc exerce une modulation dopaminergique sur le striatum.",
+   "Vrai : la dopamine agit via D1 (voie directe) et D2 (voie indirecte) au niveau du striatum.",
+   "Faux : les afférences corticales sont glutamatergiques, pas GABAergiques.",
+   "Faux : le striatum reçoit la modulation dopaminergique de la SNc."
+  ],
+  "options": [
+   "Les afférences du cortex vers le striatum sont glutamatergiques",
+   "La SNc exerce une modulation dopaminergique sur le striatum",
+   "La dopamine de la SNc agit via les récepteurs D1 et D2 du striatum",
+   "Les afférences corticales vers le striatum sont GABAergiques",
+   "Le striatum ne reçoit aucune modulation dopaminergique"
+  ],
+  "q": "Concernant les entrées des ganglions de la base, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : D1 facilite la voie directe.",
+   "Vrai : D2 inhibe la voie indirecte.",
+   "Vrai : la voie directe passe par des neurones striataux riches en D1.",
+   "Vrai : la voie indirecte passe par des neurones striataux GABAergiques riches en D2.",
+   "Faux : D1 facilite la voie directe, il ne l'inhibe pas."
+  ],
+  "options": [
+   "La dopamine via D1 facilite la voie directe",
+   "La dopamine via D2 inhibe la voie indirecte",
+   "Les neurones de la voie directe sont riches en récepteurs D1",
+   "Les neurones de la voie indirecte sont riches en récepteurs D2",
+   "La dopamine via D1 inhibe la voie directe"
+  ],
+  "q": "Concernant les récepteurs dopaminergiques D1 et D2, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : dans la voie directe, le cortex excite le striatum.",
+   "Vrai : le striatum inhibe les noyaux de sortie (GPi/SNr).",
+   "Vrai : cette inhibition lève l'effet tonique inhibiteur sur le thalamus, c'est la désinhibition.",
+   "Vrai : le thalamus libéré excite le cortex moteur.",
+   "Faux : le striatum inhibe le GPi/SNr ; il n'excite pas directement le thalamus."
+  ],
+  "options": [
+   "Le cortex excite le striatum",
+   "Le striatum inhibe les noyaux de sortie (GPi/SNr)",
+   "L'inhibition des noyaux de sortie lève leur effet tonique inhibiteur sur le thalamus (désinhibition)",
+   "Le thalamus libéré excite le cortex moteur",
+   "Le striatum excite directement le thalamus"
+  ],
+  "q": "Concernant les étapes de la voie directe, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1
+  ],
+  "explain": [
+   "Vrai : la voie directe permet d'initier et d'exécuter le programme moteur sélectionné.",
+   "Vrai : la voie directe est comparée à un « feu vert ».",
+   "Faux : la voie directe lève l'inhibition thalamique (désinhibition), elle ne l'augmente pas.",
+   "Faux : la suppression des programmes concurrents est le rôle de la voie indirecte.",
+   "Faux : la voie directe aboutit à l'excitation du cortex moteur par le thalamus libéré."
+  ],
+  "options": [
+   "Elle permet d'initier et d'exécuter le programme moteur sélectionné",
+   "Elle est comparée à un « feu vert »",
+   "Elle augmente l'inhibition thalamique",
+   "Elle supprime les programmes moteurs concurrents",
+   "Elle inhibe le cortex moteur"
+  ],
+  "q": "Concernant le résultat de la voie directe, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : dans la voie indirecte, le striatum GABAergique riche en D2 inhibe le GPe.",
+   "Vrai : l'inhibition du GPe (inhibiteur du STN) désinhibe le STN.",
+   "Vrai : le STN glutamatergique excite fortement le GPi/SNr.",
+   "Vrai : cette excitation augmente l'inhibition thalamique.",
+   "Faux : la voie indirecte augmente l'inhibition thalamique ; la désinhibition est le fait de la voie directe."
+  ],
+  "options": [
+   "Le striatum (neurones GABAergiques riches en D2) inhibe le GPe",
+   "L'inhibition du GPe désinhibe le STN",
+   "Le STN, glutamatergique, excite fortement le GPi/SNr",
+   "L'excitation du GPi/SNr augmente l'inhibition thalamique",
+   "La voie indirecte désinhibe le thalamus"
+  ],
+  "q": "Concernant les étapes de la voie indirecte, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1
+  ],
+  "explain": [
+   "Vrai : la voie indirecte supprime les programmes moteurs concurrents via le cortex.",
+   "Vrai : la voie indirecte est comparée à un « feu rouge ».",
+   "Faux : l'initiation du programme sélectionné est le rôle de la voie directe.",
+   "Faux : la voie indirecte augmente l'inhibition thalamique, elle ne la lève pas.",
+   "Faux : la voie indirecte augmente l'inhibition thalamique, ce qui freine l'excitation corticale."
+  ],
+  "options": [
+   "Elle supprime les programmes moteurs concurrents via le cortex",
+   "Elle est comparée à un « feu rouge »",
+   "Elle initie le programme moteur sélectionné",
+   "Elle lève l'inhibition thalamique",
+   "Elle excite le cortex moteur"
+  ],
+  "q": "Concernant le résultat de la voie indirecte, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : la voie directe aboutit à une désinhibition du thalamus.",
+   "Vrai : la voie indirecte aboutit à une augmentation de l'inhibition thalamique.",
+   "Vrai : la voie directe inhibe le GPi/SNr, tandis que la voie indirecte l'excite via le STN.",
+   "Faux : leurs effets sur le thalamus sont opposés (désinhibition contre inhibition accrue).",
+   "Faux : seul le circuit indirect passe par le GPe ; la voie directe va du striatum au GPi/SNr."
+  ],
+  "options": [
+   "La voie directe aboutit à une désinhibition du thalamus",
+   "La voie indirecte aboutit à une augmentation de l'inhibition thalamique",
+   "La voie directe inhibe le GPi/SNr, la voie indirecte l'excite (via le STN)",
+   "Les deux voies ont le même effet sur le thalamus",
+   "La voie directe et la voie indirecte passent toutes deux par le GPe"
+  ],
+  "q": "Concernant la comparaison entre voie directe et voie indirecte, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : le GPi/SNr projette vers le colliculus supérieur pour les saccades.",
+   "Vrai : le GPi/SNr projette vers la formation réticulée pour la posture et la marche.",
+   "Vrai : le GPi/SNr projette vers le noyau pédonculopontin pour la posture et la marche.",
+   "Faux : ce sont le GPi et la SNr qui projettent vers le colliculus supérieur, pas le striatum.",
+   "Faux : ces sorties servent aux saccades, à la posture et à la marche, pas à la vision des couleurs."
+  ],
+  "options": [
+   "Le GPi/SNr projette vers le colliculus supérieur pour les saccades",
+   "Le GPi/SNr projette vers la formation réticulée pour la posture et la marche",
+   "Le GPi/SNr projette vers le noyau pédonculopontin pour la posture et la marche",
+   "Le striatum projette directement vers le colliculus supérieur",
+   "Les sorties vers le tronc cérébral servent à la vision des couleurs"
+  ],
+  "q": "Concernant les sorties du GPi/SNr vers le tronc cérébral, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le tractus réticulo-spinal médial est pontique.",
+   "Vrai : le tractus réticulo-spinal latéral est bulbaire.",
+   "Vrai : ils régulent le tonus et la posture.",
+   "Vrai : ils assurent les ajustements posturaux anticipateurs.",
+   "Faux : les réflexes d'orientation tête/cou sont assurés par le tractus tectospinal."
+  ],
+  "options": [
+   "Le tractus réticulo-spinal médial est pontique",
+   "Le tractus réticulo-spinal latéral est bulbaire",
+   "Ils régulent le tonus et la posture",
+   "Ils assurent les ajustements posturaux anticipateurs",
+   "Ils assurent les réflexes d'orientation tête/cou"
+  ],
+  "q": "Concernant les tractus réticulo-spinaux, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : il existe un tractus vestibulo-spinal latéral et un médial.",
+   "Vrai : ils servent à l'équilibre.",
+   "Vrai : ils servent à l'orientation tête-cou.",
+   "Vrai : ils répondent aux accélérations et stabilisent le regard.",
+   "Faux : c'est le tractus tectospinal qui naît du colliculus supérieur."
+  ],
+  "options": [
+   "Il existe un tractus vestibulo-spinal latéral et un médial",
+   "Ils servent à l'équilibre",
+   "Ils servent à l'orientation tête-cou",
+   "Ils répondent aux accélérations et stabilisent le regard",
+   "Ils naissent du colliculus supérieur"
+  ],
+  "q": "Concernant les tractus vestibulo-spinaux, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   4
+  ],
+  "explain": [
+   "Vrai : le tractus tectospinal assure les réflexes d'orientation tête/cou.",
+   "Vrai : il part du colliculus supérieur (mésencéphale).",
+   "Faux : la régulation du tonus et de la posture est le rôle des tractus réticulo-spinaux.",
+   "Faux : l'équilibre est le rôle des tractus vestibulo-spinaux.",
+   "Vrai : le tractus tectospinal est une voie descendante du tronc cérébral vers la moelle."
+  ],
+  "options": [
+   "Il assure les réflexes d'orientation tête/cou",
+   "Il part du colliculus supérieur (mésencéphale)",
+   "Il régule le tonus et la posture",
+   "Il sert à l'équilibre",
+   "Il est une voie descendante du tronc cérébral vers la moelle"
+  ],
+  "q": "Concernant le tractus tectospinal, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le rôle du tractus rubrospinal est modeste chez l'adulte humain.",
+   "Vrai : son rôle est très important chez le nourrisson.",
+   "Vrai : il est plus marqué pour certains mouvements distaux.",
+   "Vrai : son importance varie selon l'âge et les lésions.",
+   "Faux : la motricité volontaire repose sur la voie corticospinale, pas sur le tractus rubrospinal."
+  ],
+  "options": [
+   "Son rôle est modeste chez l'adulte humain",
+   "Son rôle est très important chez le nourrisson",
+   "Il est plus marqué pour certains mouvements distaux",
+   "Son importance varie selon l'âge et les lésions",
+   "Il est la voie principale de la motricité volontaire chez l'adulte"
+  ],
+  "q": "Concernant le tractus rubrospinal, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la boucle passe par les noyaux gris pontiques (cortico-pontin).",
+   "Vrai : elle gagne le cervelet par le pédoncule cérébelleux moyen.",
+   "Vrai : elle repasse par le thalamus (noyau ventral latéral, VL).",
+   "Vrai : elle se projette ensuite vers le cortex.",
+   "Faux : le noyau sous-thalamique appartient au circuit indirect des ganglions de la base, pas à la boucle cérébelleuse."
+  ],
+  "options": [
+   "Elle passe par les noyaux gris pontiques (cortico-pontin)",
+   "Elle gagne le cervelet par le pédoncule cérébelleux moyen",
+   "Elle repasse par le thalamus (noyau ventral latéral, VL)",
+   "Elle se projette ensuite vers le cortex",
+   "Elle passe par le noyau sous-thalamique"
+  ],
+  "q": "Concernant la boucle de calibration avec le cervelet, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : c'est une boucle de calibration et de coordination.",
+   "Vrai : elle agit en parallèle aux circuits des noyaux gris centraux.",
+   "Vrai : elle agit en parallèle à la voie corticospinale.",
+   "Faux : elle agit en parallèle à la voie corticospinale, elle ne la remplace pas.",
+   "Faux : la sélection des programmes moteurs est le rôle des noyaux gris centraux."
+  ],
+  "options": [
+   "C'est une boucle de calibration et de coordination",
+   "Elle agit en parallèle aux circuits des noyaux gris centraux",
+   "Elle agit en parallèle à la voie corticospinale",
+   "Elle remplace la voie corticospinale",
+   "Elle sert à la sélection des programmes moteurs"
+  ],
+  "q": "Concernant le rôle de la boucle cérébelleuse, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : les noyaux gris centraux assurent la sélection et l'inhibition des programmes.",
+   "Vrai : le cervelet assure la calibration et la correction d'erreur.",
+   "Vrai : les voies descendantes du tronc assurent le tonus, la posture et l'orientation.",
+   "Faux : les trois piliers sont les ganglions de la base, le cervelet et les voies descendantes du tronc.",
+   "Faux : la moelle épinière n'est pas l'un des trois piliers cités."
+  ],
+  "options": [
+   "Les noyaux gris centraux : sélection/inhibition des programmes",
+   "Le cervelet : calibration/correction d'erreur",
+   "Les voies descendantes du tronc : tonus, posture, orientation",
+   "La voie corticospinale directe est l'un des trois piliers",
+   "La moelle épinière est l'un des trois piliers"
+  ],
+  "q": "Concernant les trois piliers de la motricité « involontaire », lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : ces circuits ne déclenchent pas le mouvement.",
+   "Vrai : ils conditionnent la fluidité, la stabilité et l'automaticité du mouvement.",
+   "Vrai : ils modulent en continu la voie corticospinale.",
+   "Faux : ils ne déclenchent pas le mouvement ; c'est la voie corticospinale qui le déclenche.",
+   "Faux : ils modulent le mouvement en continu, pas uniquement au repos."
+  ],
+  "options": [
+   "Ces circuits ne déclenchent pas le mouvement",
+   "Ils conditionnent la fluidité, la stabilité et l'automaticité du mouvement",
+   "Ils modulent en continu la voie corticospinale",
+   "Ils déclenchent le mouvement à la place de la voie corticospinale",
+   "Ils agissent uniquement au repos"
+  ],
+  "q": "Concernant le rôle global des circuits de la motricité involontaire, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : la maladie de Parkinson se manifeste par une akinésie et un tremblement.",
+   "Vrai : la maladie de Huntington se manifeste par des mouvements anormaux (choréiques).",
+   "Vrai : les syndromes cérébelleux se manifestent par une ataxie.",
+   "Faux : les mouvements choréiques sont cités pour la maladie de Huntington, pas pour Parkinson.",
+   "Faux : l'akinésie et le tremblement sont cités pour la maladie de Parkinson, pas pour Huntington."
+  ],
+  "options": [
+   "Dans la maladie de Parkinson : akinésie et tremblement",
+   "Dans la maladie de Huntington : mouvements anormaux (choréiques)",
+   "Dans les syndromes cérébelleux : ataxie",
+   "Dans la maladie de Parkinson : mouvements choréiques",
+   "Dans la maladie de Huntington : akinésie et tremblement"
+  ],
+  "q": "Concernant les exemples cliniques des voies de la motricité involontaire, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   3
+  ],
+  "explain": [
+   "Faux : la transmission est globalement polysynaptique, pas monosynaptique.",
+   "Vrai : elle règle le tonus et la posture.",
+   "Vrai : elle passe par les ganglions de la base (boucles cortico-striato-thalamo-corticales).",
+   "Faux : ces circuits ne déclenchent pas le mouvement ; ils le conditionnent.",
+   "Vrai : elle est plus lente que la voie corticospinale directe."
+  ],
+  "options": [
+   "Elle est monosynaptique",
+   "Elle règle le tonus et la posture",
+   "Elle passe par les ganglions de la base",
+   "Elle déclenche directement le mouvement",
+   "Elle est plus lente que la voie corticospinale directe"
+  ],
+  "q": "Concernant la motricité involontaire, lesquelles de ces affirmations sont FAUSSES ?"
+ },
+ {
+  "correct": [
+   0,
+   3
+  ],
+  "explain": [
+   "Faux : le striatum est formé du noyau caudé et du putamen ; le GPe et le GPi forment le pallidum.",
+   "Vrai : le GPe est inhibiteur du STN.",
+   "Vrai : la SNc est la partie compacte, dopaminergique.",
+   "Faux : la porte d'entrée des ganglions de la base est le striatum, pas le STN.",
+   "Vrai : le GPi fait partie des noyaux de sortie avec la SNr."
+  ],
+  "options": [
+   "Le striatum est formé du GPe et du GPi",
+   "Le GPe inhibe le STN",
+   "La SNc est dopaminergique",
+   "Le STN est la porte d'entrée des ganglions de la base",
+   "Le GPi fait partie des noyaux de sortie"
+  ],
+  "q": "Concernant les ganglions de la base, lesquelles de ces affirmations sont FAUSSES ?"
+ },
+ {
+  "correct": [
+   0,
+   2
+  ],
+  "explain": [
+   "Faux : le tractus réticulo-spinal médial est pontique, pas bulbaire.",
+   "Vrai : le tractus réticulo-spinal latéral est bulbaire.",
+   "Faux : le tractus tectospinal part du colliculus supérieur, pas du noyau rouge.",
+   "Vrai : le tractus rubrospinal part du noyau rouge.",
+   "Vrai : les tractus vestibulo-spinaux servent à l'équilibre."
+  ],
+  "options": [
+   "Le tractus réticulo-spinal médial est bulbaire",
+   "Le tractus réticulo-spinal latéral est bulbaire",
+   "Le tractus tectospinal part du noyau rouge",
+   "Le tractus rubrospinal part du noyau rouge",
+   "Les tractus vestibulo-spinaux servent à l'équilibre"
+  ],
+  "q": "Concernant les voies descendantes du tronc cérébral, lesquelles de ces affirmations sont FAUSSES ?"
+ },
+ {
+  "correct": [
+   3,
+   4
+  ],
+  "explain": [
+   "Vrai : le cortex moteur primaire est l'aire 4.",
+   "Vrai : le cortex prémoteur et la SMA correspondent à l'aire 6.",
+   "Vrai : la circonvolution cingulaire est l'aire 24.",
+   "Faux : le cortex préfrontal correspond aux aires 8, 9, 10 et 46, pas aux aires 1, 2 et 3.",
+   "Faux : l'aire oculomotrice frontale est l'aire 8, pas l'aire 17."
+  ],
+  "options": [
+   "Le cortex moteur primaire est l'aire 4",
+   "Le cortex prémoteur et la SMA correspondent à l'aire 6",
+   "La circonvolution cingulaire est l'aire 24",
+   "Le cortex préfrontal correspond aux aires 1, 2 et 3",
+   "L'aire oculomotrice frontale est l'aire 17"
+  ],
+  "q": "Concernant les aires corticales impliquées, lesquelles de ces affirmations sont FAUSSES ?"
+ },
+ {
+  "correct": [
+   1,
+   3
+  ],
+  "explain": [
+   "Vrai : dans la voie directe, le cortex excite le striatum.",
+   "Faux : le striatum inhibe le GPi/SNr, il ne l'excite pas.",
+   "Vrai : la voie directe désinhibe le thalamus.",
+   "Faux : la voie directe est le « feu vert » ; le « feu rouge » est la voie indirecte.",
+   "Vrai : le thalamus libéré excite le cortex moteur."
+  ],
+  "options": [
+   "Le cortex excite le striatum",
+   "Le striatum excite le GPi/SNr",
+   "La voie directe désinhibe le thalamus",
+   "La voie directe est le « feu rouge »",
+   "Le thalamus libéré excite le cortex moteur"
+  ],
+  "q": "Concernant la voie directe, lesquelles de ces affirmations sont FAUSSES ?"
+ },
+ {
+  "correct": [
+   1,
+   2,
+   4
+  ],
+  "explain": [
+   "Vrai : dans la voie indirecte, le striatum inhibe le GPe.",
+   "Faux : le GPe inhibe le STN ; c'est l'inhibition du GPe qui désinhibe le STN.",
+   "Faux : le STN excite fortement le GPi/SNr, il ne l'inhibe pas.",
+   "Vrai : la voie indirecte augmente l'inhibition thalamique.",
+   "Faux : la voie indirecte est le « feu rouge » ; le « feu vert » est la voie directe."
+  ],
+  "options": [
+   "Le striatum inhibe le GPe",
+   "Le GPe excite le STN",
+   "Le STN inhibe le GPi/SNr",
+   "La voie indirecte augmente l'inhibition thalamique",
+   "La voie indirecte est le « feu vert »"
+  ],
+  "q": "Concernant la voie indirecte, lesquelles de ces affirmations sont FAUSSES ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : la boucle passe par les noyaux gris centraux.",
+   "Vrai : son trajet est cortex → ganglions de la base → thalamus → cortex.",
+   "Vrai : elle est plus lente que la voie corticospinale directe car sa transmission est polysynaptique.",
+   "Faux : la boucle passe par le thalamus, elle ne le court-circuite pas.",
+   "Faux : les voies descendantes du tronc cérébral vers la moelle forment l'autre sous-ensemble, pas la boucle."
+  ],
+  "options": [
+   "Elle passe par les noyaux gris centraux",
+   "Son trajet est cortex → ganglions de la base → thalamus → cortex",
+   "Elle est plus lente que la voie corticospinale directe car polysynaptique",
+   "Elle court-circuite le thalamus",
+   "Elle est une voie descendante du tronc cérébral vers la moelle"
+  ],
+  "q": "Concernant la boucle cortico-striato-thalamo-corticale, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : la SNc fournit la modulation dopaminergique du striatum.",
+   "Vrai : D1 facilite la voie directe.",
+   "Vrai : D2 inhibe la voie indirecte.",
+   "Faux : la dopamine agit sur les deux voies, via D1 et via D2.",
+   "Faux : le striatum reçoit la dopamine de la SNc, pas de la SNr."
+  ],
+  "options": [
+   "La SNc fournit la modulation dopaminergique du striatum",
+   "D1 facilite la voie directe",
+   "D2 inhibe la voie indirecte",
+   "La dopamine n'agit que sur la voie directe",
+   "Le striatum reçoit la dopamine de la SNr"
+  ],
+  "q": "Concernant la dopamine dans les ganglions de la base, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : le GPi est un noyau de sortie.",
+   "Vrai : la SNr est un noyau de sortie.",
+   "Vrai : ils exercent un effet tonique inhibiteur sur le thalamus, levé par la voie directe.",
+   "Faux : le striatum est la porte d'entrée, pas un noyau de sortie.",
+   "Faux : le GPe est un relais intermédiaire du circuit indirect, pas un noyau de sortie."
+  ],
+  "options": [
+   "Le GPi est un noyau de sortie",
+   "La SNr est un noyau de sortie",
+   "Ils exercent un effet tonique inhibiteur sur le thalamus",
+   "Le striatum est un noyau de sortie",
+   "Le GPe est un noyau de sortie"
+  ],
+  "q": "Concernant les noyaux de sortie des ganglions de la base, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : le GPe est le segment externe du pallidum.",
+   "Vrai : le GPe est inhibiteur du STN.",
+   "Vrai : dans la voie indirecte, le striatum inhibe le GPe.",
+   "Faux : le GPe inhibe le STN, il ne l'excite pas.",
+   "Faux : la porte d'entrée des ganglions de la base est le striatum, pas le GPe."
+  ],
+  "options": [
+   "Le GPe est le segment externe du pallidum",
+   "Le GPe est inhibiteur du STN",
+   "Dans la voie indirecte, le striatum inhibe le GPe",
+   "Le GPe excite le STN",
+   "Le GPe est la porte d'entrée des ganglions de la base"
+  ],
+  "q": "Concernant le GPe, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : le STN est glutamatergique.",
+   "Vrai : dans la voie indirecte, le STN excite fortement le GPi/SNr.",
+   "Vrai : quand le GPe (inhibiteur du STN) est inhibé, le STN est désinhibé.",
+   "Faux : D1 facilite la voie directe au niveau du striatum ; ce n'est pas une inhibition du STN par D1.",
+   "Faux : les noyaux de sortie sont le GPi et la SNr, pas le STN."
+  ],
+  "options": [
+   "Le STN est glutamatergique",
+   "Le STN excite fortement le GPi/SNr dans la voie indirecte",
+   "Le STN est désinhibé quand le GPe est inhibé",
+   "Le STN est inhibé par la dopamine via D1",
+   "Le STN est un noyau de sortie"
+  ],
+  "q": "Concernant le rôle du STN dans la voie indirecte, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "explain": [
+   "Vrai : le colliculus supérieur donne naissance au tractus tectospinal.",
+   "Vrai : il reçoit des sorties du GPi/SNr pour les saccades.",
+   "Vrai : le colliculus supérieur se situe dans le mésencéphale.",
+   "Faux : le tractus rubrospinal naît du noyau rouge, pas du colliculus supérieur.",
+   "Vrai : via le tectospinal, il sert aux réflexes d'orientation tête/cou."
+  ],
+  "options": [
+   "Il donne naissance au tractus tectospinal",
+   "Il reçoit des sorties du GPi/SNr pour les saccades",
+   "Il se situe dans le mésencéphale",
+   "Il donne naissance au tractus rubrospinal",
+   "Il sert aux réflexes d'orientation tête/cou via le tectospinal"
+  ],
+  "q": "Concernant le colliculus supérieur, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la formation réticulée reçoit des sorties du GPi/SNr.",
+   "Vrai : le noyau pédonculopontin reçoit des sorties du GPi/SNr.",
+   "Vrai : ces sorties servent à la posture et à la marche.",
+   "Vrai : les tractus réticulo-spinaux naissent de la formation réticulée (médial pontique, latéral bulbaire).",
+   "Faux : le noyau pédonculopontin est une structure associée du tronc cérébral, pas un noyau du cervelet."
+  ],
+  "options": [
+   "La formation réticulée reçoit des sorties du GPi/SNr",
+   "Le noyau pédonculopontin reçoit des sorties du GPi/SNr",
+   "Ces sorties servent à la posture et à la marche",
+   "La formation réticulée donne naissance aux tractus réticulo-spinaux",
+   "Le noyau pédonculopontin est un noyau du cervelet"
+  ],
+  "q": "Concernant la formation réticulée et le noyau pédonculopontin, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la boucle cortico-ponto-cérébelleuse passe par les noyaux gris pontiques.",
+   "Vrai : elle gagne le cervelet par le pédoncule cérébelleux moyen.",
+   "Vrai : elle repasse par le VL du thalamus vers le cortex.",
+   "Vrai : les boucles cérébelleuses agissent en parallèle aux circuits des noyaux gris centraux.",
+   "Faux : la boucle cérébelleuse ne passe pas par le striatum ; le striatum appartient aux ganglions de la base."
+  ],
+  "options": [
+   "La boucle cortico-ponto-cérébelleuse passe par les noyaux gris pontiques",
+   "Elle passe par le pédoncule cérébelleux moyen",
+   "Elle repasse par le VL du thalamus vers le cortex",
+   "Les boucles cérébelleuses agissent en parallèle aux circuits des noyaux gris centraux",
+   "La boucle cérébelleuse passe par le striatum"
+  ],
+  "q": "Concernant la boucle cérébelleuse par rapport aux ganglions de la base, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : la marche est citée comme exemple de mouvement automatique.",
+   "Vrai : l'écriture est citée comme exemple de mouvement automatique.",
+   "Vrai : les mouvements automatiques relèvent des circuits de la motricité involontaire.",
+   "Faux : la marche relève des circuits involontaires (boucles, voies descendantes), pas uniquement de la voie corticospinale.",
+   "Faux : l'écriture, mouvement automatique, relève des circuits impliquant les ganglions de la base."
+  ],
+  "options": [
+   "La marche est un exemple de mouvement automatique",
+   "L'écriture est un exemple de mouvement automatique",
+   "Les mouvements automatiques dépendent des circuits de la motricité involontaire",
+   "La marche est commandée uniquement par la voie corticospinale directe",
+   "L'écriture ne nécessite aucune modulation par les ganglions de la base"
+  ],
+  "q": "Concernant les mouvements automatiques, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : les circuits involontaires règlent le tonus.",
+   "Vrai : ils règlent la posture.",
+   "Vrai : les tractus réticulo-spinaux régulent le tonus et la posture.",
+   "Vrai : les tractus vestibulo-spinaux régulent l'équilibre.",
+   "Faux : le tonus est réglé par les circuits involontaires, notamment les voies réticulo-spinales, pas uniquement par la voie corticospinale."
+  ],
+  "options": [
+   "Les circuits involontaires règlent le tonus",
+   "Ils règlent la posture",
+   "Les tractus réticulo-spinaux régulent tonus et posture",
+   "Les tractus vestibulo-spinaux régulent l'équilibre",
+   "Le tonus est réglé uniquement par la voie corticospinale"
+  ],
+  "q": "Concernant le tonus et la posture, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le cervelet intervient via la boucle cortico-ponto-cérébelleuse-thalamo-corticale.",
+   "Vrai : le cervelet assure la calibration et la correction d'erreur.",
+   "Faux : la porte d'entrée des ganglions de la base est le striatum, pas le cervelet.",
+   "Faux : la sélection des programmes moteurs est le rôle des noyaux gris centraux.",
+   "Vrai : la boucle cérébelleuse passe par le VL du thalamus vers le cortex."
+  ],
+  "options": [
+   "Le cervelet intervient via la boucle cortico-ponto-cérébelleuse-thalamo-corticale",
+   "Le cervelet assure la calibration et la correction d'erreur",
+   "Le cervelet est la porte d'entrée des ganglions de la base",
+   "Le cervelet sélectionne les programmes moteurs",
+   "La boucle cérébelleuse passe par le VL du thalamus"
+  ],
+  "q": "Concernant le cervelet, lesquelles de ces affirmations sont FAUSSES ?"
+ },
+ {
+  "correct": [
+   1,
+   3
+  ],
+  "explain": [
+   "Vrai : le GPi/SNr projette vers le colliculus supérieur (saccades).",
+   "Faux : le GPi/SNr ne projette pas vers le noyau rouge d'après le passage ; le noyau rouge donne le tractus rubrospinal.",
+   "Vrai : le GPi/SNr projette vers la formation réticulée (posture, marche).",
+   "Faux : le striatum est en amont (porte d'entrée), pas une cible des sorties du GPi/SNr.",
+   "Vrai : le GPi/SNr projette vers le noyau pédonculopontin (posture, marche)."
+  ],
+  "options": [
+   "Le GPi/SNr projette vers le colliculus supérieur",
+   "Le GPi/SNr projette vers le noyau rouge",
+   "Le GPi/SNr projette vers la formation réticulée",
+   "Le GPi/SNr projette vers le striatum",
+   "Le GPi/SNr projette vers le noyau pédonculopontin"
+  ],
+  "q": "Concernant les sorties du GPi/SNr, lesquelles de ces affirmations sont FAUSSES ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : les trois piliers sont les ganglions de la base, le cervelet et les voies descendantes du tronc.",
+   "Vrai : ces circuits conditionnent la fluidité, la stabilité et l'automaticité du mouvement.",
+   "Vrai : ils modulent en continu la voie corticospinale.",
+   "Faux : ils ne déclenchent pas le mouvement ; ils le conditionnent.",
+   "Faux : ils comprennent aussi les boucles cortico-striato-thalamo-corticales et les boucles cérébelleuses, pas seulement les voies descendantes."
+  ],
+  "options": [
+   "La motricité involontaire repose sur trois piliers : ganglions de la base, cervelet, voies descendantes du tronc",
+   "Ces circuits conditionnent la fluidité, la stabilité et l'automaticité du mouvement",
+   "Ils modulent en continu la voie corticospinale",
+   "Ils déclenchent le mouvement à la place de la voie corticospinale",
+   "Ils ne comprennent que les voies descendantes du tronc cérébral"
+  ],
+  "q": "Concernant la synthèse de la motricité involontaire, lesquelles de ces affirmations sont exactes ?"
+ }
+]

@@ -1,0 +1,1116 @@
+[
+ {
+  "correct": [
+   0,
+   1,
+   4
+  ],
+  "explain": [
+   "Vrai : la DCML véhicule le tact fin/discriminatif, la vibration et la proprioception consciente.",
+   "Vrai : le système antérolatéral véhicule la douleur, la température et en partie le tact grossier/pression.",
+   "Faux : la douleur et la température sont véhiculées par le système spinothalamique, pas par la DCML.",
+   "Faux : la vibration est véhiculée par la DCML, pas par le système spinothalamique.",
+   "Vrai : la proprioception consciente fait partie des modalités de la DCML."
+  ],
+  "options": [
+   "La voie des cordons postérieurs–lemnisque médial (DCML) véhicule le tact fin/discriminatif",
+   "Le système antérolatéral (spinothalamique) véhicule la douleur et la température",
+   "La voie DCML véhicule la douleur et la température",
+   "Le système spinothalamique véhicule la vibration",
+   "La voie DCML véhicule la proprioception consciente"
+  ],
+  "q": "Concernant les deux systèmes de la sensibilité cutanée consciente, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : le tact fin/discriminatif est une modalité de la DCML.",
+   "Vrai : la vibration est une modalité de la DCML.",
+   "Vrai : la proprioception consciente est une modalité de la DCML.",
+   "Faux : la douleur est véhiculée par le système spinothalamique, pas par la DCML.",
+   "Faux : la température est véhiculée par le système spinothalamique, pas par la DCML."
+  ],
+  "options": [
+   "Elle véhicule le tact fin/discriminatif",
+   "Elle véhicule la vibration",
+   "Elle véhicule la proprioception consciente",
+   "Elle véhicule la douleur",
+   "Elle véhicule la température"
+  ],
+  "q": "Concernant les modalités de la voie DCML, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : la douleur est une modalité du système spinothalamique.",
+   "Vrai : la température est une modalité du système spinothalamique.",
+   "Vrai : le tact grossier/pression est véhiculé en partie par le système spinothalamique.",
+   "Faux : la vibration est véhiculée par la DCML, pas par le système spinothalamique.",
+   "Faux : la proprioception consciente est véhiculée par la DCML, pas par le système spinothalamique."
+  ],
+  "options": [
+   "Il véhicule la douleur",
+   "Il véhicule la température",
+   "Il véhicule en partie le tact grossier/pression",
+   "Il véhicule la vibration",
+   "Il véhicule la proprioception consciente"
+  ],
+  "q": "Concernant les modalités du système antérolatéral (spinothalamique), lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   4
+  ],
+  "explain": [
+   "Vrai : l'information consciente relaie au thalamus.",
+   "Vrai : elle atteint ensuite le cortex somatosensoriel selon une somatotopie précise.",
+   "Faux : le relais de l'information consciente est thalamique, pas cérébelleux.",
+   "Faux : l'information consciente relaie au thalamus avant d'atteindre le cortex.",
+   "Vrai : l'intérêt de ces voies est de diagnostiquer et localiser les lésions du système nerveux."
+  ],
+  "options": [
+   "L'information consciente relaie au thalamus",
+   "Elle atteint ensuite le cortex somatosensoriel selon une somatotopie précise",
+   "Elle relaie au cervelet avant le cortex",
+   "Elle atteint le cortex sans relais thalamique",
+   "Connaître ces voies permet de diagnostiquer et de localiser les lésions du système nerveux"
+  ],
+  "q": "Concernant le trajet général de l'information sensitive consciente, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : le corps cellulaire du 1er neurone DCML est dans le ganglion spinal, sur la racine dorsale.",
+   "Vrai : le 1er neurone DCML est pseudounipolaire.",
+   "Vrai : sa fibre périphérique est en contact avec les récepteurs cutanés et proprioceptifs.",
+   "Faux : le corps cellulaire est dans le ganglion spinal, pas dans la corne dorsale.",
+   "Faux : sa fibre centrale monte ipsilatéralement dans les cordons postérieurs, elle ne descend pas controlatéralement."
+  ],
+  "options": [
+   "Son corps cellulaire est dans le ganglion spinal (racine dorsale)",
+   "C'est un neurone pseudounipolaire",
+   "Sa fibre périphérique est en contact avec les récepteurs cutanés et proprioceptifs",
+   "Son corps cellulaire est dans la corne dorsale",
+   "Sa fibre centrale descend controlatéralement dans les cordons postérieurs"
+  ],
+  "q": "Concernant le 1er neurone de la voie DCML, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la fibre centrale entre par la racine postérieure.",
+   "Vrai : elle monte ipsilatéralement dans les cordons postérieurs.",
+   "Vrai : le faisceau gracile (Goll) est médial et couvre les territoires sous T6.",
+   "Vrai : le faisceau cunéiforme (Burdach) est latéral et couvre T6 et au-dessus.",
+   "Faux : la fibre centrale monte ipsilatéralement, pas controlatéralement."
+  ],
+  "options": [
+   "Elle entre par la racine postérieure",
+   "Elle monte ipsilatéralement dans les cordons postérieurs",
+   "Le faisceau gracile (Goll) est médial et couvre les territoires sous T6",
+   "Le faisceau cunéiforme (Burdach) est latéral et couvre T6 et au-dessus",
+   "Elle monte controlatéralement dans les cordons postérieurs"
+  ],
+  "q": "Concernant la fibre centrale du 1er neurone DCML, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1
+  ],
+  "explain": [
+   "Faux : le faisceau gracile couvre les territoires sous T6, pas T6 et au-dessus.",
+   "Faux : le faisceau cunéiforme couvre T6 et au-dessus, pas les territoires sous T6.",
+   "Vrai : le faisceau gracile (Goll) est médial.",
+   "Vrai : le faisceau cunéiforme (Burdach) est latéral.",
+   "Vrai : le faisceau gracile (Goll) couvre les territoires sous T6."
+  ],
+  "options": [
+   "Le faisceau gracile (Goll) couvre T6 et au-dessus",
+   "Le faisceau cunéiforme (Burdach) couvre les territoires sous T6",
+   "Le faisceau gracile (Goll) est médial",
+   "Le faisceau cunéiforme (Burdach) est latéral",
+   "Le faisceau gracile (Goll) couvre les territoires sous T6"
+  ],
+  "q": "Concernant les faisceaux gracile et cunéiforme, lesquelles de ces affirmations sont FAUSSES ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "explain": [
+   "Vrai : le 2e neurone DCML fait synapse dans le noyau gracile et le noyau cunéiforme.",
+   "Vrai : ces noyaux sont bulbaires, dans la moelle allongée.",
+   "Vrai : la décussation DCML se fait par les fibres arquées internes.",
+   "Faux : la décussation dans la commissure blanche antérieure est celle du système spinothalamique, pas de la DCML.",
+   "Vrai : les fibres arquées internes franchissent la ligne médiane et forment le lemnisque médial."
+  ],
+  "options": [
+   "Il fait synapse dans le noyau gracile et le noyau cunéiforme",
+   "Ces noyaux sont situés dans la moelle allongée (neurone bulbaire)",
+   "Sa décussation se fait par les fibres arquées internes",
+   "Sa décussation se fait dans la commissure blanche antérieure",
+   "Ses fibres forment le lemnisque médial après la décussation"
+  ],
+  "q": "Concernant le 2e neurone de la voie DCML, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "explain": [
+   "Vrai : le trajet du lemnisque médial est tronc cérébral puis thalamus.",
+   "Vrai : les fibres arquées internes franchissent la ligne médiane et forment le lemnisque médial.",
+   "Vrai : cette décussation est la décussation sensorielle.",
+   "Faux : le lemnisque médial se dirige vers le thalamus, pas vers le cervelet.",
+   "Vrai : le lemnisque médial atteint le thalamus, où le relais est le noyau ventral postéro-latéral (VPL)."
+  ],
+  "options": [
+   "Son trajet est : lemnisque médial → tronc cérébral → thalamus",
+   "Il est formé par les fibres arquées internes après la décussation",
+   "Sa formation correspond à la décussation sensorielle",
+   "Son trajet se dirige vers le cervelet",
+   "Il se termine au thalamus, dont le relais est le VPL"
+  ],
+  "q": "Concernant le lemnisque médial, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le relais du 3e neurone DCML est le VPL du thalamus.",
+   "Vrai : il projette vers S1 (aires 3, 1, 2).",
+   "Vrai : il projette ensuite vers S2.",
+   "Vrai : il projette vers le cortex pariétal postérieur.",
+   "Faux : l'insula postérieure est une projection du système spinothalamique, pas de la DCML."
+  ],
+  "options": [
+   "Son relais est le noyau ventral postéro-latéral (VPL) du thalamus",
+   "Il projette vers le cortex somatosensoriel primaire S1 (aires 3, 1, 2)",
+   "Il projette ensuite vers S2",
+   "Il projette vers le cortex pariétal postérieur",
+   "Il projette vers l'insula postérieure"
+  ],
+  "q": "Concernant le 3e neurone de la voie DCML, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "explain": [
+   "Vrai : la fibre périphérique du 1er neurone spinothalamique vient depuis la peau.",
+   "Vrai : à l'entrée médullaire, il emprunte la voie de Lissauer.",
+   "Vrai : la voie de Lissauer monte/descend de 1–2 segments.",
+   "Faux : le 1er neurone spinothalamique fait synapse dans la corne dorsale, pas dans le thalamus.",
+   "Vrai : le 1er neurone spinothalamique est le neurone du ganglion spinal/rachidien."
+  ],
+  "options": [
+   "Sa fibre périphérique vient depuis la peau",
+   "À l'entrée médullaire, il emprunte la voie de Lissauer",
+   "La voie de Lissauer monte/descend de 1–2 segments",
+   "Il fait synapse dans le thalamus",
+   "Son corps cellulaire est dans le ganglion spinal/rachidien"
+  ],
+  "q": "Concernant le 1er neurone spinothalamique, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : le 1er neurone spinothalamique fait synapse dans la lame I (zone marginale).",
+   "Vrai : il fait synapse dans la lame II (lame II de Rexed, ex-substance gélatineuse).",
+   "Vrai : il fait synapse dans la lame V.",
+   "Faux : la lame VII n'est pas citée parmi les synapses du 1er neurone spinothalamique.",
+   "Faux : le noyau gracile et le noyau cunéiforme sont les synapses du 2e neurone DCML, pas du 1er neurone spinothalamique."
+  ],
+  "options": [
+   "Elles se font dans la corne dorsale, dans la lame I (zone marginale)",
+   "Elles se font dans la lame II (lame II de Rexed, ex-substance gélatineuse)",
+   "Elles se font dans la lame V",
+   "Elles se font dans la lame VII",
+   "Elles se font dans le noyau gracile et le noyau cunéiforme"
+  ],
+  "q": "Concernant les synapses du 1er neurone spinothalamique, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   4
+  ],
+  "explain": [
+   "Vrai : la décussation spinothalamique se fait dans la commissure blanche antérieure.",
+   "Vrai : elle se fait sur 1–2 segments avant la synapse.",
+   "Faux : la décussation bulbaire est celle de la DCML ; celle du spinothalamique est médullaire.",
+   "Faux : les fibres arquées internes sont celles de la décussation de la DCML, pas du spinothalamique.",
+   "Vrai : après la décussation, le trajet est ascendant et controlatéral dans le cordon antérolatéral."
+  ],
+  "options": [
+   "Elle se fait dans la commissure blanche antérieure",
+   "Elle se fait sur 1–2 segments avant la synapse",
+   "Elle est bulbaire",
+   "Elle se fait par les fibres arquées internes",
+   "Après la décussation, le trajet est ascendant et controlatéral dans le cordon antérolatéral"
+  ],
+  "q": "Concernant la décussation du système spinothalamique, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   4
+  ],
+  "explain": [
+   "Vrai : le faisceau spinothalamique latéral véhicule la douleur et la température.",
+   "Vrai : le faisceau spinothalamique antérieur véhicule le tact grossier/pression.",
+   "Faux : le tact grossier/pression est véhiculé par le faisceau antérieur, pas par le latéral.",
+   "Faux : la douleur et la température sont véhiculées par le faisceau latéral, pas par l'antérieur.",
+   "Vrai : les faisceaux spinothalamiques cheminent dans le cordon antérolatéral."
+  ],
+  "options": [
+   "Le faisceau spinothalamique latéral véhicule la douleur et la température",
+   "Le faisceau spinothalamique antérieur véhicule le tact grossier/pression",
+   "Le faisceau spinothalamique latéral véhicule le tact grossier/pression",
+   "Le faisceau spinothalamique antérieur véhicule la douleur et la température",
+   "Ils cheminent dans le cordon antérolatéral"
+  ],
+  "q": "Concernant les faisceaux spinothalamiques, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la voie spinoréticulaire se dirige vers la formation réticulée.",
+   "Vrai : la voie spinomésencéphalique se dirige vers la substance grise périaqueducale.",
+   "Vrai : la voie spinoparabrachiale se dirige vers le complexe parabrachial.",
+   "Vrai : ces collatérales modulent les aspects attentionnels/végétatifs de la nociception.",
+   "Faux : le lemnisque médial appartient à la voie DCML, ce n'est pas une collatérale spinothalamique."
+  ],
+  "options": [
+   "La voie spinoréticulaire va vers la formation réticulée",
+   "La voie spinomésencéphalique va vers la substance grise périaqueducale",
+   "La voie spinoparabrachiale va vers le complexe parabrachial",
+   "Elles modulent les aspects attentionnels/végétatifs de la nociception",
+   "Elles forment des collatérales vers le lemnisque médial"
+  ],
+  "q": "Concernant les collatérales du 2e neurone spinothalamique, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   4
+  ],
+  "explain": [
+   "Vrai : dans le cordon antérolatéral, les fibres sacrées sont latérales.",
+   "Vrai : dans le cordon antérolatéral, les fibres cervicales sont médiales.",
+   "Faux : les fibres sacrées sont latérales, pas médiales.",
+   "Faux : les fibres cervicales sont médiales, pas latérales.",
+   "Vrai : l'information consciente atteint le cortex somatosensoriel selon une somatotopie précise."
+  ],
+  "options": [
+   "Les fibres sacrées sont latérales dans le cordon antérolatéral",
+   "Les fibres cervicales sont médiales dans le cordon antérolatéral",
+   "Les fibres sacrées sont médiales dans le cordon antérolatéral",
+   "Les fibres cervicales sont latérales dans le cordon antérolatéral",
+   "L'information sensitive consciente atteint le cortex somatosensoriel selon une somatotopie précise"
+  ],
+  "q": "Concernant la somatotopie du système spinothalamique, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le relais principal du 3e neurone spinothalamique est le VPL, pour la composante sensori-discriminative.",
+   "Vrai : les noyaux intralaminaires (centromédian–parafasciculaire) sont des relais additionnels.",
+   "Vrai : les noyaux médians sont des relais additionnels.",
+   "Vrai : ces relais additionnels servent les composantes affective et d'éveil.",
+   "Faux : le noyau gracile est le lieu de synapse du 2e neurone DCML, pas un relais du 3e neurone spinothalamique."
+  ],
+  "options": [
+   "Le relais principal est le VPL (composante sensori-discriminative)",
+   "Les noyaux intralaminaires (centromédian–parafasciculaire) sont des relais additionnels",
+   "Les noyaux médians sont des relais additionnels",
+   "Ces relais additionnels servent les composantes affective et d'éveil",
+   "Le noyau gracile est un relais du 3e neurone spinothalamique"
+  ],
+  "q": "Concernant les relais du 3e neurone spinothalamique, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le 3e neurone spinothalamique projette vers S1/S2 pour la discrimination.",
+   "Vrai : il projette vers l'insula postérieure, pour la dimension affective et viscéro-autonome.",
+   "Vrai : il projette vers le cortex cingulaire antérieur, pour la dimension affective et viscéro-autonome.",
+   "Vrai : il projette vers le cortex préfrontal, pour la cognition et l'attention à la douleur.",
+   "Faux : le cortex pariétal postérieur est une projection de la voie DCML, pas du système spinothalamique."
+  ],
+  "options": [
+   "Il projette vers S1/S2 pour la discrimination",
+   "Il projette vers l'insula postérieure (dimension affective et viscéro-autonome)",
+   "Il projette vers le cortex cingulaire antérieur (dimension affective et viscéro-autonome)",
+   "Il projette vers le cortex préfrontal (cognition/attention à la douleur)",
+   "Il projette vers le cortex pariétal postérieur"
+  ],
+  "q": "Concernant les projections du 3e neurone spinothalamique, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   4
+  ],
+  "explain": [
+   "Vrai : la décussation de la DCML est bulbaire.",
+   "Vrai : la décussation du système spinothalamique est médullaire.",
+   "Faux : la décussation de la DCML est bulbaire, pas médullaire.",
+   "Faux : la décussation du système spinothalamique est médullaire, pas bulbaire.",
+   "Vrai : ces deux systèmes, distincts par leur décussation et leurs fonctions, expliquent les dissociations sensitives en clinique."
+  ],
+  "options": [
+   "La décussation de la DCML est bulbaire",
+   "La décussation du système spinothalamique est médullaire",
+   "La décussation de la DCML est médullaire",
+   "La décussation du système spinothalamique est bulbaire",
+   "Leurs décussations et fonctions distinctes expliquent les dissociations sensitives observées en clinique"
+  ],
+  "q": "Concernant la comparaison des deux systèmes, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : une lésion latérale de la moelle épinière entraîne le syndrome de Brown-Séquard.",
+   "Vrai : il comporte une anesthésie thermo-algique controlatérale.",
+   "Vrai : il comporte un trouble de la sensibilité fine ipsilatéral.",
+   "Vrai : ces troubles surviennent en dessous de la lésion.",
+   "Faux : l'anesthésie thermo-algique est controlatérale, pas ipsilatérale."
+  ],
+  "options": [
+   "Il est entraîné par une lésion latérale de la moelle épinière",
+   "Il comporte une anesthésie thermo-algique controlatérale",
+   "Il comporte un trouble de la sensibilité fine ipsilatéral",
+   "Ces troubles surviennent en dessous de la lésion",
+   "Il comporte une anesthésie thermo-algique ipsilatérale"
+  ],
+  "q": "Concernant le syndrome de Brown-Séquard, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1
+  ],
+  "explain": [
+   "Faux : la douleur est véhiculée par le système spinothalamique, pas par la DCML.",
+   "Faux : la décussation de la DCML se fait par les fibres arquées internes (bulbaire) ; la commissure blanche antérieure est celle du spinothalamique.",
+   "Vrai : le relais du 3e neurone DCML est le VPL du thalamus.",
+   "Vrai : le 3e neurone DCML projette vers S1 (aires 3, 1, 2).",
+   "Vrai : le faisceau gracile (Goll) couvre les territoires sous T6."
+  ],
+  "options": [
+   "La voie DCML véhicule la douleur",
+   "La décussation de la DCML se fait dans la commissure blanche antérieure",
+   "Le relais du 3e neurone DCML est le VPL",
+   "Le 3e neurone DCML projette vers S1 (aires 3, 1, 2)",
+   "Le faisceau gracile (Goll) couvre les territoires sous T6"
+  ],
+  "q": "Concernant la voie DCML, lesquelles de ces affirmations sont FAUSSES ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Faux : la vibration est véhiculée par la DCML, pas par le système spinothalamique.",
+   "Faux : le 1er neurone spinothalamique fait synapse dans la corne dorsale ; le noyau gracile est la synapse du 2e neurone DCML.",
+   "Faux : le faisceau latéral véhicule la douleur et la température ; le tact grossier/pression est véhiculé par le faisceau antérieur.",
+   "Faux : le faisceau antérieur véhicule le tact grossier/pression ; la douleur et la température sont véhiculées par le faisceau latéral.",
+   "Vrai : la décussation du système spinothalamique se fait dans la commissure blanche antérieure."
+  ],
+  "options": [
+   "Le système spinothalamique véhicule la vibration",
+   "Le 1er neurone spinothalamique fait synapse dans le noyau gracile",
+   "Le faisceau spinothalamique latéral véhicule le tact grossier/pression",
+   "Le faisceau spinothalamique antérieur véhicule la douleur et la température",
+   "La décussation du système spinothalamique se fait dans la commissure blanche antérieure"
+  ],
+  "q": "Concernant le système spinothalamique, lesquelles de ces affirmations sont FAUSSES ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "explain": [
+   "Vrai : à l'entrée médullaire, le 1er neurone spinothalamique emprunte la voie de Lissauer.",
+   "Vrai : la voie de Lissauer monte/descend de 1–2 segments.",
+   "Vrai : la voie de Lissauer appartient au 1er neurone spinothalamique.",
+   "Faux : le 2e neurone de la voie DCML fait synapse dans les noyaux gracile/cunéiforme et décusse par les fibres arquées internes, sans voie de Lissauer.",
+   "Vrai : le 1er neurone spinothalamique fait synapse dans la corne dorsale (lames I, II, V)."
+  ],
+  "options": [
+   "Elle est empruntée à l'entrée médullaire du 1er neurone spinothalamique",
+   "Elle monte/descend de 1–2 segments",
+   "Elle appartient au 1er neurone spinothalamique",
+   "Elle est empruntée par le 2e neurone de la voie DCML",
+   "Après la voie de Lissauer, le 1er neurone spinothalamique fait synapse dans la corne dorsale"
+  ],
+  "q": "Concernant la voie de Lissauer, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   3
+  ],
+  "explain": [
+   "Vrai : le 2e neurone DCML fait synapse dans le noyau gracile et le noyau cunéiforme.",
+   "Vrai : ces noyaux sont bulbaires, dans la moelle allongée.",
+   "Faux : les relais du 3e neurone spinothalamique sont le VPL et les noyaux intralaminaires/médians, pas les noyaux gracile/cunéiforme.",
+   "Vrai : après la décussation par les fibres arquées internes, les fibres forment le lemnisque médial.",
+   "Faux : le noyau gracile et le noyau cunéiforme sont bulbaires, pas thalamiques."
+  ],
+  "options": [
+   "Ils sont le lieu de synapse du 2e neurone de la voie DCML",
+   "Ils sont situés dans la moelle allongée",
+   "Ils sont un relais du 3e neurone spinothalamique",
+   "Les axones du 2e neurone y forment le lemnisque médial après la décussation",
+   "Ce sont des noyaux du thalamus"
+  ],
+  "q": "Concernant le noyau gracile et le noyau cunéiforme, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "explain": [
+   "Vrai : le relais du 3e neurone DCML est le VPL du thalamus.",
+   "Vrai : le VPL est le relais principal du 3e neurone spinothalamique, pour la composante sensori-discriminative.",
+   "Vrai : le VPL est un noyau du thalamus.",
+   "Faux : le 2e neurone DCML fait synapse dans les noyaux gracile/cunéiforme, pas dans le VPL.",
+   "Vrai : depuis le VPL, les projections atteignent S1 (DCML) et S1/S2 (spinothalamique)."
+  ],
+  "options": [
+   "Il est le relais du 3e neurone de la voie DCML",
+   "Il est le relais principal du 3e neurone spinothalamique (composante sensori-discriminative)",
+   "C'est un noyau du thalamus",
+   "Il est le relais du 2e neurone de la voie DCML",
+   "Ses projections atteignent S1 (DCML) et S1/S2 (spinothalamique)"
+  ],
+  "q": "Concernant le noyau ventral postéro-latéral (VPL), lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "explain": [
+   "Vrai : la voie DCML projette vers S1 (aires 3, 1, 2).",
+   "Vrai : la voie DCML projette ensuite vers S2.",
+   "Vrai : le système spinothalamique projette vers S1/S2 pour la discrimination.",
+   "Faux : les aires 4 et 6 ne sont pas citées parmi les projections de la voie DCML.",
+   "Vrai : la voie DCML projette vers le cortex pariétal postérieur."
+  ],
+  "options": [
+   "La voie DCML projette vers S1 (aires 3, 1, 2)",
+   "La voie DCML projette ensuite vers S2",
+   "Le système spinothalamique projette vers S1/S2 pour la discrimination",
+   "Les aires 4 et 6 reçoivent les projections de la voie DCML",
+   "La voie DCML projette vers le cortex pariétal postérieur"
+  ],
+  "q": "Concernant les aires corticales de la sensibilité, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   4
+  ],
+  "explain": [
+   "Vrai : l'insula postérieure reçoit des projections spinothalamiques pour la dimension affective et viscéro-autonome.",
+   "Vrai : le cortex cingulaire antérieur reçoit des projections spinothalamiques pour la dimension affective et viscéro-autonome.",
+   "Faux : la discrimination est assurée par les projections vers S1/S2, pas par l'insula postérieure.",
+   "Faux : la cognition/attention à la douleur relève du cortex préfrontal, pas du cortex cingulaire antérieur.",
+   "Vrai : le cortex préfrontal sert à la cognition et à l'attention à la douleur."
+  ],
+  "options": [
+   "L'insula postérieure reçoit des projections spinothalamiques (dimension affective et viscéro-autonome)",
+   "Le cortex cingulaire antérieur reçoit des projections spinothalamiques (dimension affective et viscéro-autonome)",
+   "L'insula postérieure sert à la discrimination sensitive",
+   "Le cortex cingulaire antérieur sert à la cognition/attention à la douleur",
+   "Le cortex préfrontal sert à la cognition/attention à la douleur"
+  ],
+  "q": "Concernant les projections affectives de la douleur, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "explain": [
+   "Vrai : les noyaux intralaminaires comprennent les noyaux centromédian–parafasciculaire.",
+   "Vrai : ils servent les composantes affective et d'éveil.",
+   "Vrai : ils sont des relais additionnels du 3e neurone spinothalamique.",
+   "Faux : le relais principal du 3e neurone spinothalamique est le VPL, pas les noyaux intralaminaires.",
+   "Vrai : les noyaux médians sont aussi des relais additionnels du 3e neurone spinothalamique."
+  ],
+  "options": [
+   "Ils comprennent les noyaux centromédian–parafasciculaire",
+   "Ils servent les composantes affective et d'éveil",
+   "Ils sont des relais additionnels du 3e neurone spinothalamique",
+   "Ils sont le relais principal du 3e neurone spinothalamique",
+   "Les noyaux médians sont aussi des relais additionnels du 3e neurone spinothalamique"
+  ],
+  "q": "Concernant les noyaux intralaminaires, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   4
+  ],
+  "explain": [
+   "Vrai : le tact fin/discriminatif est véhiculé par la DCML.",
+   "Vrai : le tact grossier/pression est véhiculé en partie par le système spinothalamique.",
+   "Faux : le tact grossier/pression est véhiculé par le système spinothalamique, pas par la DCML.",
+   "Faux : la vibration est véhiculée par la DCML, pas par le système spinothalamique.",
+   "Vrai : le tact fin, la vibration et la proprioception consciente sont les trois modalités de la DCML."
+  ],
+  "options": [
+   "Le tact fin/discriminatif est véhiculé par la DCML",
+   "Le tact grossier/pression est véhiculé en partie par le système spinothalamique",
+   "Le tact grossier/pression est véhiculé par la DCML",
+   "La vibration est véhiculée par le système spinothalamique",
+   "Le tact fin, la vibration et la proprioception consciente sont véhiculés par la DCML"
+  ],
+  "q": "Concernant le tact, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   4
+  ],
+  "explain": [
+   "Vrai : la douleur est véhiculée par le faisceau spinothalamique latéral.",
+   "Vrai : la température est véhiculée par le faisceau spinothalamique latéral.",
+   "Faux : la douleur est véhiculée par le système spinothalamique, pas par la DCML.",
+   "Faux : la température est véhiculée par le système spinothalamique, pas par la DCML.",
+   "Vrai : le syndrome de Brown-Séquard comporte une anesthésie thermo-algique controlatérale."
+  ],
+  "options": [
+   "La douleur est véhiculée par le faisceau spinothalamique latéral",
+   "La température est véhiculée par le faisceau spinothalamique latéral",
+   "La douleur est véhiculée par la DCML",
+   "La température est véhiculée par la DCML",
+   "Le syndrome de Brown-Séquard comporte une anesthésie thermo-algique controlatérale"
+  ],
+  "q": "Concernant la douleur et la température, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : la fibre centrale entre par la racine postérieure.",
+   "Vrai : elle monte ipsilatéralement dans les cordons postérieurs.",
+   "Vrai : elle chemine dans les cordons postérieurs (faisceaux gracile et cunéiforme).",
+   "Faux : elle monte ipsilatéralement, elle ne descend pas controlatéralement.",
+   "Faux : la synapse dans la corne dorsale (lames I, II, V) est celle du 1er neurone spinothalamique, pas du 1er neurone DCML."
+  ],
+  "options": [
+   "Elle entre par la racine postérieure",
+   "Elle monte ipsilatéralement dans les cordons postérieurs",
+   "Elle chemine dans les cordons postérieurs",
+   "Elle descend controlatéralement dans les cordons postérieurs",
+   "Elle fait synapse dans la corne dorsale (lames I, II, V)"
+  ],
+  "q": "Concernant le sens du trajet de la fibre centrale du 1er neurone DCML, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   4
+  ],
+  "explain": [
+   "Vrai : la fibre périphérique du 1er neurone DCML est en contact avec les récepteurs cutanés et proprioceptifs.",
+   "Vrai : la fibre périphérique du 1er neurone spinothalamique vient depuis la peau.",
+   "Faux : la fibre périphérique DCML est en contact avec les récepteurs cutanés ET proprioceptifs, pas seulement proprioceptifs.",
+   "Faux : le cours décrit la fibre périphérique spinothalamique comme venant « depuis la peau », sans mention de récepteurs proprioceptifs.",
+   "Vrai : la fibre centrale du 1er neurone DCML entre par la racine postérieure."
+  ],
+  "options": [
+   "La fibre périphérique du 1er neurone DCML est en contact avec les récepteurs cutanés et proprioceptifs",
+   "La fibre périphérique du 1er neurone spinothalamique vient depuis la peau",
+   "La fibre périphérique du 1er neurone DCML est en contact avec les seuls récepteurs proprioceptifs",
+   "La fibre périphérique du 1er neurone spinothalamique est en contact avec les récepteurs cutanés et proprioceptifs",
+   "La fibre centrale du 1er neurone DCML entre par la racine postérieure"
+  ],
+  "q": "Concernant la fibre périphérique des 1ers neurones, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le 2e neurone DCML fait synapse dans les noyaux gracile et cunéiforme, dans la moelle allongée.",
+   "Vrai : le 2e neurone spinothalamique est le neurone de la corne dorsale.",
+   "Vrai : la décussation DCML se fait par les fibres arquées internes.",
+   "Vrai : la décussation spinothalamique se fait dans la commissure blanche antérieure.",
+   "Faux : le trajet controlatéral dans le cordon antérolatéral est celui du système spinothalamique, pas de la DCML."
+  ],
+  "options": [
+   "Le 2e neurone DCML fait synapse dans les noyaux gracile et cunéiforme (bulbaire)",
+   "Le 2e neurone spinothalamique a son origine dans la corne dorsale",
+   "La décussation du 2e neurone DCML se fait par les fibres arquées internes",
+   "La décussation du 2e neurone spinothalamique se fait dans la commissure blanche antérieure",
+   "Le 2e neurone DCML chemine dans le cordon antérolatéral controlatéral"
+  ],
+  "q": "Concernant le 2e neurone des deux systèmes, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   4
+  ],
+  "explain": [
+   "Vrai : le 3e neurone DCML relaie au VPL et projette vers S1, S2 et le cortex pariétal postérieur.",
+   "Vrai : le 3e neurone spinothalamique relaie au VPL et projette vers S1/S2, l'insula postérieure, le cingulaire antérieur et le préfrontal.",
+   "Faux : les noyaux intralaminaires sont des relais du 3e neurone spinothalamique, pas du 3e neurone DCML.",
+   "Faux : le noyau cunéiforme est le lieu de synapse du 2e neurone DCML, pas un relais du 3e neurone spinothalamique.",
+   "Vrai : les deux 3es neurones relaient au thalamus (VPL)."
+  ],
+  "options": [
+   "Le 3e neurone DCML relaie au VPL et projette vers S1, S2 et le cortex pariétal postérieur",
+   "Le 3e neurone spinothalamique relaie au VPL et projette vers S1/S2, l'insula, le cingulaire antérieur et le préfrontal",
+   "Le 3e neurone DCML relaie dans les noyaux intralaminaires",
+   "Le 3e neurone spinothalamique relaie dans le noyau cunéiforme",
+   "Les deux 3es neurones relaient au thalamus"
+  ],
+  "q": "Concernant le 3e neurone des deux systèmes, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : les collatérales modulent les aspects attentionnels de la nociception.",
+   "Vrai : les collatérales modulent les aspects végétatifs de la nociception.",
+   "Vrai : ces collatérales concernent la nociception.",
+   "Vrai : la voie spinoréticulaire se dirige vers la formation réticulée.",
+   "Faux : la voie spinomésencéphalique va vers la substance grise périaqueducale ; le complexe parabrachial est la cible de la voie spinoparabrachiale."
+  ],
+  "options": [
+   "Les collatérales modulent les aspects attentionnels de la nociception",
+   "Les collatérales modulent les aspects végétatifs de la nociception",
+   "Les collatérales concernent la nociception",
+   "La voie spinoréticulaire va vers la formation réticulée",
+   "La voie spinomésencéphalique va vers le complexe parabrachial"
+  ],
+  "q": "Concernant le rôle des collatérales spinothalamiques, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : dans le cordon antérolatéral, les fibres sacrées sont latérales.",
+   "Vrai : dans le cordon antérolatéral, les fibres cervicales sont médiales.",
+   "Vrai : le faisceau gracile (Goll) est médial et couvre les territoires sous T6.",
+   "Vrai : le faisceau cunéiforme (Burdach) est latéral et couvre T6 et au-dessus.",
+   "Faux : dans le cordon antérolatéral, les fibres sacrées sont latérales, pas médiales."
+  ],
+  "options": [
+   "Dans le cordon antérolatéral, les fibres sacrées sont latérales",
+   "Dans le cordon antérolatéral, les fibres cervicales sont médiales",
+   "Dans les cordons postérieurs, le faisceau gracile (Goll) est médial et sous T6",
+   "Dans les cordons postérieurs, le faisceau cunéiforme (Burdach) est latéral et T6 et au-dessus",
+   "Dans le cordon antérolatéral, les fibres sacrées sont médiales"
+  ],
+  "q": "Concernant la somatotopie, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la voie DCML projette vers S1 (aires 3, 1, 2).",
+   "Vrai : la voie DCML projette ensuite vers S2.",
+   "Vrai : la voie DCML projette vers le cortex pariétal postérieur.",
+   "Vrai : le système spinothalamique projette vers l'insula postérieure.",
+   "Faux : l'aire motrice primaire n'est pas citée parmi les projections de la voie DCML."
+  ],
+  "options": [
+   "La voie DCML projette vers S1 (aires 3, 1, 2)",
+   "La voie DCML projette vers S2",
+   "La voie DCML projette vers le cortex pariétal postérieur",
+   "Le système spinothalamique projette vers l'insula postérieure",
+   "L'aire motrice primaire (M1) reçoit les projections de la voie DCML"
+  ],
+  "q": "Concernant les aires corticales, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : la lame I est la zone marginale.",
+   "Vrai : la lame II est la lame II de Rexed, ex-substance gélatineuse.",
+   "Vrai : la lame V reçoit des synapses du 1er neurone spinothalamique.",
+   "Faux : la lame III n'est pas citée parmi les synapses du 1er neurone spinothalamique.",
+   "Faux : la lame IV n'est pas citée parmi les synapses du 1er neurone spinothalamique."
+  ],
+  "options": [
+   "La lame I est la zone marginale",
+   "La lame II est la lame II de Rexed (ex-substance gélatineuse)",
+   "La lame V reçoit des synapses du 1er neurone spinothalamique",
+   "La lame III reçoit des synapses du 1er neurone spinothalamique",
+   "La lame IV reçoit des synapses du 1er neurone spinothalamique"
+  ],
+  "q": "Concernant les lames de la corne dorsale, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1
+  ],
+  "explain": [
+   "Faux : la voie de Lissauer est empruntée par le 1er neurone spinothalamique, pas par le 2e.",
+   "Faux : la voie de Lissauer monte/descend de 1–2 segments, pas de 5–6.",
+   "Vrai : le 1er neurone spinothalamique fait synapse dans la corne dorsale (lames I, II, V).",
+   "Vrai : la voie de Lissauer monte/descend de 1–2 segments.",
+   "Vrai : le 1er neurone spinothalamique a son corps cellulaire dans le ganglion spinal."
+  ],
+  "options": [
+   "La voie de Lissauer est empruntée par le 2e neurone",
+   "La voie de Lissauer monte/descend de 5–6 segments",
+   "Le 1er neurone spinothalamique fait synapse dans la corne dorsale (lames I, II, V)",
+   "La voie de Lissauer monte/descend de 1–2 segments",
+   "Le 1er neurone spinothalamique a son corps cellulaire dans le ganglion spinal"
+  ],
+  "q": "Concernant la voie de Lissauer et la corne dorsale, lesquelles de ces affirmations sont FAUSSES ?"
+ },
+ {
+  "correct": [
+   0,
+   1
+  ],
+  "explain": [
+   "Faux : le lemnisque médial est formé par les fibres arquées internes ; la commissure blanche antérieure est celle du spinothalamique.",
+   "Faux : le lemnisque médial se dirige vers le thalamus, pas vers le cervelet.",
+   "Vrai : le lemnisque médial est formé par les fibres arquées internes.",
+   "Vrai : le trajet du lemnisque médial est tronc cérébral puis thalamus.",
+   "Vrai : la formation du lemnisque médial correspond à la décussation sensorielle."
+  ],
+  "options": [
+   "Le lemnisque médial est formé par la commissure blanche antérieure",
+   "Le lemnisque médial se dirige vers le cervelet",
+   "Le lemnisque médial est formé par les fibres arquées internes",
+   "Le trajet du lemnisque médial est : tronc cérébral → thalamus",
+   "La formation du lemnisque médial correspond à la décussation sensorielle"
+  ],
+  "q": "Concernant le lemnisque médial, lesquelles de ces affirmations sont FAUSSES ?"
+ },
+ {
+  "correct": [
+   0,
+   4
+  ],
+  "explain": [
+   "Faux : le cortex pariétal postérieur est une projection de la voie DCML, pas du système spinothalamique.",
+   "Vrai : le système spinothalamique projette vers l'insula postérieure.",
+   "Vrai : le système spinothalamique projette vers le cortex cingulaire antérieur.",
+   "Vrai : le système spinothalamique projette vers le cortex préfrontal.",
+   "Faux : le système spinothalamique projette vers le cortex (S1/S2, insula, cingulaire, préfrontal), pas vers le cervelet."
+  ],
+  "options": [
+   "Le système spinothalamique projette vers le cortex pariétal postérieur",
+   "Le système spinothalamique projette vers l'insula postérieure",
+   "Le système spinothalamique projette vers le cortex cingulaire antérieur",
+   "Le système spinothalamique projette vers le cortex préfrontal",
+   "Le système spinothalamique projette vers le cervelet"
+  ],
+  "q": "Concernant les projections du système spinothalamique, lesquelles de ces affirmations sont FAUSSES ?"
+ },
+ {
+  "correct": [
+   0,
+   1
+  ],
+  "explain": [
+   "Faux : l'anesthésie thermo-algique est controlatérale, pas ipsilatérale.",
+   "Faux : le trouble de la sensibilité fine est ipsilatéral, pas controlatéral.",
+   "Vrai : une lésion latérale de la moelle épinière entraîne le syndrome de Brown-Séquard.",
+   "Vrai : ces troubles surviennent en dessous de la lésion.",
+   "Vrai : le syndrome de Brown-Séquard comporte une anesthésie thermo-algique controlatérale."
+  ],
+  "options": [
+   "Il comporte une anesthésie thermo-algique ipsilatérale",
+   "Il comporte un trouble de la sensibilité fine controlatéral",
+   "Il est entraîné par une lésion latérale de la moelle épinière",
+   "Ses troubles surviennent en dessous de la lésion",
+   "Il comporte une anesthésie thermo-algique controlatérale"
+  ],
+  "q": "Concernant le syndrome de Brown-Séquard, lesquelles de ces affirmations sont FAUSSES ?"
+ },
+ {
+  "correct": [
+   0,
+   1
+  ],
+  "explain": [
+   "Faux : la décussation de la DCML se fait par les fibres arquées internes (bulbaire) ; la commissure blanche antérieure est celle du spinothalamique.",
+   "Faux : la décussation du système spinothalamique se fait dans la commissure blanche antérieure (médullaire) ; les fibres arquées internes sont celles de la DCML.",
+   "Vrai : la décussation de la DCML est bulbaire.",
+   "Vrai : la décussation du système spinothalamique est médullaire.",
+   "Vrai : leurs décussations et fonctions distinctes expliquent les dissociations sensitives observées en clinique."
+  ],
+  "options": [
+   "La décussation de la DCML se fait dans la commissure blanche antérieure",
+   "La décussation du système spinothalamique se fait par les fibres arquées internes",
+   "La décussation de la DCML est bulbaire",
+   "La décussation du système spinothalamique est médullaire",
+   "Leurs décussations et fonctions distinctes expliquent les dissociations sensitives en clinique"
+  ],
+  "q": "Concernant la décussation des deux systèmes, lesquelles de ces affirmations sont FAUSSES ?"
+ },
+ {
+  "correct": [
+   0,
+   1
+  ],
+  "explain": [
+   "Faux : la vibration est véhiculée par la DCML, pas par le système spinothalamique.",
+   "Faux : la proprioception consciente est véhiculée par la DCML, pas par le système spinothalamique.",
+   "Vrai : le tact fin/discriminatif est véhiculé par la DCML.",
+   "Vrai : la douleur est véhiculée par le système spinothalamique.",
+   "Vrai : la température est véhiculée par le système spinothalamique."
+  ],
+  "options": [
+   "La vibration est véhiculée par le système spinothalamique",
+   "La proprioception consciente est véhiculée par le système spinothalamique",
+   "Le tact fin/discriminatif est véhiculé par la DCML",
+   "La douleur est véhiculée par le système spinothalamique",
+   "La température est véhiculée par le système spinothalamique"
+  ],
+  "q": "Concernant les modalités sensitives, lesquelles de ces affirmations sont FAUSSES ?"
+ },
+ {
+  "correct": [
+   0,
+   1
+  ],
+  "explain": [
+   "Faux : le corps cellulaire du 1er neurone DCML est dans le ganglion spinal, pas dans la corne dorsale.",
+   "Faux : le corps cellulaire du 1er neurone spinothalamique est dans le ganglion spinal, pas dans le thalamus.",
+   "Vrai : le corps cellulaire du 1er neurone DCML est dans le ganglion spinal.",
+   "Vrai : le corps cellulaire du 1er neurone spinothalamique est dans le ganglion spinal.",
+   "Vrai : le 1er neurone DCML est pseudounipolaire."
+  ],
+  "options": [
+   "Le corps cellulaire du 1er neurone DCML est dans la corne dorsale",
+   "Le corps cellulaire du 1er neurone spinothalamique est dans le thalamus",
+   "Le corps cellulaire du 1er neurone DCML est dans le ganglion spinal",
+   "Le corps cellulaire du 1er neurone spinothalamique est dans le ganglion spinal",
+   "Le 1er neurone DCML est pseudounipolaire"
+  ],
+  "q": "Concernant le 1er neurone des deux systèmes, lesquelles de ces affirmations sont FAUSSES ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le faisceau gracile (Goll) est médial.",
+   "Vrai : le faisceau cunéiforme (Burdach) est latéral.",
+   "Vrai : le faisceau gracile (Goll) couvre les territoires sous T6.",
+   "Vrai : le faisceau cunéiforme (Burdach) couvre T6 et au-dessus.",
+   "Faux : le faisceau gracile (Goll) est médial, pas latéral."
+  ],
+  "options": [
+   "Le faisceau gracile (Goll) est médial",
+   "Le faisceau cunéiforme (Burdach) est latéral",
+   "Le faisceau gracile (Goll) couvre les territoires sous T6",
+   "Le faisceau cunéiforme (Burdach) couvre T6 et au-dessus",
+   "Le faisceau gracile (Goll) est latéral"
+  ],
+  "q": "Concernant les faisceaux des cordons postérieurs, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : l'information consciente relaie au thalamus.",
+   "Vrai : le VPL est le relais du 3e neurone de la voie DCML.",
+   "Vrai : le VPL est le relais principal du 3e neurone spinothalamique.",
+   "Vrai : les noyaux intralaminaires sont des relais additionnels du 3e neurone spinothalamique.",
+   "Faux : le 1er neurone relaie dans la corne dorsale (spinothalamique) ou monte dans les cordons postérieurs (DCML) ; le thalamus est le relais du 3e neurone."
+  ],
+  "options": [
+   "L'information consciente relaie au thalamus",
+   "Le VPL est le relais du 3e neurone de la voie DCML",
+   "Le VPL est le relais principal du 3e neurone spinothalamique",
+   "Les noyaux intralaminaires sont des relais additionnels du 3e neurone spinothalamique",
+   "Le thalamus est le relais du 1er neurone"
+  ],
+  "q": "Concernant le thalamus dans la sensibilité extéroceptive, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la voie spinoréticulaire se dirige vers la formation réticulée.",
+   "Vrai : la voie spinomésencéphalique se dirige vers la substance grise périaqueducale.",
+   "Vrai : la voie spinoparabrachiale se dirige vers le complexe parabrachial.",
+   "Vrai : ces collatérales modulent les aspects attentionnels/végétatifs de la nociception.",
+   "Faux : le lemnisque médial appartient à la voie DCML, ce n'est pas une collatérale de la nociception."
+  ],
+  "options": [
+   "La voie spinoréticulaire va vers la formation réticulée",
+   "La voie spinomésencéphalique va vers la substance grise périaqueducale",
+   "La voie spinoparabrachiale va vers le complexe parabrachial",
+   "Ces collatérales modulent les aspects attentionnels/végétatifs de la nociception",
+   "Le lemnisque médial est une collatérale de la nociception"
+  ],
+  "q": "Concernant les collatérales de la nociception, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la voie DCML projette vers S1 (aires 3, 1, 2).",
+   "Vrai : la voie DCML projette ensuite vers S2.",
+   "Vrai : le système spinothalamique projette vers S1/S2 pour la discrimination.",
+   "Vrai : le système spinothalamique projette vers le cortex préfrontal, pour la cognition et l'attention à la douleur.",
+   "Faux : l'aire motrice primaire n'est pas citée parmi les projections de la voie DCML."
+  ],
+  "options": [
+   "La voie DCML projette vers S1 (aires 3, 1, 2)",
+   "La voie DCML projette ensuite vers S2",
+   "Le système spinothalamique projette vers S1/S2 pour la discrimination",
+   "Le système spinothalamique projette vers le cortex préfrontal (cognition/attention à la douleur)",
+   "L'aire motrice primaire (M1) reçoit les projections de la voie DCML"
+  ],
+  "q": "Concernant les projections corticales de la sensibilité, lesquelles de ces affirmations sont exactes ?"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : deux grands systèmes véhiculent la sensibilité cutanée consciente : la DCML et le système antérolatéral.",
+   "Vrai : la DCML véhicule le tact fin, la vibration et la proprioception consciente.",
+   "Vrai : le système spinothalamique véhicule la douleur, la température et en partie le tact grossier/pression.",
+   "Vrai : la décussation est bulbaire pour la DCML et médullaire pour le spinothalamique.",
+   "Faux : dans le syndrome de Brown-Séquard, l'anesthésie thermo-algique est controlatérale, pas ipsilatérale."
+  ],
+  "options": [
+   "Deux grands systèmes véhiculent la sensibilité cutanée consciente",
+   "La DCML véhicule le tact fin, la vibration et la proprioception consciente",
+   "Le système spinothalamique véhicule la douleur, la température et en partie le tact grossier/pression",
+   "Leurs décussations sont distinctes : bulbaire pour la DCML, médullaire pour le spinothalamique",
+   "Le syndrome de Brown-Séquard comporte une anesthésie thermo-algique ipsilatérale"
+  ],
+  "q": "Concernant la synthèse des deux systèmes de la sensibilité cutanée consciente, lesquelles de ces affirmations sont exactes ?"
+ }
+]
