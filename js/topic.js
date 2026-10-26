@@ -28,10 +28,13 @@ document.getElementById('app').innerHTML = `
   <div class="topbar"><h2 style="font-size:1.05rem">${esc(topic.topic)}</h2></div>
   <div id="demoSlot"></div>
   <div class="progress-line"><span id="fCount"></span><span id="fSeen"></span></div>
-  <div class="fcard" id="fcard"><div id="ftext"></div><div class="hint" id="fhint"></div></div>
+  <div class="fcard" id="fcard">
+    <div class="fcard-face" id="fFront"><div class="q" id="fQ"></div><div class="hint" id="fHintQ">Touche pour voir la réponse</div></div>
+    <div class="fcard-face" id="fBack" hidden><div class="a" id="fA"></div><div class="hint" id="fHintA">Touche pour revoir la question</div></div>
+  </div>
   <div class="star-row">
-    <button class="iconbtn" id="fStar" title="Marquer">⭐</button>
-    <button class="iconbtn" id="fShuffle" title="Mélanger">🔀</button>
+    <button class="iconbtn" id="fStar" title="Marquer" aria-label="Marquer cette carte"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3.5 14.7 8.6 20.3 9.4 16.2 13.3 17.2 18.9 12 16.2 6.8 18.9 7.8 13.3 3.7 9.4 9.3 8.6Z"/></svg></button>
+    <button class="iconbtn" id="fShuffle" title="Mélanger" aria-label="Mélanger les cartes"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3h5v5M4 20 21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/></svg></button>
   </div>
   <div class="fcard-nav">
     <button class="btn btn-ghost" id="fPrev">← Précédent</button>
@@ -49,10 +52,10 @@ function renderFlip() {
   const card = F.topic.cards[ci];
   const box = $('#fcard');
   box.classList.toggle('flipped', F.flipped);
-  $('#ftext').innerHTML = F.flipped
-    ? `<div class="a">${esc(card.a)}</div>`
-    : `<div class="q">${esc(card.q)}</div>`;
-  $('#fhint').textContent = F.flipped ? 'Touche pour revoir la question' : 'Touche pour voir la réponse';
+  $('#fQ').textContent = card.q;
+  $('#fA').textContent = card.a;
+  $('#fFront').hidden = F.flipped;
+  $('#fBack').hidden = !F.flipped;
   $('#fCount').textContent = `Carte ${F.pos + 1}/${F.order.length}`;
   getTP(F.topicId).then(tp2 => {
     $('#fSeen').textContent = `${tp2.seen.length}/${F.topic.cards.length} vues`;

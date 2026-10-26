@@ -1,4 +1,8 @@
-/* Page de connexion — redirige vers home.html si déjà connecté. */
+/* Page de connexion — redirige vers home.html si déjà connecté.
+   Page d'accueil (déconnecté) : hero Clean Premium + carte démo réelle
+   (FMPR Anatomie, sujet « Canal carpien » t135) + formulaire de connexion
+   avec choix de la faculté (chaque faculté a son propre compte et son
+   propre abonnement — choisir une autre faculté redirige vers son site). */
 import { initializeApp } from '../vendor/firebase/firebase-app.js';
 import {
   getAuth, onAuthStateChanged, GoogleAuthProvider,
@@ -7,7 +11,25 @@ import {
   sendPasswordResetEmail
 } from '../vendor/firebase/firebase-auth.js';
 import { firebaseConfig } from '../firebase-config.js';
-import { $, toast } from './common.js';
+import { $, toast, esc } from './common.js';
+
+const FACULTIES = [
+  ['fmpr', 'FMPR · Rabat', 'fmpr.flashcartes.com'],
+  ['fmpa', 'FMPA · Agadir', 'fmpa.flashcartes.com'],
+  ['fmpt', 'FMPT · Tanger', 'fmpt.flashcartes.com'],
+  ['fmpc', 'FMPC · Casablanca', 'fmpc.flashcartes.com'],
+  ['fmpo', 'FMPO · Oujda', 'fmpo.flashcartes.com'],
+  ['fmpf', 'FMPF · Fès', 'fmpf.flashcartes.com'],
+  ['fmpm', 'FMPM · Marrakech', 'fmpm.flashcartes.com'],
+];
+
+/* Cartes démo réelles — sujet t135 « Canal carpien », Anatomie FMPR.
+   Jamais de carte inventée : question → réponse, tirées de disc-1.json. */
+const DEMO_CARDS = [
+  { q: 'Quels éléments le canal carpien conduit-il vers la main ?', a: 'Il conduit le nerf médian et les tendons fléchisseurs des doigts vers la main.', n: '2/20' },
+  { q: 'Qu’est-ce que le canal carpien et où est-il situé ?', a: 'C’est un tunnel ostéo-fibreux inextensible situé à la face palmaire du poignet, dans la zone de transition entre l’avant-bras et la main.', n: '1/20' },
+  { q: 'Quelle est la situation du nerf médian à l’intérieur du canal carpien ?', a: 'Il traverse le canal en avant et légèrement en dehors des tendons fléchisseurs, sous le rétinaculum.', n: '9/20' },
+];
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
@@ -18,11 +40,29 @@ function vLogin(err, mode) {
   mode = mode || 'login';
   const isSignup = mode === 'signup';
   $('#app').innerHTML = `
+    <section class="hero">
+      <p class="hero-eyebrow">Flashcartes · FMPR Rabat</p>
+      <h1 class="hero-title">Tout le programme de ta faculté. En flashcards.</h1>
+      <p class="hero-sub">Connecte-toi pour retrouver ta progression, ton plan de la semaine et tes cartes à revoir.</p>
+      <div class="demo-flip" id="demoFlip">
+        <div class="demo-flip-head"><span>Aperçu — tap pour retourner</span><span id="demoCount">1 / 3</span></div>
+        <div class="demo-card" id="demoCard" role="button" tabindex="0" aria-label="Carte démo, tap pour retourner">
+          <div class="demo-face demo-front" id="demoFront"></div>
+          <div class="demo-face demo-back" id="demoBack" hidden></div>
+        </div>
+        <button class="btn btn-gold" id="demoNext" type="button">Nouvelle carte →</button>
+        <p class="demo-src" id="demoSrc"></p>
+      </div>
+      <div class="hero-stats"><span><b>468</b> sujets</span><span><b>10 763</b> cartes</span><span><b>100 DH</b> à vie</span></div>
+    </section>
     <div class="login-wrap">
     <div class="login-card">
-      <div class="login-logo">🩺</div>
-      <h1>Flashcards FMPR</h1>
-      <p class="login-sub">8 260 flashcards · QCM · classement<br>Ta progression sauvegardée partout.</p>
+      <div class="login-logo" aria-hidden="true"><svg viewBox="0 0 64 64" width="34" height="34"><rect width="64" height="64" rx="16" fill="none"/><text x="32" y="44" font-family="Georgia, serif" font-size="34" font-weight="700" fill="#fff" text-anchor="middle">F</text></svg></div>
+      <h1>${isSignup ? 'Créer ton compte FMPR' : 'Bon retour'}</h1>
+      <p class="login-sub">Choisis ta faculté, puis ${isSignup ? 'crée ton compte' : 'connecte-toi'} pour reprendre où tu t’étais arrêté.<br><b>468 sujets · 10 763 cartes</b> · QCM · classement</p>
+      <label class="fld"><span>Faculté</span>
+        <select class="input" id="facSel">${FACULTIES.map(([code, label]) => `<option value="${code}"${code === 'fmpr' ? ' selected' : ''}>${label}</option>`).join('')}</select>
+        <span class="fld-note">Chaque faculté a son propre compte et son propre abonnement — choisis la tienne pour te connecter au bon espace.</span></label>
       <button class="btn btn-google" id="gBtn">${G_LOGO}<span>Continuer avec Google</span></button>
       <div class="hr">ou par email</div>
       <label class="fld"><span>Email</span>
@@ -40,7 +80,39 @@ function vLogin(err, mode) {
       <div style="text-align:center"><button class="linklike" id="eForgot">Mot de passe oublié ?</button></div>
       <div class="login-pro">🃏 <b>Cartes — 100 DH</b> · ⭐ <b>Full — 150 DH</b> · à vie.</div>
     </div>
-    </div>`;
+    </div>
+    <section class="landing-feats">
+      <p class="hero-eyebrow">Dans l’app</p>
+      <h2 class="serif">Tout ce qu’il faut pour l’année — et pour le concours.</h2>
+      <ul class="feat-list">
+        <li><span class="feat-ic">${'<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h10M7 12h10M7 16h6"/></svg>'}</span><div><b>Flashcards par sujet</b><p>Navigation par discipline et chapitre, recherche instantanée, progression sauvegardée sujet par sujet.</p></div></li>
+        <li><span class="feat-ic">${'<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>'}</span><div><b>QCM corrigés option par option</b><p>Chaque proposition est expliquée — pourquoi elle est juste, pourquoi les autres sont fausses.</p></div></li>
+        <li><span class="feat-ic"><img src="um6ss-logo.png" alt="UM6SS" width="30" height="30"></span><div><b>UM6SS — FMPR</b><p>Admissibilité : 4 épreuves de 100 QCM en 2 h, 8 000 QCM. Admission : 200 cas cliniques progressifs, étape par étape.</p></div></li>
+        <li><span class="feat-ic">${'<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 0 1-10 0V4zM7 6H4a1 1 0 0 0-1 1c0 2 1.5 3 3 3M17 6h3a1 1 0 0 1 1 1c0 2-1.5 3-3 3"/></svg>'}</span><div><b>Classement &amp; XP</b><p>+20 XP par carte maîtrisée, niveaux, série de jours. Tu vois exactement où tu en es.</p></div></li>
+      </ul>
+    </section>`;
+  /* --- carte démo : vraies cartes t135, tap pour retourner --- */
+  let demoPos = 0, demoFlipped = false;
+  const renderDemo = () => {
+    const c = DEMO_CARDS[demoPos];
+    $('#demoCount').textContent = `${demoPos + 1} / ${DEMO_CARDS.length}`;
+    $('#demoFront').innerHTML = `<span class="demo-tag">Anatomie · Canal carpien</span><span class="demo-q">${esc(c.q)}</span><span class="demo-hint">Touche pour la réponse →</span>`;
+    $('#demoBack').innerHTML = `<span class="demo-tag">Réponse</span><span class="demo-a">${esc(c.a)}</span>`;
+    $('#demoFront').hidden = demoFlipped;
+    $('#demoBack').hidden = !demoFlipped;
+    $('#demoCard').classList.toggle('flipped', demoFlipped);
+    $('#demoSrc').textContent = `Carte réelle — FMPR · Anatomie · sujet « Canal carpien » (t135), carte ${c.n}`;
+  };
+  const flipDemo = () => { demoFlipped = !demoFlipped; renderDemo(); };
+  $('#demoCard').onclick = flipDemo;
+  $('#demoCard').onkeydown = (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); flipDemo(); } };
+  $('#demoNext').onclick = () => { demoPos = (demoPos + 1) % DEMO_CARDS.length; demoFlipped = false; renderDemo(); };
+  renderDemo();
+  /* --- choix de la faculté : une autre faculté = son propre site/compte --- */
+  $('#facSel').onchange = (e) => {
+    const f = FACULTIES.find(([code]) => code === e.target.value);
+    if (f && f[0] !== 'fmpr') location.href = 'https://' + f[2] + '/' + location.search;
+  };
   const showErr = (m) => { const e = $('#lerr'); e.style.display = 'block'; e.textContent = m; };
   $('#gBtn').onclick = async () => {
     const btn = $('#gBtn');

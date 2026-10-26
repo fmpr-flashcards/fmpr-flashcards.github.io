@@ -555,18 +555,31 @@ export function waUnlockLink() {
   return 'https://wa.me/' + WA_NUMBER + '?text=' + txt;
 }
 
+/* Icônes SVG en ligne — jamais de glyphes de police (ils se coupent
+   sur téléphone). Chaque icône est centrée dans un conteneur .bic de 24 px. */
+const TAB_ICONS = {
+  home: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h10M7 12h10M7 16h6"/></svg>',
+  mcq: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>',
+  leaderboard: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 0 1-10 0V4zM7 6H4a1 1 0 0 0-1 1c0 2 1.5 3 3 3M17 6h3a1 1 0 0 1 1 1c0 2-1.5 3-3 3"/></svg>',
+  plan: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4M16 3v4M3 10h18"/></svg>',
+  profile: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-3.5 4.5-5 8-5s6.5 1.5 8 5"/></svg>',
+};
+
 export function tabbar(active) {
   const tabs = [
-    ['home.html', 'home', '📚', 'Cartes'],
-    ['qcm.html', 'mcq', '✅', 'QCM'],
-    ['um6ss.html', 'um6ss', '<img src="um6ss-logo.png" class="tablogo" alt="UM6SS">', 'UM6SS'],
-    ['classement.html', 'leaderboard', '🏆', 'Classement'],
-    ['plan.html', 'plan', '🗓️', 'Plan'],
-    ['profil.html', 'profile', '👤', 'Profil'],
+    ['home.html', 'home', 'Cartes'],
+    ['qcm.html', 'mcq', 'QCM'],
+    ['um6ss.html', 'um6ss', 'UM6SS'],
+    ['classement.html', 'leaderboard', 'Classement'],
+    ['plan.html', 'plan', 'Plan'],
+    ['profil.html', 'profile', 'Profil'],
   ];
-  return '<nav class="tabbar">' + tabs.map(([href, key, emoji, label]) =>
-    `<a href="${href}" class="${key === active ? 'on' : ''}">${emoji}<span>${label}</span></a>`
-  ).join('') + '</nav>';
+  return '<nav class="tabbar">' + tabs.map(([href, key, label]) => {
+    const icon = key === 'um6ss'
+      ? '<img src="um6ss-logo.png" class="tablogo" alt="UM6SS">'
+      : `<span class="bic">${TAB_ICONS[key] || ''}</span>`;
+    return `<a href="${href}" class="${key === active ? 'on' : ''}">${icon}<span>${label}</span></a>`;
+  }).join('') + '</nav>';
 }
 
 export function lockHtml(feature, needFull) {
@@ -575,7 +588,7 @@ export function lockHtml(feature, needFull) {
     <h2>${feature} — ${needFull ? 'Full uniquement' : 'Pro uniquement'}</h2>
     <p>${needFull
       ? 'Les QCM sont réservés à la formule <b>Full — 150 DH</b>.'
-      : 'Débloque les 8 260 cartes et le classement dès <b>100 DH</b>, ou tout + QCM pour <b>150 DH</b>.'}<br>Paiement unique, à vie.</p>
+      : 'Débloque les 10 763 cartes et le classement dès <b>100 DH</b>, ou tout + QCM pour <b>150 DH</b>.'}<br>Paiement unique, à vie.</p>
     <a class="btn btn-primary" href="${waUnlockLink()}" target="_blank" rel="noopener"
        style="text-decoration:none">💬 Commander sur WhatsApp</a>
     <div class="hr">ou entre ton code d'activation</div>

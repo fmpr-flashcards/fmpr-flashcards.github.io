@@ -14,7 +14,7 @@ const p = profile;
 const acc = p.mcqTotal ? Math.round(p.mcqCorrect / p.mcqTotal * 100) : 0;
 const lvl = levelFor(p.xp || 0);
 const app = document.getElementById('app');
-const refLink = 'https://fmpr-flashcards.github.io/?ref=' + encodeURIComponent(p.referralCode || '');
+const refLink = location.origin + '/?ref=' + encodeURIComponent(p.referralCode || '');
 const refBalance = p.refBalance || 0;
 const refCount = p.refCount || 0;
 const canWithdraw = refBalance >= REF_MIN_WITHDRAW;
@@ -42,7 +42,7 @@ app.innerHTML = `
       <div style="flex:1;border:2px solid #e0f2f4;border-radius:12px;padding:12px;text-align:center">
         <div style="font-size:1.4rem">🃏</div>
         <b>Cartes — 100 DH</b>
-        <div class="small">8 260 cartes illimitées<br>classement · plan</div>
+        <div class="small">10 763 cartes illimitées<br>classement · plan</div>
       </div>
       <div style="flex:1;border:2px solid #0e7c86;border-radius:12px;padding:12px;text-align:center">
         <div style="font-size:1.4rem">⭐</div>
