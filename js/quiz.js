@@ -4,7 +4,7 @@
 import {
   requireAuth, profile, guardFull, loadTopicMcqm, loadMcqmIndex,
   shuffle, esc, qp, tabbar, toast, addXp, pushLeaderboard, touchStudy,
-  saveProfile, getTP, saveTP
+  saveProfile, getTP, saveTP, icon
 } from './common.js';
 
 await requireAuth();
@@ -64,12 +64,33 @@ document.title = title + ' — Flashcards FMPR';
 
 const Q = { pos: 0, xp: 0, perfect: 0, answered: 0 };
 
+/* Minuteur : compte le temps écoulé depuis la première question. */
+let qStart = null, qTimerId = null;
+function fmtTime(sec) {
+  const m = String(Math.floor(sec / 60)).padStart(2, '0');
+  const s = String(sec % 60).padStart(2, '0');
+  return m + ':' + s;
+}
+function startTimer() {
+  if (qStart != null) return;
+  qStart = Date.now();
+  qTimerId = setInterval(() => {
+    const el = document.getElementById('qtimer');
+    if (el) el.textContent = fmtTime(Math.floor((Date.now() - qStart) / 1000));
+  }, 1000);
+}
+function stopTimer() {
+  clearInterval(qTimerId);
+  qTimerId = null;
+  return qStart == null ? 0 : Math.floor((Date.now() - qStart) / 1000);
+}
+
 /* --------------------------- rendu --------------------------- */
 function renderQ() {
   const q = questions[Q.pos];
   const sel = new Set();
   app.innerHTML = `
-    <div class="progress-line"><span>Question ${Q.pos + 1}/${questions.length}</span><span>⭐ ${Q.xp} XP</span></div>
+    <div class="progress-line"><span>Question ${Q.pos + 1}/${questions.length}</span><span class="timer-chip">${icon('clock')}<span id="qtimer">00:00</span></span><span>${Q.xp} XP</span></div>
     <div class="track" style="margin-bottom:14px"><div style="width:${Math.round(Q.pos / questions.length * 100)}%"></div></div>
     <div class="mcq-q">${esc(q.q)}
       <div class="small" style="margin-top:8px;font-weight:400">Coche toutes les bonnes réponses.</div>
@@ -118,15 +139,15 @@ function doConfirm(sel, btns, confirmBtn) {
   if (perfect) Q.perfect++;
 
   const verdict = perfect
-    ? `<div class="verdict perfect">🌟 Parfait ! +20 XP</div>`
+    ? `<div class="verdict perfect">Parfait ! +20 XP</div>`
     : gained > 0
-      ? `<div class="verdict partial">👍 Partiel : ${cp} bonne(s), ${wp} mauvaise(s) → +${gained} XP</div>`
-      : `<div class="verdict zero">❌ Raté — +0 XP. Relis les explications 👆</div>`;
+      ? `<div class="verdict partial">Partiel : ${cp} bonne(s), ${wp} mauvaise(s) → +${gained} XP</div>`
+      : `<div class="verdict zero">Raté — +0 XP. Relis les explications ci-dessus.</div>`;
 
   const after = app.querySelector('#after');
   after.hidden = false;
   after.innerHTML = verdict + `
-    <button class="btn btn-primary" id="qNext">${Q.pos + 1 === questions.length ? 'Voir mon score 🏁' : 'Question suivante →'}</button>
+    <button class="btn btn-primary" id="qNext">${Q.pos + 1 === questions.length ? 'Voir mon score' : 'Question suivante →'}</button>
     <a class="linklike" href="qcm.html" style="display:block;margin:10px auto;text-align:center">Abandonner</a>`;
   app.querySelector('#qNext').onclick = () => {
     Q.pos++;
@@ -142,6 +163,7 @@ let saved = false;
 async function renderResult() {
   const nn = questions.length;
   const pct = Math.round(Q.perfect / nn * 100);
+  const elapsed = stopTimer();
   if (!saved) {
     saved = true;
     profile.mcqTotal = (profile.mcqTotal || 0) + nn;
@@ -156,15 +178,15 @@ async function renderResult() {
     pushLeaderboard(true);
     touchStudy();
   }
-  const msg = pct >= 80 ? 'Excellent travail ! 🌟' : pct >= 50 ? 'Bien, encore un effort 💪' : 'Revois les cartes et reviens plus fort 📚';
+  const msg = pct >= 80 ? 'Excellent travail !' : pct >= 50 ? 'Bien, encore un effort.' : 'Revois les cartes et reviens plus fort.';
   app.innerHTML = `
     <div class="result">
-      <div style="font-size:3rem">${pct >= 80 ? '🏆' : pct >= 50 ? '👍' : '📚'}</div>
+      <div class="big-ic">${icon('trophy')}</div>
       <h2 style="margin:8px 0">${esc(title)}</h2>
       <div class="score">${Q.perfect}/${nn}</div>
-      <p><b>${pct}%</b> de réponses parfaites · <b style="color:var(--teal)">+${Q.xp} XP</b></p>
+      <p><b>${pct}%</b> de réponses parfaites · <b style="color:var(--teal)">+${Q.xp} XP</b> · ${fmtTime(elapsed)}</p>
       <p class="small">${msg}</p>
-      <button class="btn btn-primary" id="rAgain">🔁 Rejouer</button>
+      <button class="btn btn-primary" id="rAgain">Rejouer</button>
       <a class="btn btn-ghost" href="qcm.html" style="text-decoration:none;text-align:center">Choisir un autre QCM</a>
       <a class="btn btn-ghost" href="home.html" style="text-decoration:none;text-align:center">Accueil</a>
     </div>`;
@@ -172,4 +194,5 @@ async function renderResult() {
 }
 
 renderQ();
+startTimer();
 document.body.insertAdjacentHTML('beforeend', tabbar('mcq'));

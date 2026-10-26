@@ -1,5 +1,5 @@
 /* Pathologies — navigateur de fiches (Pro uniquement). Données : patho/*.json */
-import { requireAuth, guardPro, esc, qp, tabbar } from './common.js?v=8';
+import { requireAuth, guardPro, esc, qp, tabbar, icon } from './common.js?v=8';
 
 /* État données — déclaré AVANT tout await de niveau supérieur. */
 let _idx = null, _names = null, _drugIdx = null;
@@ -55,9 +55,9 @@ async function homeView() {
       <small>${Number(s.count).toLocaleString('fr-FR')} fiches</small>
     </a>`).join('');
   document.getElementById('app').innerHTML = `
-    <div class="topbar"><h2>🩺 Pathologies</h2><div class="streak">Pro ✅</div></div>
-    ${searchBox('q', '🔍 Rechercher une pathologie…')}
-    <div style="margin:10px 0"><a href="pathologies.html?mode=drugs" class="btn btn-ghost" style="text-decoration:none;display:block;text-align:center">💊 Recherche médicaments (prix CNOPS)</a></div>
+    <div class="topbar"><h2>${icon('med')} Pathologies</h2><div class="streak">Pro</div></div>
+    ${searchBox('q', 'Rechercher une pathologie…')}
+    <div style="margin:10px 0"><a href="pathologies.html?mode=drugs" class="btn btn-ghost" style="text-decoration:none;display:block;text-align:center">Recherche médicaments (prix CNOPS)</a></div>
     <div class="grid spec-grid">${cards}</div>`;
   const inp = document.getElementById('q');
   inp.addEventListener('input', async () => {
@@ -81,7 +81,7 @@ async function specView(slug) {
   document.getElementById('app').innerHTML = `
     <a class="back" href="pathologies.html">← Pathologies</a>
     <div class="topbar"><h2>${esc(specName(slug, idx))}</h2></div>
-    ${searchBox('q2', '🔍 Filtrer dans cette spécialité…')}
+    ${searchBox('q2', 'Filtrer dans cette spécialité…')}
     <div class="fiche-list" id="speclist">${rows}</div>`;
   const inp = document.getElementById('q2');
   inp.addEventListener('input', () => {
@@ -105,7 +105,7 @@ function priceFor(line, priceList) {
   const e = priceList.find(p => p.medicament === line.medicament);
   if (!e || !e.best_match) return '';
   const b = e.best_match;
-  return `<div class="prix">💊 ${esc(b.nom)} ${esc(b.dosage || '')} ${esc(b.forme || '')} — <b>${esc(String(b.ppv))} MAD</b> (${esc(b.type || '')})</div>`;
+  return `<div class="prix">${esc(b.nom)} ${esc(b.dosage || '')} ${esc(b.forme || '')} — <b>${esc(String(b.ppv))} MAD</b> (${esc(b.type || '')})</div>`;
 }
 async function ficheView(slug, id) {
   const idx = await loadIdx();
@@ -121,30 +121,30 @@ async function ficheView(slug, id) {
       ${(o.lignes || []).map(l => `
         <div class="ligne">
           <div class="med">${esc(l.medicament)}</div>
-          <div>📋 ${esc(l.posologie)} · ⏱ ${esc(l.duree)}</div>
+          <div>Posologie : ${esc(l.posologie)} · Durée : ${esc(l.duree)}</div>
           ${priceFor(l, priceList)}
         </div>`).join('')}
-      ${o.surveillance ? `<div class="surv">👁 ${esc(o.surveillance)}</div>` : ''}
+      ${o.surveillance ? `<div class="surv">Surveillance : ${esc(o.surveillance)}</div>` : ''}
     </div>`).join('');
   const trt = li(t.mesures || []) + ordos;
   document.getElementById('app').innerHTML = `
     <a class="back" href="pathologies.html?s=${esc(slug)}">← ${esc(specName(slug, idx))}</a>
     <div class="topbar"><h2 style="font-size:1.15em">${esc(f.nom)}</h2></div>
     <div class="fiche-def">${esc(f.definition)}</div>
-    ${section('🩺 Clinique', li(f.clinique || []), true)}
-    ${section('🧪 Paraclinique', li(f.paraclinique || []))}
-    ${section('⚠️ Complications', li(f.complications || []))}
-    ${section('💊 Traitement', trt)}
-    ${section('🤢 Effets indésirables', li(f.effets_indesirables || []))}
-    ${section('🚫 Contre-indications', li(f.contre_indications || []))}`;
+    ${section('Clinique', li(f.clinique || []), true)}
+    ${section('Paraclinique', li(f.paraclinique || []))}
+    ${section('Complications', li(f.complications || []))}
+    ${section('Traitement', trt)}
+    ${section('Effets indésirables', li(f.effets_indesirables || []))}
+    ${section('Contre-indications', li(f.contre_indications || []))}`;
 }
 
 /* -------------------------- recherche médicaments ---------------------- */
 async function drugsView() {
   document.getElementById('app').innerHTML = `
     <a class="back" href="pathologies.html">← Pathologies</a>
-    <div class="topbar"><h2>💊 Médicaments</h2></div>
-    ${searchBox('qd', '🔍 DCI ou nom commercial… (ex : amoxicilline, Doliprane)')}`;
+    <div class="topbar"><h2>${icon('med')} Médicaments</h2></div>
+    ${searchBox('qd', 'DCI ou nom commercial… (ex : amoxicilline, Doliprane)')}`;
   const inp = document.getElementById('qd');
   inp.addEventListener('input', async () => {
     const q = inp.value.trim().toLowerCase();
@@ -169,7 +169,7 @@ async function drugsView() {
             const n = byId[fid];
             return n ? `<a href="pathologies.html?s=${esc(n.slug)}&id=${esc(n.id)}" style="display:inline-block;margin:2px 6px 2px 0">${esc(n.nom)}</a>` : '';
           }).join('');
-          return `<div style="border:1px solid #e2e8f0;border-radius:10px;padding:10px;margin-bottom:8px;background:#fff">
+          return `<div class="fcard-row">
             <b>${esc(o.label)}</b> <small>(${o.type})</small><br>${fl || '<small class="small">—</small>'}</div>`;
         }).join('')
       : '<p class="small">Aucun résultat.</p>') + '</div>';

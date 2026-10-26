@@ -11,6 +11,7 @@ const authP = requireAuth();
 
 const topicId = qp('id');
 const d = Math.max(0, parseInt(qp('d', '0'), 10) || 0);
+const startCard = Math.max(0, parseInt(qp('c', '0'), 10) || 0);
 const idx = await loadIndex();
 await loadDisc(d); // only the discipline from the URL — never all five
 let entry = topicEntry(topicId);
@@ -57,6 +58,14 @@ function renderFlip() {
   $('#fFront').hidden = F.flipped;
   $('#fBack').hidden = !F.flipped;
   $('#fCount').textContent = `Carte ${F.pos + 1}/${F.order.length}`;
+  /* « Reprendre » sur l'accueil : mémorise le dernier sujet étudié. */
+  try {
+    localStorage.setItem('fmpr_resume', JSON.stringify({
+      d: F.discIdx, id: F.topicId, title: F.topic.topic,
+      discName: idx[F.discIdx] ? idx[F.discIdx].name : '',
+      pos: F.pos, total: F.order.length, ts: Date.now(),
+    }));
+  } catch (e) {}
   getTP(F.topicId).then(tp2 => {
     $('#fSeen').textContent = `${tp2.seen.length}/${F.topic.cards.length} vues`;
     $('#fStar').classList.toggle('on', tp2.starred.includes(ci));
@@ -75,12 +84,13 @@ authP.then(async () => {
     order = topic.cards.map((_, i) => i).slice(0, DEMO_N);
   }
   F.order = order;
+  F.pos = Math.min(startCard, Math.max(0, order.length - 1));
 
   if (!isPro()) {
-    $('#demoSlot').innerHTML = `<div class="demo-note">🎁 <b>Démo :</b> ${order.length} cartes sur ${topic.cards.length}.
+    $('#demoSlot').innerHTML = `<div class="demo-note"><b>Démo :</b> ${order.length} cartes sur ${topic.cards.length}.
       <a href="profil.html" style="color:#0a5f66;font-weight:700">Tout débloquer dès 100 DH →</a></div>`;
   } else if (hasFull()) {
-    $('#qcmSlot').innerHTML = `<a class="btn btn-ghost" href="qcm-setup.html?kind=topic&d=${discIdx}&id=${encodeURIComponent(topicId)}" style="text-decoration:none;text-align:center">✅ QCM sur ce sujet</a>`;
+    $('#qcmSlot').innerHTML = `<a class="btn btn-ghost" href="qcm-setup.html?kind=topic&d=${discIdx}&id=${encodeURIComponent(topicId)}" style="text-decoration:none;text-align:center">QCM sur ce sujet</a>`;
   }
 
   $('#fcard').onclick = () => {
@@ -94,7 +104,7 @@ authP.then(async () => {
     F.order = shuffle(F.order);
     F.pos = 0; F.flipped = false;
     renderFlip();
-    toast('Mélangé 🔀');
+    toast('Mélangé');
   };
   $('#fStar').onclick = async () => {
     const ci = F.order[F.pos];

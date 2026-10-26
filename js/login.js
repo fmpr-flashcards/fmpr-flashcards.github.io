@@ -78,7 +78,7 @@ function vLogin(err, mode) {
         : `<button class="btn btn-primary" id="eLogin">Se connecter</button>
            <button class="btn btn-ghost" id="eSignup">Créer un compte</button>`}
       <div style="text-align:center"><button class="linklike" id="eForgot">Mot de passe oublié ?</button></div>
-      <div class="login-pro">🃏 <b>Cartes — 100 DH</b> · ⭐ <b>Full — 150 DH</b> · à vie.</div>
+      <div class="login-pro"><b>Cartes — 100 DH</b> · <b>Full — 150 DH</b> · à vie.</div>
     </div>
     </div>
     <section class="landing-feats">
@@ -152,7 +152,7 @@ function vLogin(err, mode) {
       const c = creds(); if (!c) return;
       const pwd2 = $('#pwd2').value;
       if (c.pwd !== pwd2) { showErr('Les deux mots de passe ne correspondent pas.'); return; }
-      try { await createUserWithEmailAndPassword(auth, c.email, c.pwd); toast('Compte créé, bienvenue ! 🎉'); }
+      try { await createUserWithEmailAndPassword(auth, c.email, c.pwd); toast('Compte créé, bienvenue !'); }
       catch (e) { showErr(friendly(e)); }
     };
     $('#eBack').onclick = () => vLogin(null, 'login');

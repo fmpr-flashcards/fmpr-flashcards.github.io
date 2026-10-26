@@ -1,7 +1,7 @@
 /* QCM : accueil, choix du sujet, choix du nombre de questions. */
 import {
   requireAuth, guardFull, loadIndex, loadDisc, loadAllDiscs, topicEntry,
-  esc, qp, tabbar, DISC_EMOJI
+  esc, qp, tabbar, DISC_ICONS, icon
 } from './common.js';
 
 await requireAuth();
@@ -13,18 +13,20 @@ const app = document.getElementById('app');
 if (page === 'home') {
   const idx = await loadIndex();
   app.innerHTML = `
-    <div class="topbar"><h2>✅ Mode QCM</h2></div>
+    <div class="topbar"><h2>${icon('check')} Mode QCM</h2></div>
     <p class="small">Des QCM multi-réponses comme à l'examen : coche toutes les bonnes réponses,
-      puis <b>Confirmer</b> pour voir la correction détaillée.<br>
+      puis <b>Confirmer</b> pour voir la correction détaillée — chaque option est expliquée.<br>
       <b>20 XP</b> par réponse parfaite, points partiels sinon.</p>
     <a class="topic" href="qcm-setup.html?kind=mix" style="text-decoration:none;color:inherit">
-      <div><div class="t">🎲 QCM mixte</div><div class="c">Toutes disciplines mélangées</div></div>
+      <div class="disc-ic">${DISC_ICONS[5] || ''}</div>
+      <div class="tmain"><div class="t">QCM mixte</div><div class="c">Toutes disciplines mélangées</div></div>
       <div class="pct">→</div>
     </a>
     <div class="chapter">Par discipline</div>
     ${idx.map((d, i) => ({ d, i })).filter(x => x.d.section !== 'prepa').map(({ d, i }) => `
       <a class="topic" href="qcm-sujets.html?d=${i}" style="text-decoration:none;color:inherit">
-        <div><div class="t">${DISC_EMOJI[i] || '📚'} ${esc(d.name)}</div><div class="c">${d.topics} sujets · 200 QCM/sujet</div></div>
+        <div class="disc-ic">${DISC_ICONS[i] || ''}</div>
+        <div class="tmain"><div class="t">${esc(d.name)}</div><div class="c">${d.topics} sujets · 200 QCM/sujet</div></div>
         <div class="pct">→</div>
       </a>`).join('')}`;
 } else if (page === 'sujets') {
@@ -70,7 +72,7 @@ if (page === 'home') {
       <div class="qcm-count">
         ${[10, 20, 50, 100, 200].map(n => `<a class="btn btn-ghost" href="${quizHref(n)}" style="text-decoration:none;text-align:center">${n} questions</a>`).join('')}
       </div>
-      <p class="small mt">💡 20 XP par réponse parfaite · points partiels : +5 par bonne réponse cochée, −5 par mauvaise.</p>
+      <p class="small mt">20 XP par réponse parfaite · points partiels : +5 par bonne réponse cochée, −5 par mauvaise.</p>
     </div>`;
 }
 

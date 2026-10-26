@@ -4,7 +4,7 @@
    QCM multi-réponses comme à l'examen (cases à cocher, correction détaillée). */
 import {
   requireAuth, profile, guardFull, shuffle, esc, qp, tabbar,
-  addXp, saveProfile, pushLeaderboard, touchStudy,
+  addXp, saveProfile, pushLeaderboard, touchStudy, icon,
 } from './common.js';
 
 await requireAuth();
@@ -93,6 +93,39 @@ async function load() {
 
 const Q = { pos: 0, xp: 0, perfect: 0, answered: 0, started: false, seenIds: [], caseId: null };
 
+/* Minuteur : compte à rebours de 2 h pour les épreuves d'admissibilité
+   (format examen), compteur simple pour les cas progressifs. */
+const EXAM_SECONDS = 2 * 60 * 60;
+let qStart = null, qTimerId = null;
+function fmtClock(sec) {
+  const h = String(Math.floor(sec / 3600)).padStart(2, '0');
+  const m = String(Math.floor((sec % 3600) / 60)).padStart(2, '0');
+  const s = String(sec % 60).padStart(2, '0');
+  return h + ':' + m + ':' + s;
+}
+function startTimer() {
+  if (qStart != null) return;
+  qStart = Date.now();
+  qTimerId = setInterval(() => {
+    const el = document.getElementById('qtimer');
+    if (!el) return;
+    const spent = Math.floor((Date.now() - qStart) / 1000);
+    if (isCase) {
+      el.textContent = fmtClock(spent);
+      return;
+    }
+    const left = EXAM_SECONDS - spent;
+    el.textContent = fmtClock(Math.max(0, left));
+    if (left <= 600) el.closest('.timer-chip').classList.add('low');
+    if (left <= 0) { stopTimer(); renderResult(); }
+  }, 1000);
+}
+function stopTimer() {
+  clearInterval(qTimerId);
+  qTimerId = null;
+  return qStart == null ? 0 : Math.floor((Date.now() - qStart) / 1000);
+}
+
 try { await load(); }
 catch (e) {
   console.error(e);
@@ -106,12 +139,12 @@ document.title = title + ' — Flashcards FMPR';
 function renderIntro() {
   app.innerHTML = `
     <a class="back" href="um6ss.html" style="text-decoration:none;display:inline-block">← UM6SS</a>
-    <div class="topbar"><h2>📋 ${esc(title)}</h2></div>
+    <div class="topbar"><h2>${esc(title)}</h2></div>
     <div class="scenario">${esc(intro).replace(/\n/g, '<br>')}</div>
     <p class="small">Ce cas progressif comporte <b>${questions.length} QCM liés</b> qui suivent le patient :
     diagnostic → examens → traitement → complications. Coche toutes les bonnes réponses.</p>
     <button class="btn btn-primary" id="startCase">Commencer le cas →</button>`;
-  document.getElementById('startCase').onclick = () => { Q.started = true; renderQ(); window.scrollTo({ top: 0 }); };
+  document.getElementById('startCase').onclick = () => { Q.started = true; renderQ(); startTimer(); window.scrollTo({ top: 0 }); };
 }
 
 /* ----------------------------- rendu ----------------------------- */
@@ -126,7 +159,7 @@ function renderQ() {
   const sel = new Set();
   app.innerHTML = `
     <a class="back" href="um6ss.html" style="text-decoration:none;display:inline-block">← UM6SS</a>
-    <div class="progress-line"><span>${stepLabel()}</span><span>⭐ ${Q.xp} XP</span></div>
+    <div class="progress-line"><span>${stepLabel()}</span><span class="timer-chip">${icon('clock')}<span id="qtimer">${isCase ? '00:00:00' : '02:00:00'}</span></span><span>${Q.xp} XP</span></div>
     <div class="track" style="margin-bottom:14px"><div style="width:${Math.round(Q.pos / questions.length * 100)}%"></div></div>
     ${isCase ? '<div class="q-step">CAS CLINIQUE PROGRESSIF — ADMISSION</div>' : '<div class="q-step">QCM ADMISSIBILITÉ</div>'}
     <div class="mcq-q">${esc(q.q)}
@@ -177,19 +210,19 @@ function doConfirm(sel, btns, confirmBtn) {
   if (q.id) Q.seenIds.push(q.id); // pas de répétition entre les sessions
 
   const verdict = perfect
-    ? `<div class="verdict perfect">🌟 Parfait ! +20 XP</div>`
+    ? `<div class="verdict perfect">Parfait ! +20 XP</div>`
     : gained > 0
-      ? `<div class="verdict partial">👍 Partiel : ${cp} bonne(s), ${wp} mauvaise(s) → +${gained} XP</div>`
-      : `<div class="verdict zero">❌ Raté — +0 XP. Relis les explications 👆</div>`;
+      ? `<div class="verdict partial">Partiel : ${cp} bonne(s), ${wp} mauvaise(s) → +${gained} XP</div>`
+      : `<div class="verdict zero">Raté — +0 XP. Relis les explications ci-dessus.</div>`;
 
   const reveal = q.reveal
-    ? `<div class="reveal"><b>▶ La suite du cas…</b><br>${esc(q.reveal)}</div>`
+    ? `<div class="reveal"><b>La suite du cas…</b><br>${esc(q.reveal)}</div>`
     : '';
 
   const after = app.querySelector('#after');
   after.hidden = false;
   after.innerHTML = verdict + reveal + `
-    <button class="btn btn-primary" id="qNext">${Q.pos + 1 === questions.length ? 'Voir mon score 🏁' : 'Question suivante →'}</button>
+    <button class="btn btn-primary" id="qNext">${Q.pos + 1 === questions.length ? 'Voir mon score' : 'Question suivante →'}</button>
     <a class="linklike" href="um6ss.html" style="display:block;margin:10px auto;text-align:center">Abandonner</a>`;
   app.querySelector('#qNext').onclick = () => {
     Q.pos++;
@@ -205,6 +238,7 @@ let saved = false;
 async function renderResult() {
   const nn = questions.length;
   const pct = Math.round(Q.perfect / nn * 100);
+  const elapsed = stopTimer();
   if (!saved) {
     saved = true;
     profile.mcqTotal = (profile.mcqTotal || 0) + nn;
@@ -224,15 +258,15 @@ async function renderResult() {
     pushLeaderboard(true);
     touchStudy();
   }
-  const msg = pct >= 80 ? 'Excellent travail ! 🌟' : pct >= 50 ? 'Bien, encore un effort 💪' : 'Revois les cartes et reviens plus fort 📚';
+  const msg = pct >= 80 ? 'Excellent travail !' : pct >= 50 ? 'Bien, encore un effort.' : 'Revois les cartes et reviens plus fort.';
   app.innerHTML = `
     <div class="result">
-      <div style="font-size:3rem">${pct >= 80 ? '🏆' : pct >= 50 ? '👍' : '📚'}</div>
+      <div class="big-ic">${icon('trophy')}</div>
       <h2 style="margin:8px 0">${esc(title)}</h2>
       <div class="score">${Q.perfect}/${nn}</div>
-      <p><b>${pct}%</b> de réponses parfaites · <b style="color:var(--teal)">+${Q.xp} XP</b></p>
+      <p><b>${pct}%</b> de réponses parfaites · <b style="color:var(--teal)">+${Q.xp} XP</b> · ${fmtClock(elapsed)}</p>
       <p class="small">${msg}</p>
-      <button class="btn btn-primary" id="rAgain">🔁 Rejouer</button>
+      <button class="btn btn-primary" id="rAgain">Rejouer</button>
       <a class="btn btn-ghost" href="um6ss.html" style="text-decoration:none;text-align:center">Retour UM6SS</a>
       <a class="btn btn-ghost" href="home.html" style="text-decoration:none;text-align:center">Accueil</a>
     </div>`;
@@ -240,5 +274,5 @@ async function renderResult() {
 }
 
 if (intro && !Q.started) renderIntro();
-else renderQ();
+else { renderQ(); startTimer(); }
 document.body.insertAdjacentHTML('beforeend', tabbar('um6ss'));
