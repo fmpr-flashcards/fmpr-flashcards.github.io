@@ -26,7 +26,11 @@
   :root{
     --bg:#0b1420; --surface:#121f31; --surface2:#18293f; --line:#24344c;
     --ink:#eef3f8; --ink2:#b9c9d9; --muted:#8aa0b5;
-    --navy:#eaf1f8; --navy2:#d5e2ef;
+    /* --navy NE DOIT PAS basculer en clair en mode sombre : les cartes
+       .hero/.today-card/.resume-card/.me-card/.login-logo ont un fond
+       navy + texte blanc — avec --navy:#eaf1f8 le texte blanc devenait
+       invisible sur fond pâle (bug Plan 2026-10-26). Navy reste #0e2a44. */
+    --teal-dark:#7dd3d2; /* texte sarcelle clair sur fonds sombres en mode sombre */
     --teal-soft:#143636; --gold-soft:#2e2716; --red-soft:#3a1d1a; --green-soft:#173628;
     --teal-light:#143636;
     --shadow:0 12px 32px rgba(0,0,0,.35);
@@ -55,6 +59,15 @@ img{max-width:100%;}
 .hero{background:var(--navy);color:#fff;border-radius:24px;padding:28px 22px;margin:6px 0 0;
   box-shadow:var(--shadow);}
 @media (prefers-color-scheme: dark){ .hero{background:#0e2a44;color:#fff;} }
+/* Contraste mode sombre — cartes à fond navy + texte blanc : le fond
+   doit rester navy sombre (comme .hero ci-dessus), sinon le texte blanc
+   est invisible. Idem pour les verdicts : texte fixe sombre sur fond
+   *-soft qui bascule en sombre en mode sombre → texte clair. */
+@media (prefers-color-scheme: dark){
+  .today-card,.resume-card,.me-card,.login-logo{background:#0e2a44;color:#fff;}
+  .verdict.perfect{color:#7ddba8;} .verdict.partial{color:#f5c542;} .verdict.zero{color:#ff9a8a;}
+  .reveal b{color:#f5c542;}
+}
 .hero-eyebrow{margin:0 0 10px;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);}
 .hero-title{margin:0;font-family:Newsreader,Georgia,serif;font-weight:600;font-size:clamp(30px,7.5vw,40px);line-height:1.08;letter-spacing:-.01em;color:#fff;}
 .hero-sub{margin:12px 0 0;font-size:15px;line-height:1.65;color:rgba(255,255,255,.85);}
