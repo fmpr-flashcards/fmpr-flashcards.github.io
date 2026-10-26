@@ -57,7 +57,7 @@ function vLogin(err, mode) {
     </section>
     <div class="login-wrap">
     <div class="login-card">
-      <div class="login-logo" aria-hidden="true"><svg viewBox="0 0 64 64" width="34" height="34"><rect width="64" height="64" rx="16" fill="none"/><text x="32" y="44" font-family="Georgia, serif" font-size="34" font-weight="700" fill="#fff" text-anchor="middle">F</text></svg></div>
+      <div class="login-logo" aria-hidden="true"><img src="icon-512.png" alt="Flashcards" width="56" height="56"></div>
       <h1>${isSignup ? 'Créer ton compte FMPR' : 'Bon retour'}</h1>
       <p class="login-sub">Choisis ta faculté, puis ${isSignup ? 'crée ton compte' : 'connecte-toi'} pour reprendre où tu t’étais arrêté.<br><b>468 sujets · 10 763 cartes</b> · QCM · classement</p>
       <label class="fld"><span>Faculté</span>
