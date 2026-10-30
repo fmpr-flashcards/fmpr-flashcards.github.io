@@ -5,14 +5,14 @@
      chargées à la demande par page, disponibles hors-ligne.
    Les appels Firebase / Google ne sont jamais mis en cache.
    IMPORTANT : incrémenter CACHE à chaque changement de stratégie/fichiers. */
-const CACHE = 'fmpr-v43';
+const CACHE = 'fmpr-v44';
 const CORE = [
   './', 'index.html', 'home.html', 'discipline.html', 'topic.html',
   'qcm.html', 'qcm-sujets.html', 'qcm-setup.html', 'quiz.html',
   'classement.html', 'plan.html', 'profil.html', 'pathologies.html',
   'um6ss.html', 'um6ss-quiz.html', 'um6ss-logo.png',
   'styles.css', 'firebase-config.js', 'manifest.json',
-  'js/common.js', 'js/login.js', 'js/home.js', 'js/discipline.js',
+  'js/common.js', 'js/login.js', 'js/home.js', 'js/atlas-promo.js', 'js/discipline.js',
   'js/topic.js', 'js/qcm.js', 'js/quiz.js', 'js/classement.js',
   'js/plan.js', 'js/profil.js', 'js/patho.js', 'js/um6ss.js', 'js/um6ss-quiz.js',
   'vendor/firebase/firebase-app.js', 'vendor/firebase/firebase-auth.js',
