@@ -5,8 +5,7 @@
    "file": "admissibilite/anat.json",
    "focus": "Anatomie descriptive, fonctionnelle et topographique.",
    "id": "anat",
-   "n": 2000,
-   "subject": "Anatomie",
+   "n": 2039,
    "time": "2 heures"
   },
   {
@@ -14,7 +13,7 @@
    "file": "admissibilite/bio.json",
    "focus": "Physiologie, biochimie, immunologie, microbiologie et histologie.",
    "id": "bio",
-   "n": 2000,
+   "n": 2150,
    "subject": "Biologie",
    "time": "2 heures"
   },
@@ -23,7 +22,7 @@
    "file": "admissibilite/med.json",
    "focus": "Clinique, diagnostic et traitement médical des maladies de système.",
    "id": "med",
-   "n": 2000,
+   "n": 2411,
    "subject": "Pathologie médicale",
    "time": "2 heures"
   },
@@ -32,7 +31,7 @@
    "file": "admissibilite/chir.json",
    "focus": "Pathologies chirurgicales, indications opératoires, bilan pré-opératoire et complications.",
    "id": "chir",
-   "n": 2000,
+   "n": 2105,
    "subject": "Pathologie chirurgicale",
    "time": "2 heures"
   }
@@ -43,14 +42,14 @@
    "focus": "Présentation aiguë, réflexe diagnostique initial et réanimation immédiate.",
    "id": "urg-med",
    "title": "Urgence médicale / Spécialité médicale",
-   "cases": 50
+   "cases": 106
   },
   {
    "coef": 1,
    "focus": "Indications chirurgicales, triage abdomen aigu / traumatisme, bilan pré-opératoire.",
    "id": "urg-chir",
    "title": "Urgence chirurgicale / Spécialité chirurgicale",
-   "cases": 50
+   "cases": 90
   },
   {
    "coef": 1,

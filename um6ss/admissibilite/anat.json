@@ -45139,5 +45139,941 @@
    2
   ],
   "id": "anat-2000"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : c'est la composition classique de la rangée proximale du carpe.",
+   "Vrai : c'est la composition classique de la rangée distale du carpe.",
+   "Vrai : le capitatum (grand os) est le plus volumineux et l'os central du carpe.",
+   "Vrai : le pisiforme est un os sésamoïde dans le tendon du fléchisseur ulnaire du carpe.",
+   "Faux : le scaphoïde appartient à la première rangée du carpe."
+  ],
+  "options": [
+   "La première rangée comprend, de dehors en dedans : scaphoïde, lunatum, triquetrum et pisiforme",
+   "La deuxième rangée comprend : trapèze, trapézoïde, capitatum et hamatum",
+   "Le capitatum est l'os le plus volumineux du carpe",
+   "Le pisiforme est un os sésamoïde situé dans le tendon du fléchisseur ulnaire du carpe",
+   "Le scaphoïde fait partie de la deuxième rangée du carpe"
+  ],
+  "q": "Concernant les os du carpe, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2001"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le ligament scapho-lunaire est essentiel à la stabilité de la première rangée.",
+   "Vrai : le ligament radio-scapho-capital fait partie des ligaments extrinsèques palmaires.",
+   "Vrai : sa rupture provoque un diastasis scapho-lunaire et une instabilité carpienne.",
+   "Vrai : le ligament collatéral ulnaire relie l'ulna au triquetrum et au pisiforme.",
+   "Faux : le ligament scapho-lunaire unit bien le scaphoïde et le lunatum."
+  ],
+  "options": [
+   "Le ligament scapho-lunaire est le ligament intrinsèque le plus important du poignet",
+   "Le ligament radio-scapho-capital est un ligament extrinsèque palmaire",
+   "La rupture du ligament scapho-lunaire entraîne une instabilité du carpe",
+   "Le ligament collatéral ulnaire du poignet s'insère sur le triquetrum",
+   "Il n'existe aucun ligament entre le scaphoïde et le lunatum"
+  ],
+  "q": "Concernant les ligaments du poignet, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2002"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la flexion du poignet atteint environ 80 à 85°.",
+   "Vrai : l'extension du poignet atteint environ 70 à 85°.",
+   "Vrai : l'inclinaison radiale est limitée à environ 15° par la styloïde radiale.",
+   "Vrai : l'inclinaison ulnaire est plus ample, de 30 à 45°.",
+   "Faux : la combinaison des mouvements permet la circumduction du poignet."
+  ],
+  "options": [
+   "La flexion du poignet a une amplitude d'environ 85°",
+   "L'extension du poignet a une amplitude d'environ 85°",
+   "L'inclinaison radiale (abduction) a une amplitude d'environ 15°",
+   "L'inclinaison ulnaire (adduction) a une amplitude d'environ 30 à 45°",
+   "Le poignet ne permet aucun mouvement de circumduction"
+  ],
+  "q": "Concernant les mouvements de l'articulation du poignet, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2003"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : les deux artères de l'avant-bras vascularisent le poignet et la main.",
+   "Vrai : l'arcade palmaire superficielle provient surtout de l'artère ulnaire.",
+   "Vrai : l'arcade palmaire profonde provient surtout de l'artère radiale.",
+   "Vrai : l'artère radiale traverse la tabatière anatomique, entre les tendons extenseurs.",
+   "Faux : l'artère ulnaire participe aussi à la vascularisation du poignet."
+  ],
+  "options": [
+   "L'artère radiale et l'artère ulnaire participent à la vascularisation du poignet",
+   "L'arcade palmaire superficielle est formée principalement par l'artère ulnaire",
+   "L'arcade palmaire profonde est formée principalement par l'artère radiale",
+   "L'artère radiale passe dans la tabatière anatomique au niveau du poignet",
+   "Le poignet est vascularisé uniquement par l'artère radiale"
+  ],
+  "q": "Concernant la vascularisation du poignet et de la main, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2004"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le nerf médian traverse le canal carpien avec 9 tendons fléchisseurs.",
+   "Vrai : le nerf ulnaire chemine dans le canal de Guyon, entre le pisiforme et l'hamulus.",
+   "Vrai : la branche sensitive du nerf radial innerve le dos de la première commissure.",
+   "Vrai : le nerf médian innerve les muscles thénariens, sauf l'adducteur (nerf ulnaire).",
+   "Faux : le nerf ulnaire passe bien au poignet, dans le canal de Guyon."
+  ],
+  "options": [
+   "Le nerf médian traverse le canal carpien avec les tendons fléchisseurs",
+   "Le nerf ulnaire passe dans le canal de Guyon, en dedans du pisiforme",
+   "La branche superficielle du nerf radial innerve la face dorsale de la première commissure",
+   "Le nerf médian innerve les muscles de l'éminence thénar (sauf l'adducteur du pouce)",
+   "Le nerf ulnaire ne passe jamais au niveau du poignet"
+  ],
+  "q": "Concernant l'innervation de la région du poignet, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2005"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "explain": [
+   "Vrai : le rétinaculum des fléchisseurs ferme le canal en avant.",
+   "Vrai : 8 tendons des fléchisseurs superficiel et profond des doigts + 1 tendon du long fléchisseur du pouce + nerf médian.",
+   "Vrai : le long fléchisseur du pouce possède sa propre gaine synoviale.",
+   "Faux : le nerf ulnaire passe dans le canal de Guyon, en dehors du canal carpien.",
+   "Vrai : la compression du nerf médian dans ce canal donne le syndrome du canal carpien."
+  ],
+  "options": [
+   "Son toit est formé par le rétinaculum des fléchisseurs (ligament annulaire antérieur)",
+   "Il contient 9 tendons fléchisseurs et le nerf médian",
+   "Le tendon du long fléchisseur du pouce y est contenu dans sa propre gaine",
+   "Le nerf ulnaire traverse le canal carpien",
+   "Sa compression entraîne le syndrome du canal carpien"
+  ],
+  "q": "Concernant le canal carpien, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2006"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le TFCC comble l'espace entre la tête ulnaire et le carpe.",
+   "Vrai : il s'attache à l'ulna distal et à la styloïde ulnaire.",
+   "Vrai : cette articulation est l'axe de la pronosupination de l'avant-bras.",
+   "Vrai : le TFCC est un stabilisateur majeur de l'articulation radio-ulnaire distale.",
+   "Faux : l'ulna ne touche pas le lunatum ; le TFCC s'interpose."
+  ],
+  "options": [
+   "Le fibrocartilage triangulaire (TFCC) s'interpose entre l'ulna et le carpe",
+   "Le TFCC s'insère sur la tête ulnaire et la base de la styloïde ulnaire",
+   "L'articulation radio-ulnaire distale permet la pronation et la supination",
+   "Le TFCC stabilise l'articulation radio-ulnaire distale",
+   "L'ulna s'articule directement avec le lunatum sans interposition"
+  ],
+  "q": "Concernant l'articulation radio-ulnaire distale et le TFCC, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2007"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : six coulisses dorsales livrent passage aux tendons extenseurs.",
+   "Vrai : le long abducteur et le court extenseur du pouce forment la limite latérale.",
+   "Vrai : le long extenseur du pouce forme la limite médiale de la tabatière.",
+   "Vrai : les fléchisseurs passent en avant, dans le canal carpien.",
+   "Faux : il existe six coulisses dorsales pour les tendons extenseurs."
+  ],
+  "options": [
+   "Les tendons extenseurs passent dans 6 coulisses sous le rétinaculum des extenseurs",
+   "La tabatière anatomique est limitée par les tendons du long abducteur et du court extenseur du pouce en dehors",
+   "Le tendon du long extenseur du pouce limite la tabatière en dedans",
+   "Les tendons fléchisseurs passent en avant du poignet, dans le canal carpien",
+   "Il n'existe aucune coulisse tendineuse à la face dorsale du poignet"
+  ],
+  "q": "Concernant les rapports tendineux du poignet, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2008"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le scaphoïde est le premier os carpien fracturé en fréquence.",
+   "Vrai : sa vascularisation rétrograde rend le pôle proximal vulnérable.",
+   "Vrai : pseudarthrose et nécrose avasculaire sont les complications classiques.",
+   "Vrai : le scaphoïde s'articule avec ces cinq os.",
+   "Faux : sa vascularisation est précaire et rétrograde, d'où le risque de nécrose."
+  ],
+  "options": [
+   "C'est l'os du carpe le plus souvent fracturé",
+   "Sa vascularisation est précaire, surtout pour son pôle proximal",
+   "Sa fracture peut se compliquer de pseudarthrose et de nécrose du pôle proximal",
+   "Il s'articule avec le radius, le lunatum, le capitatum, le trapèze et le trapézoïde",
+   "Il est vascularisé par une artère unique à riche réseau anastomotique"
+  ],
+  "q": "Concernant le scaphoïde, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2009"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la cheville est une articulation en poulie à un seul degré de liberté.",
+   "Vrai : la trochlée du talus s'engage dans la mortaise tibio-fibulaire.",
+   "Vrai : le pilon tibial et les malléoles médiale et latérale forment la mortaise.",
+   "Vrai : son seul mouvement est la flexion dorsale / flexion plantaire.",
+   "Faux : l'énarthrose à trois degrés de liberté est le modèle de la hanche ou de l'épaule."
+  ],
+  "options": [
+   "C'est une trochléarthrose (ginglyme) à un degré de liberté",
+   "Elle unit la mortaise tibio-fibulaire à la trochlée du talus",
+   "La mortaise est formée par l'extrémité distale du tibia et les deux malléoles",
+   "Elle permet la flexion dorsale et la flexion plantaire du pied",
+   "C'est une énarthrose à trois degrés de liberté"
+  ],
+  "q": "Concernant l'articulation tibio-tarsienne (cheville), quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2010"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le deltoïde rayonne de la malléole médiale vers ces trois os du tarse.",
+   "Vrai : les faisceaux tibio-talaires antérieur et postérieur en font partie.",
+   "Vrai : les faisceaux tibio-calcanéen et tibio-naviculaire complètent le deltoïde.",
+   "Vrai : c'est un ligament très résistant, le plus fort de la cheville.",
+   "Faux : le deltoïde est plus puissant que le ligament collatéral latéral."
+  ],
+  "options": [
+   "Il s'étend de la malléole médiale au talus, au calcanéus et au naviculaire",
+   "Il comprend un faisceau tibio-talaire antérieur et un faisceau tibio-talaire postérieur",
+   "Il comprend un faisceau tibio-calcanéen et un faisceau tibio-naviculaire",
+   "C'est le ligament le plus puissant de la cheville",
+   "Il est plus faible que le ligament collatéral latéral"
+  ],
+  "q": "Concernant le ligament collatéral médial (deltoïde) de la cheville, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2011"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : ces trois faisceaux constituent le ligament collatéral latéral.",
+   "Vrai : le faisceau antérieur est le premier atteint dans l'entorse en inversion.",
+   "Vrai : il relie la malléole latérale au talus et au calcanéus.",
+   "Vrai : le faisceau calcanéo-fibulaire chemine en dehors de la capsule.",
+   "Faux : le faisceau tibio-talaire postérieur appartient au ligament deltoïde."
+  ],
+  "options": [
+   "Il comprend trois faisceaux : talo-fibulaire antérieur, calcanéo-fibulaire et talo-fibulaire postérieur",
+   "Le faisceau talo-fibulaire antérieur est le plus souvent lésé dans l'entorse de cheville",
+   "Il s'étend de la malléole latérale (fibula) au talus et au calcanéus",
+   "Le faisceau calcanéo-fibulaire est extra-articulaire",
+   "Il comprend un faisceau tibio-talaire postérieur"
+  ],
+  "q": "Concernant le ligament collatéral latéral de la cheville, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2012"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la flexion dorsale atteint environ 20 à 30°.",
+   "Vrai : la flexion plantaire atteint environ 30 à 50°.",
+   "Vrai : le triceps sural (tendon d'Achille) freine la flexion dorsale.",
+   "Vrai : le col du talus bute contre le bord antérieur du tibia en flexion plantaire.",
+   "Faux : inversion et éversion se font dans les articulations sous-talienne et médio-tarsienne."
+  ],
+  "options": [
+   "La flexion dorsale a une amplitude d'environ 20 à 30°",
+   "La flexion plantaire a une amplitude d'environ 30 à 50°",
+   "La flexion dorsale est limitée par le tendon d'Achille et la capsule postérieure",
+   "La flexion plantaire est limitée par le contact du col du talus avec le tibia",
+   "L'inversion et l'éversion sont des mouvements de l'articulation tibio-tarsienne"
+  ],
+  "q": "Concernant les mouvements de la cheville, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2013"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : c'est l'ordre des tendons extenseurs en avant de la cheville.",
+   "Vrai : l'artère tibiale antérieure se poursuit par l'artère dorsale du pied.",
+   "Vrai : le nerf fibulaire profond accompagne l'artère tibiale antérieure.",
+   "Vrai : le rétinaculum des extenseurs plaque les tendons contre la cheville.",
+   "Faux : le nerf tibial passe en arrière de la malléole médiale."
+  ],
+  "options": [
+   "On y trouve, de dedans en dehors : tibial antérieur, long extenseur de l'hallux, long extenseur des orteils, troisième fibulaire",
+   "L'artère tibiale antérieure devient l'artère dorsale du pied au niveau de la cheville",
+   "Le nerf fibulaire profond chemine avec l'artère tibiale antérieure",
+   "Le rétinaculum supérieur des extenseurs maintient les tendons en avant de la cheville",
+   "Le nerf tibial passe en avant de la cheville"
+  ],
+  "q": "Concernant les rapports antérieurs de la cheville, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2014"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : c'est l'ordre des éléments dans la gouttière rétro-malléolaire médiale.",
+   "Vrai : le tendon d'Achille se termine sur la tubérosité postérieure du calcanéus.",
+   "Vrai : le rétinaculum des fléchisseurs ferme le tunnel tarsien en dedans.",
+   "Vrai : sa compression donne le syndrome du tunnel tarsien.",
+   "Faux : le tendon d'Achille appartient au triceps sural (gastrocnémiens + soléaire)."
+  ],
+  "options": [
+   "En arrière de la malléole médiale passent : tibial postérieur, long fléchisseur des orteils, artère et nerf tibiaux, long fléchisseur de l'hallux",
+   "Le tendon d'Achille s'insère sur la face postérieure du calcanéus",
+   "Le tunnel tarsien est délimité par le rétinaculum des fléchisseurs",
+   "Le nerf tibial peut être comprimé dans le tunnel tarsien",
+   "Le tendon d'Achille est le tendon du muscle tibial antérieur"
+  ],
+  "q": "Concernant les rapports postérieurs et médiaux de la cheville, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2015"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la tibiale antérieure fournit les malléolaires antérieures.",
+   "Vrai : la tibiale postérieure fournit la malléolaire postérieure médiale.",
+   "Vrai : la fibulaire fournit la malléolaire postérieure latérale.",
+   "Vrai : ces branches forment un riche réseau péri-malléolaire.",
+   "Faux : les trois artères de jambe participent à la vascularisation de la cheville."
+  ],
+  "options": [
+   "L'artère tibiale antérieure donne les artères malléolaires antérieures médiale et latérale",
+   "L'artère tibiale postérieure donne l'artère malléolaire postérieure médiale",
+   "L'artère fibulaire (péronière) donne l'artère malléolaire postérieure latérale",
+   "Les artères malléolaires forment un réseau anastomotique autour de la cheville",
+   "La cheville est vascularisée uniquement par l'artère tibiale antérieure"
+  ],
+  "q": "Concernant la vascularisation de la cheville, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2016"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le fibulaire profond innerve la première commissure dorsale.",
+   "Vrai : le fibulaire superficiel assure la sensibilité du dos du pied.",
+   "Vrai : le nerf tibial se divise en nerfs plantaires médial et latéral.",
+   "Vrai : le nerf saphène innerve le bord médial de la cheville et du pied.",
+   "Faux : le nerf sural innerve la face latérale, non médiale, de la cheville et du pied."
+  ],
+  "options": [
+   "Le nerf fibulaire profond innerve la face dorsale de la première commissure",
+   "Le nerf fibulaire superficiel innerve le dos du pied et des orteils",
+   "Le nerf tibial innerve la plante du pied par les nerfs plantaires médial et latéral",
+   "Le nerf saphène innerve la face médiale de la cheville et du pied",
+   "Le nerf sural innerve la face médiale de la cheville et du pied"
+  ],
+  "q": "Concernant l'innervation de la région de la cheville, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2017"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la syndesmose solidarise tibia et fibula juste au-dessus de la cheville.",
+   "Vrai : les ligaments tibio-fibulaires antérieur et postérieur en font partie.",
+   "Vrai : le ligament interosseux distal complète la syndesmose.",
+   "Vrai : sa rupture ouvre la mortaise et déstabilise la cheville.",
+   "Faux : c'est une syndesmose fibreuse, non une articulation synoviale mobile."
+  ],
+  "options": [
+   "Elle unit le tibia et la fibula au-dessus de la mortaise",
+   "Elle comprend le ligament tibio-fibulaire antérieur et le ligament tibio-fibulaire postérieur",
+   "Elle comprend le ligament interosseux tibio-fibulaire distal",
+   "Sa lésion entraîne un diastasis tibio-fibulaire et une instabilité de la mortaise",
+   "C'est une articulation synoviale mobile"
+  ],
+  "q": "Concernant la syndesmose tibio-fibulaire distale, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2018"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le talus est le seul os du pied sans insertion musculaire.",
+   "Vrai : sa trochlée forme la surface articulaire supérieure de la cheville.",
+   "Vrai : sa tête s'articule avec le naviculaire (articulation talo-naviculaire).",
+   "Vrai : il s'appuie sur le calcanéus par l'articulation sous-talienne.",
+   "Faux : sa vascularisation est précaire, d'où le risque de nécrose après fracture."
+  ],
+  "options": [
+   "Il ne reçoit aucune insertion musculaire",
+   "Sa trochlée s'articule avec la mortaise tibio-fibulaire",
+   "Sa tête s'articule avec le naviculaire en avant",
+   "Il repose sur le calcanéus par l'articulation sous-talienne",
+   "Il est richement vascularisé par un réseau anastomotique dense"
+  ],
+  "q": "Concernant le talus (astragale), quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2019"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "explain": [
+   "Vrai : le testicule est ovoïde, aplati transversalement.",
+   "Vrai : c'est la description classique des faces, bords et pôles testiculaires.",
+   "Faux : le grand axe est oblique en bas et en avant.",
+   "Vrai : le testicule adulte pèse environ 20 g.",
+   "Vrai : il est logé dans les bourses, sous le canal inguinal."
+  ],
+  "options": [
+   "Le testicule a la forme d'un ovoïde aplati transversalement",
+   "Il présente deux faces (médiale et latérale), deux bords (antérieur et postérieur) et deux pôles (supérieur et inférieur)",
+   "Son grand axe est oblique en bas et en arrière",
+   "Son poids moyen est d'environ 20 grammes chez l'adulte",
+   "Il est situé dans la bourse, en dessous du canal inguinal"
+  ],
+  "q": "Concernant la morphologie du testicule, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2020"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : l'albuginée est la capsule fibreuse propre du testicule.",
+   "Vrai : la vaginale, dérivée du péritoine, a un feuillet pariétal et un viscéral.",
+   "Vrai : le dartos est un muscle peaucier qui plisse le scrotum.",
+   "Vrai : le crémaster provient de l'oblique interne et du transverse.",
+   "Faux : la couche la plus superficielle est la peau du scrotum, l'albuginée est profonde."
+  ],
+  "options": [
+   "La tunique albuginée est une capsule fibreuse épaisse entourant le testicule",
+   "La tunique vaginale est une séreuse à deux feuillets (pariétal et viscéral)",
+   "Le dartos est un muscle lisse sous-cutané qui ride la peau des bourses",
+   "Le muscle crémaster est une dépendance du muscle oblique interne",
+   "La tunique albuginée est la couche la plus superficielle des enveloppes"
+  ],
+  "q": "Concernant les enveloppes du testicule, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2021"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : l'artère testiculaire (gonadique) naît de l'aorte en L2.",
+   "Vrai : la veine testiculaire droite se draine dans la veine cave inférieure.",
+   "Vrai : la veine testiculaire gauche se draine dans la veine rénale gauche.",
+   "Vrai : le plexus veineux pampiniforme refroidit le sang artériel (échangeur thermique).",
+   "Faux : l'artère testiculaire naît de l'aorte abdominale, non de l'iliaque interne."
+  ],
+  "options": [
+   "L'artère testiculaire naît de l'aorte abdominale en regard de L2",
+   "La veine testiculaire droite se jette dans la veine cave inférieure",
+   "La veine testiculaire gauche se jette dans la veine rénale gauche",
+   "Le plexus pampiniforme assure la thermorégulation testiculaire",
+   "L'artère testiculaire naît de l'artère iliaque interne"
+  ],
+  "q": "Concernant la vascularisation du testicule, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2022"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le drainage testiculaire gagne les ganglions para-aortiques.",
+   "Vrai : les lymphatiques suivent les vaisseaux gonadiques jusqu'à l'abdomen.",
+   "Vrai : les ganglions inguinaux ne drainent que la peau scrotale, pas le testicule.",
+   "Vrai : les ganglions para-aortiques entourent l'aorte et la veine cave inférieure.",
+   "Faux : les ganglions iliaques externes ne drainent pas le testicule."
+  ],
+  "options": [
+   "Il se fait vers les ganglions para-aortiques (lombaires)",
+   "Il suit le pédicule vasculaire testiculaire vers l'abdomen",
+   "Il ne se fait jamais vers les ganglions inguinaux (sauf peau du scrotum envahie)",
+   "Les ganglions para-aortiques sont situés entre l'aorte et la veine cave inférieure",
+   "Il se fait vers les ganglions iliaques externes"
+  ],
+  "q": "Concernant le drainage lymphatique du testicule, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2023"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la spermatogenèse a lieu dans les tubes séminifères.",
+   "Vrai : le rete testis occupe le médiastin testiculaire.",
+   "Vrai : l'albuginée cloisonne le testicule en 200 à 300 lobules.",
+   "Vrai : les cellules de Leydig interstitielles produisent la testostérone.",
+   "Faux : les tubes séminifères se drainent dans le rete testis, puis les cônes efférents."
+  ],
+  "options": [
+   "Les tubes séminifères sont le siège de la spermatogenèse",
+   "Le médiastin testiculaire (corps de Highmore) contient le rete testis",
+   "La tunique albuginée envoie des cloisons délimitant environ 250 lobules",
+   "Les cellules de Leydig, situées entre les tubes, sécrètent la testostérone",
+   "Les tubes séminifères se drainent directement dans le canal déférent"
+  ],
+  "q": "Concernant la structure interne du testicule, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2024"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : l'épididyme longe le bord postérieur du testicule.",
+   "Vrai : tête, corps et queue sont ses trois parties.",
+   "Vrai : les spermatozoïdes y mûrissent et y sont stockés.",
+   "Vrai : la queue de l'épididyme se poursuit par le canal déférent.",
+   "Faux : l'épididyme est postérieur, non antérieur, par rapport au testicule."
+  ],
+  "options": [
+   "Il coiffe le bord postérieur du testicule",
+   "Il comprend une tête, un corps et une queue",
+   "Il est le lieu de maturation et de stockage des spermatozoïdes",
+   "Sa queue se continue par le canal déférent",
+   "Il est situé en avant du testicule"
+  ],
+  "q": "Concernant l'épididyme, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2025"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le canal déférent est l'élément principal du cordon.",
+   "Vrai : les vaisseaux testiculaires cheminent dans le cordon.",
+   "Vrai : le plexus pampiniforme entoure l'artère testiculaire dans le cordon.",
+   "Vrai : ces nerfs accompagnent le cordon spermatique.",
+   "Faux : l'uretère ne fait pas partie du cordon spermatique."
+  ],
+  "options": [
+   "Il contient le canal déférent",
+   "Il contient l'artère et la veine testiculaires",
+   "Il contient le plexus pampiniforme",
+   "Il contient le nerf ilio-inguinal et le rameau génital du nerf génito-fémoral",
+   "Il contient l'uretère"
+  ],
+  "q": "Concernant le cordon spermatique, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2026"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le testicule naît dans la région lombaire, près du rein.",
+   "Vrai : le gubernaculum guide la migration testiculaire.",
+   "Vrai : le testicule est normalement dans les bourses à la naissance.",
+   "Vrai : la cryptorchidie désigne un testicule non descendu.",
+   "Faux : le testicule se développe dans l'abdomen, puis migre vers les bourses."
+  ],
+  "options": [
+   "Le testicule se développe initialement dans la région lombaire",
+   "Le gubernaculum testis guide sa descente vers les bourses",
+   "La descente s'achève normalement avant la naissance",
+   "La cryptorchidie est l'absence de descente complète du testicule",
+   "Le testicule se développe initialement dans les bourses"
+  ],
+  "q": "Concernant la descente du testicule (migration), quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2027"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le déférent fait suite à la queue de l'épididyme.",
+   "Vrai : il monte dans le cordon spermatique à travers le canal inguinal.",
+   "Vrai : il s'unit au conduit de la vésicule séminale.",
+   "Vrai : leur union forme le canal éjaculateur qui s'ouvre dans l'urètre prostatique.",
+   "Faux : le canal déférent transporte les spermatozoïdes, non l'urine."
+  ],
+  "options": [
+   "Il prolonge la queue de l'épididyme",
+   "Il traverse le canal inguinal dans le cordon spermatique",
+   "Il se termine en s'unissant au conduit excréteur de la vésicule séminale",
+   "Il forme avec ce conduit le canal éjaculateur",
+   "Il transporte l'urine de la vessie vers l'urètre"
+  ],
+  "q": "Concernant le canal déférent, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2028"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le testicule droit est habituellement plus haut que le gauche.",
+   "Vrai : le canal inguinal contient le cordon spermatique.",
+   "Vrai : l'épididyme coiffe le bord postérieur du testicule.",
+   "Vrai : l'hydrocèle est un épanchement dans la cavité vaginale.",
+   "Faux : le testicule gauche est vascularisé par l'artère testiculaire gauche, branche de l'aorte."
+  ],
+  "options": [
+   "Le testicule droit est généralement plus haut que le gauche",
+   "Le canal inguinal livre passage au cordon spermatique",
+   "Le testicule est en rapport en arrière avec l'épididyme",
+   "L'hydrocèle est un épanchement liquidien de la tunique vaginale",
+   "Le testicule gauche est vascularisé par l'artère iliaque gauche"
+  ],
+  "q": "Concernant les rapports du testicule, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2029"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le sein s'étend verticalement de la 2e à la 6e côte.",
+   "Vrai : il s'étend du sternum à la ligne axillaire moyenne.",
+   "Vrai : il repose sur le grand pectoral et le dentelé antérieur.",
+   "Vrai : le mamelon occupe le centre de l'aréole pigmentée.",
+   "Faux : le sein s'étend de la 2e à la 6e côte, non de la 1re à la 12e."
+  ],
+  "options": [
+   "Le sein s'étend de la 2e à la 6e côte en hauteur",
+   "Il s'étend du bord du sternum à la ligne axillaire moyenne en largeur",
+   "Il repose sur le muscle grand pectoral et le dentelé antérieur",
+   "Le mamelon est situé au centre de l'aréole",
+   "Le sein s'étend de la 1re à la 12e côte"
+  ],
+  "q": "Concernant la situation et la morphologie du sein, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2030"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la glande mammaire compte 15 à 25 lobes.",
+   "Vrai : chaque lobe possède son canal galactophore s'ouvrant au mamelon.",
+   "Vrai : les lobes se divisent en lobules formés d'acini sécréteurs.",
+   "Vrai : le sinus lactifère est la dilatation pré-mamelonnaire du galactophore.",
+   "Faux : c'est une glande exocrine qui sécrète le lait vers l'extérieur."
+  ],
+  "options": [
+   "Elle est formée de 15 à 25 lobes",
+   "Chaque lobe se draine par un canal galactophore qui s'ouvre au mamelon",
+   "Chaque lobe est divisé en lobules contenant des acini",
+   "Le sinus lactifère est une dilatation du canal galactophore avant le mamelon",
+   "La glande mammaire est une glande endocrine"
+  ],
+  "q": "Concernant la glande mammaire, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2031"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "explain": [
+   "Vrai : les ligaments de Cooper unissent la peau au fascia pectoral.",
+   "Vrai : ils assurent la suspension de la glande mammaire.",
+   "Vrai : leur rétraction par une tumeur donne l'aspect en capiton de la peau.",
+   "Faux : ils n'ont aucun rapport avec l'articulation de l'épaule.",
+   "Vrai : ils contribuent au maintien de la forme du sein."
+  ],
+  "options": [
+   "Ce sont des travées fibreuses reliant la peau à l'aponévrose du grand pectoral",
+   "Ils soutiennent la glande mammaire",
+   "Leur envahissement tumoral provoque une rétraction cutanée (capiton)",
+   "Ils sont des ligaments de la capsule articulaire de l'épaule",
+   "Ils participent au maintien de la forme du sein"
+  ],
+  "q": "Concernant les ligaments suspenseurs du sein (ligaments de Cooper), quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2032"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "explain": [
+   "Vrai : la thoracique interne donne des rameaux mammaires internes.",
+   "Vrai : l'axillaire donne la thoracique latérale et des rameaux mammaires.",
+   "Vrai : les intercostales postérieures donnent des rameaux mammaires.",
+   "Faux : la vascularisation du sein provient de plusieurs sources artérielles.",
+   "Vrai : la thoracique latérale naît de l'artère axillaire."
+  ],
+  "options": [
+   "L'artère thoracique interne (mammaire interne) vascularise le sein",
+   "L'artère axillaire donne des branches mammaires (thoracique latérale)",
+   "Les artères intercostales postérieures participent à la vascularisation du sein",
+   "La vascularisation du sein est assurée par une seule artère",
+   "L'artère thoracique latérale est une branche de l'artère axillaire"
+  ],
+  "q": "Concernant la vascularisation artérielle du sein, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2033"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : les veines mammaires accompagnent les artères homonymes.",
+   "Vrai : la veine thoracique interne draine la région médiale.",
+   "Vrai : la veine axillaire draine la région latérale.",
+   "Vrai : le plexus veineux sous-aréolaire de Haller entoure l'aréole.",
+   "Faux : les veines intercostales drainent aussi vers le système azygos."
+  ],
+  "options": [
+   "Les veines suivent le trajet des artères",
+   "La veine thoracique interne draine la partie médiale du sein",
+   "La veine axillaire draine la partie latérale du sein",
+   "Il existe un réseau veineux sous-aréolaire (plexus de Haller)",
+   "Le drainage veineux du sein se fait uniquement vers la veine cave supérieure"
+  ],
+  "q": "Concernant le drainage veineux du sein, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2034"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la voie axillaire draine environ 75 % de la lymphe du sein.",
+   "Vrai : les 5 groupes axillaires sont apical, huméral, sous-scapulaire, pectoral et central.",
+   "Vrai : la voie mammaire interne draine la partie médiale du sein.",
+   "Vrai : le ganglion sentinelle est le premier relais ganglionnaire de la tumeur.",
+   "Faux : la voie sus-claviculaire n'est qu'une voie secondaire, non la voie principale."
+  ],
+  "options": [
+   "La voie principale se fait vers les ganglions axillaires",
+   "On distingue 5 groupes ganglionnaires axillaires : apical, huméral, sous-scapulaire, pectoral et central",
+   "Une voie accessoire gagne les ganglions mammaires internes (parasternaux)",
+   "Le ganglion sentinelle est le premier ganglion drainant la tumeur",
+   "Tout le drainage lymphatique du sein se fait vers les ganglions sus-claviculaires"
+  ],
+  "q": "Concernant le drainage lymphatique du sein, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2035"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "explain": [
+   "Vrai : les nerfs intercostaux T2 à T6 innervent le sein.",
+   "Vrai : le nerf supraclaviculaire innerve la partie supéro-médiale du sein.",
+   "Vrai : le mamelon est riche en terminaisons nerveuses sensitives.",
+   "Faux : l'innervation sensitive du sein vient des nerfs intercostaux, non du plexus brachial.",
+   "Vrai : les rameaux perforants des intercostaux traversent le grand pectoral vers le sein."
+  ],
+  "options": [
+   "Elle provient des branches cutanées des nerfs intercostaux de T2 à T6",
+   "Le nerf supraclaviculaire participe à l'innervation de la partie supérieure du sein",
+   "Le mamelon est richement innervé et érogène",
+   "L'innervation du sein provient du plexus brachial",
+   "Les rameaux perforants intercostaux innervent la glande mammaire"
+  ],
+  "q": "Concernant l'innervation du sein, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2036"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "explain": [
+   "Vrai : le sein repose sur le fascia du muscle grand pectoral.",
+   "Vrai : la queue de Spence est le prolongement axillaire de la glande.",
+   "Vrai : l'espace rétro-mammaire sépare la glande du fascia pectoral.",
+   "Faux : le grand pectoral et le dentelé antérieur s'interposent entre le sein et les côtes.",
+   "Vrai : le prolongement axillaire traverse le fascia pectoral vers l'aisselle."
+  ],
+  "options": [
+   "En profondeur, le sein repose sur le fascia du grand pectoral",
+   "Le prolongement axillaire (queue de Spence) se dirige vers le creux axillaire",
+   "Le sein est séparé du muscle grand pectoral par l'espace rétro-mammaire",
+   "Le sein repose directement sur les côtes sans interposition musculaire",
+   "Le prolongement axillaire traverse le fascia du grand pectoral"
+  ],
+  "q": "Concernant les rapports du sein, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2037"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la division en 4 quadrants est la référence clinique.",
+   "Vrai : le quadrant supéro-externe est le plus riche en glande et le plus atteint.",
+   "Vrai : la queue de Spence prolonge le quadrant supéro-externe vers l'aisselle.",
+   "Vrai : le mamelon marque la jonction des quadrants supérieurs.",
+   "Faux : le cancer siège le plus souvent dans le quadrant supéro-externe."
+  ],
+  "options": [
+   "Le sein est divisé en 4 quadrants : supéro-externe, supéro-interne, inféro-externe, inféro-interne",
+   "Le quadrant supéro-externe est le plus volumineux et le plus souvent atteint par le cancer",
+   "Le quadrant supéro-externe contient le prolongement axillaire",
+   "La jonction des quadrants supérieurs correspond au mamelon",
+   "Le cancer du sein siège le plus souvent dans le quadrant inféro-interne"
+  ],
+  "q": "Concernant les quadrants du sein, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2038"
+ },
+ {
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la glande mammaire naît de la crête mammaire (ligne lactée).",
+   "Vrai : les œstrogènes commandent le développement pubertaire du sein.",
+   "Vrai : la prolactine assure la sécrétion et l'ocytocine l'éjection du lait.",
+   "Vrai : la gynécomastie est le développement de la glande mammaire chez l'homme.",
+   "Faux : le sein existe à l'état rudimentaire chez l'homme."
+  ],
+  "options": [
+   "La glande mammaire dérive de la crête mammaire embryonnaire",
+   "Le développement pubertaire du sein est sous dépendance œstrogénique",
+   "La lactation est déclenchée par la prolactine et l'ocytocine",
+   "La gynécomastie est un développement mammaire chez l'homme",
+   "La glande mammaire est totalement absente chez l'homme"
+  ],
+  "q": "Concernant le développement du sein, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "id": "anat-2039"
  }
 ]

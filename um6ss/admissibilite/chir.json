@@ -45112,5 +45112,2511 @@
    0
   ],
   "id": "chir-2000"
+ },
+ {
+  "q": "Concernant les fractures de l'extrémité distale du fémur, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "options": [
+   "Elles surviennent préférentiellement chez le sujet âgé ostéoporotique après chute de sa hauteur",
+   "La classification AO les divise en types A (extra-articulaires), B (articulaires partielles) et C (articulaires complètes)",
+   "Le déplacement en recurvatum est lié à la traction du muscle gastrocnémien sur le fragment distal",
+   "Le risque de pseudarthrose est élevé en raison de la vascularisation précaire",
+   "Le traitement orthopédique par traction est le traitement de référence chez l'adulte jeune"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : le mécanisme principal est la chute chez le sujet âgé ostéoporotique, et les traumatismes à haute énergie chez le jeune.",
+   "Vrai : c'est la classification AO/OTA de l'extrémité distale du fémur.",
+   "Vrai : le gastrocnémien attire le fragment distal en flexion/recurvatum.",
+   "Faux : la pseudarthrose est rare ; le risque principal est la raideur du genou et le cal vicieux.",
+   "Faux : le traitement est le plus souvent chirurgical (plaque verrouillée, clou rétrograde) ; la traction n'est qu'une mesure d'attente."
+  ],
+  "id": "chir-2001"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) complication(s) possible(s) d'une fracture de l'extrémité distale du fémur ?",
+  "options": [
+   "La raideur du genou",
+   "Le cal vicieux en varus ou en valgus",
+   "La lésion de l'artère poplitée",
+   "La pseudarthrose",
+   "La nécrose de la tête fémorale"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la raideur du genou est la complication fonctionnelle la plus fréquente.",
+   "Vrai : le cal vicieux fémoral distal compromet l'axe mécanique du membre.",
+   "Vrai : l'artère poplitée chemine en arrière du fémur distal et peut être lésée.",
+   "Vrai : la pseudarthrose est possible, surtout en cas de comminution ou d'ostéoporose.",
+   "Faux : la nécrose de la tête fémorale concerne les fractures du col du fémur, pas l'extrémité distale."
+  ],
+  "id": "chir-2002"
+ },
+ {
+  "q": "À propos du traitement des fractures de l'extrémité distale du fémur, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "options": [
+   "La plaque verrouillée latérale (LCP) est le traitement de référence des fractures articulaires",
+   "Le clou rétrograde est indiqué pour les fractures extra-articulaires et certaines articulaires simples",
+   "La mobilisation précoce du genou est recherchée pour limiter la raideur",
+   "La prothèse totale du genou est indiquée en première intention chez le sujet jeune actif",
+   "Le traitement orthopédique par plâtre est suffisant pour les fractures articulaires déplacées"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : la plaque verrouillée latérale permet une fixation stable des fractures complexes.",
+   "Vrai : le clou rétrograde fémoral est une option validée pour les fractures extra-articulaires.",
+   "Vrai : la mobilisation précoce limite la raideur et l'amyotrophie.",
+   "Faux : la prothèse totale du genou est réservée aux sujets très âgés avec arthrose préexistante et fracture comminutive.",
+   "Faux : les fractures articulaires déplacées nécessitent une réduction anatomique chirurgicale."
+  ],
+  "id": "chir-2003"
+ },
+ {
+  "q": "Parmi les propositions suivantes concernant la classification de Neer des fractures de l'extrémité distale du fémur, laquelle(lesquelles) est(sont) correcte(s) ?",
+  "options": [
+   "Elle distingue les fractures supracondyliennes, intercondyliennes et condyliennes",
+   "Les fractures supracondyliennes sont extra-articulaires",
+   "Les fractures intercondyliennes intéressent la surface articulaire",
+   "Les fractures unicondyliennes sont toujours extra-articulaires",
+   "Elle est la classification la plus utilisée en pratique courante"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : la classification de Neer décrit ces trois groupes.",
+   "Vrai : les fractures supracondyliennes se situent au-dessus des condyles, hors articulation.",
+   "Vrai : les fractures intercondyliennes traversent l'échancrure intercondylienne et la surface articulaire.",
+   "Faux : les fractures unicondyliennes sont articulaires (un seul condyle fracturé).",
+   "Faux : la classification AO/OTA est la plus utilisée en pratique courante."
+  ],
+  "id": "chir-2004"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant l'examen clinique d'une fracture de l'extrémité distale du fémur ?",
+  "options": [
+   "La douleur et l'impotence fonctionnelle du genou sont constantes",
+   "La déformation du genou est habituelle",
+   "Un examen vasculo-nerveux du membre doit être systématique",
+   "La recherche d'une ouverture cutanée est indispensable",
+   "Le flessum irréductible est le signe pathognomonique"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : douleur et impotence fonctionnelle sont quasi constantes.",
+   "Vrai : la déformation est fréquente, surtout en cas de déplacement important.",
+   "Vrai : l'examen vasculo-nerveux (pouls poplité, SPE/SPI) est obligatoire.",
+   "Vrai : l'ouverture cutanée définit la fracture ouverte et conditionne l'urgence.",
+   "Faux : il n'y a pas de signe pathognomonique unique ; le diagnostic repose sur la clinique et la radiographie."
+  ],
+  "id": "chir-2005"
+ },
+ {
+  "q": "Concernant la gonarthrose fémoro-tibiale sur déviation axiale, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "options": [
+   "Le genu varum surcharge le compartiment fémoro-tibial médial",
+   "Le genu valgum surcharge le compartiment fémoro-tibial latéral",
+   "La déviation axiale accélère l'usure cartilagineuse du compartiment surchargé",
+   "L'ostéotomie tibiale de valgisation est indiquée dans la gonarthrose médiale sur genu varum",
+   "La gonarthrose fémoro-tibiale est toujours bilatérale et symétrique"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le genu varum déplace la charge vers le compartiment interne.",
+   "Vrai : le genu valgum déplace la charge vers le compartiment externe.",
+   "Vrai : la surcharge mécanique accélère la dégradation cartilagineuse.",
+   "Vrai : l'ostéotomie de valgisation réaxe le membre et décharge le compartiment interne.",
+   "Faux : l'atteinte peut être unilatérale ou asymétrique."
+  ],
+  "id": "chir-2006"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant le diagnostic de la gonarthrose fémoro-tibiale ?",
+  "options": [
+   "La douleur est de type mécanique, majorée à l'effort et soulagée par le repos",
+   "La raideur matinale est généralement brève (< 30 minutes)",
+   "La radiographie standard montre un pincement de l'interligne, une ostéophytose et une ostéocondensation sous-chondrale",
+   "Le pangonogramme (goniométrie) permet de mesurer la déviation axiale",
+   "La biologie montre un syndrome inflammatoire marqué"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la douleur arthrosique est mécanique.",
+   "Vrai : le dérouillage matinal est bref, contrairement aux rhumatismes inflammatoires.",
+   "Vrai : ce sont les signes radiographiques classiques de l'arthrose.",
+   "Vrai : le pangonogramme en charge mesure l'axe mécanique HKA.",
+   "Faux : la biologie est le plus souvent normale dans l'arthrose primitive."
+  ],
+  "id": "chir-2007"
+ },
+ {
+  "q": "Parmi les traitements de la gonarthrose fémoro-tibiale sur déviation axiale, lequel(lesquels) est(sont) correct(s) ?",
+  "options": [
+   "Les antalgiques et les AINS constituent le traitement symptomatique de première ligne",
+   "La kinésithérapie vise à renforcer le quadriceps et à préserver les amplitudes",
+   "L'ostéotomie tibiale de valgisation est proposée chez le sujet jeune et actif avec gonarthrose unicompartimentale",
+   "La prothèse totale du genou est le traitement de référence de la gonarthrose tricompartimentale évoluée",
+   "L'infiltration de corticoïdes est contre-indiquée en cas de gonarthrose"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : antalgiques et AINS sont le socle du traitement médical.",
+   "Vrai : le renforcement musculaire et la mobilité sont essentiels.",
+   "Vrai : l'ostéotomie est indiquée chez le jeune actif avec atteinte unicompartimentale et déviation modérée.",
+   "Vrai : la prothèse totale est indiquée dans les formes évoluées tricompartimentales.",
+   "Faux : l'infiltration de corticoïdes est possible (soulagement de courte durée) ; elle n'est pas contre-indiquée."
+  ],
+  "id": "chir-2008"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant l'ostéotomie tibiale de valgisation ?",
+  "options": [
+   "Elle vise à corriger la déviation en varus en déplaçant la charge vers le compartiment latéral",
+   "Elle est indiquée en cas de gonarthrose fémoro-tibiale médiale sur genu varum",
+   "Elle nécessite un compartiment latéral et une articulation fémoro-patellaire peu atteints",
+   "Elle est contre-indiquée en cas de laxité ligamentaire majeure",
+   "Elle supprime définitivement le recours à une prothèse totale du genou"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la valgisation transfère la charge vers le compartiment externe sain.",
+   "Vrai : c'est l'indication principale de l'ostéotomie tibiale.",
+   "Vrai : le compartiment latéral doit être préservé pour supporter la charge transférée.",
+   "Vrai : une laxité majeure ou une atteinte tricompartimentale contre-indique l'ostéotomie.",
+   "Faux : la prothèse peut être nécessaire ultérieurement ; l'ostéotomie retarde mais ne supprime pas toujours ce recours."
+  ],
+  "id": "chir-2009"
+ },
+ {
+  "q": "Concernant la gonarthrose fémoro-tibiale latérale sur genu valgum, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "options": [
+   "Elle est moins fréquente que la gonarthrose médiale",
+   "Elle peut être secondaire à une fracture du plateau tibial latéral",
+   "La déviation en valgus favorise la subluxation externe de la rotule",
+   "L'ostéotomie tibiale de varisation peut être proposée",
+   "La prothèse totale du genou est contre-indiquée en cas de gonarthrose latérale"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la gonarthrose médiale est la forme la plus fréquente.",
+   "Vrai : les séquelles de fracture du plateau latéral peuvent entraîner une gonarthrose latérale.",
+   "Vrai : le valgus favorise la bascule rotulienne externe.",
+   "Vrai : l'ostéotomie de varisation réaxe le membre vers le compartiment médial.",
+   "Faux : la prothèse totale du genou reste indiquée dans les formes évoluées, quelle que soit la localisation."
+  ],
+  "id": "chir-2010"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant les facteurs de risque de la gonarthrose ?",
+  "options": [
+   "L'obésité",
+   "Les traumatismes du genou (fractures, lésions méniscales, ruptures ligamentaires)",
+   "Les déviations axiales (genu varum, genu valgum)",
+   "L'âge et le sexe féminin",
+   "La pratique régulière de la natation"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : l'obésité est un facteur de risque majeur et modifiable.",
+   "Vrai : les traumatismes articulaires favorisent l'arthrose secondaire.",
+   "Vrai : les déviations axiales surchargent un compartiment.",
+   "Vrai : l'âge et le sexe féminin sont des facteurs de risque reconnus.",
+   "Faux : la natation est un sport porté, protecteur pour le genou."
+  ],
+  "id": "chir-2011"
+ },
+ {
+  "q": "Parmi les signes radiographiques de la gonarthrose, lequel(lesquels) est(sont) retrouvé(s) ?",
+  "options": [
+   "Le pincement de l'interligne articulaire",
+   "L'ostéophytose marginale",
+   "La condensation de l'os sous-chondral",
+   "Les géodes sous-chondrales",
+   "La déminéralisation diffuse homogène"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le pincement traduit la perte cartilagineuse.",
+   "Vrai : les ostéophytes sont caractéristiques de l'arthrose.",
+   "Vrai : la condensation sous-chondrale accompagne la surcharge.",
+   "Vrai : les géodes sont des lacunes sous-chondrales.",
+   "Faux : la déminéralisation diffuse évoque plutôt l'ostéoporose ou une arthropathie inflammatoire."
+  ],
+  "id": "chir-2012"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant la prothèse totale du genou dans la gonarthrose ?",
+  "options": [
+   "Elle est indiquée en cas de gonarthrose évoluée avec retentissement fonctionnel majeur malgré un traitement médical bien conduit",
+   "Elle corrige la déviation axiale",
+   "La survie prothétique à 15 ans dépasse 90 %",
+   "La rééducation postopératoire est indispensable",
+   "Elle est contre-indiquée chez le sujet de plus de 80 ans"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : l'échec du traitement médical avec gêne fonctionnelle majeure justifie la prothèse.",
+   "Vrai : la prothèse restaure l'axe mécanique du membre.",
+   "Vrai : les résultats à long terme sont excellents.",
+   "Vrai : la kinésithérapie postopératoire conditionne le résultat fonctionnel.",
+   "Faux : l'âge seul n'est pas une contre-indication ; c'est l'état général qui compte."
+  ],
+  "id": "chir-2013"
+ },
+ {
+  "q": "Concernant les lésions dégénératives de la coiffe des rotateurs, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "options": [
+   "Le tendon du supra-épineux est le plus fréquemment atteint",
+   "La dégénérescence tendineuse est favorisée par l'âge et les microtraumatismes répétés",
+   "Le conflit sous-acromial est un facteur favorisant",
+   "La rupture peut être partielle ou transfixiante",
+   "Les lésions dégénératives touchent exclusivement le sujet jeune sportif"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le supra-épineux est le tendon le plus vulnérable (zone hypovascularisée).",
+   "Vrai : la dégénérescence est liée à l'âge et à l'usure mécanique.",
+   "Vrai : le conflit sous-acromial use le tendon par frottement.",
+   "Vrai : on distingue les ruptures partielles et transfixiantes.",
+   "Faux : les lésions dégénératives touchent surtout le sujet d'âge moyen et âgé."
+  ],
+  "id": "chir-2014"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant le diagnostic clinique d'une rupture dégénérative de la coiffe des rotateurs ?",
+  "options": [
+   "La douleur est souvent nocturne et de l'épaule",
+   "Le test de Jobe (supra-épineux) peut être positif",
+   "Le test de Patte (infra-épineux) explore la rotation externe",
+   "Le signe du porte-monnaie (sous-scapulaire) explore la rotation interne",
+   "Le test de Neer est spécifique d'une rupture du sous-scapulaire"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la douleur nocturne est classique dans les lésions de la coiffe.",
+   "Vrai : le test de Jobe teste le supra-épineux.",
+   "Vrai : le test de Patte teste l'infra-épineux en rotation externe.",
+   "Vrai : le signe du porte-monnaie (ou lift-off test) explore le sous-scapulaire.",
+   "Faux : le test de Neer est un test de conflit sous-acromial, non spécifique d'une rupture du sous-scapulaire."
+  ],
+  "id": "chir-2015"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant l'imagerie des lésions de la coiffe des rotateurs ?",
+  "options": [
+   "La radiographie standard peut montrer une ascension de la tête humérale",
+   "L'échographie permet de visualiser les tendons et de détecter une rupture",
+   "L'IRM est l'examen de référence pour le bilan des tendons et des muscles",
+   "L'arthroscanner est utile en cas de contre-indication à l'IRM",
+   "La radiographie standard montre directement la rupture tendineuse"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : l'ascension de la tête humérale traduit une rupture massive.",
+   "Vrai : l'échographie est un examen de première ligne performant.",
+   "Vrai : l'IRM évalue les tendons, la dégénérescence graisseuse et l'atrophie musculaire.",
+   "Vrai : l'arthroscanner est une alternative en cas de contre-indication à l'IRM.",
+   "Faux : la radiographie ne montre pas les tendons ; elle montre des signes indirects."
+  ],
+  "id": "chir-2016"
+ },
+ {
+  "q": "Concernant le traitement des lésions dégénératives de la coiffe des rotateurs, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "options": [
+   "Le traitement médical (antalgiques, AINS, kinésithérapie) est proposé en première intention",
+   "L'infiltration sous-acromiale de corticoïdes peut soulager la douleur",
+   "La réparation chirurgicale est envisagée en cas d'échec du traitement médical ou de rupture transfixiante symptomatique",
+   "La prothèse inversée d'épaule est une option en cas de rupture massive irréparable avec arthropathie",
+   "La réparation chirurgicale est toujours possible quel que soit l'ancienneté de la rupture"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le traitement conservateur est la première ligne.",
+   "Vrai : l'infiltration sous-acromiale a un effet antalgique transitoire.",
+   "Vrai : la chirurgie est indiquée après échec du traitement médical.",
+   "Vrai : la prothèse inversée est indiquée dans l'omarthrose excentrée sur rupture massive.",
+   "Faux : les ruptures anciennes avec dégénérescence graisseuse avancée (stade 3-4 de Goutallier) sont irréparables."
+  ],
+  "id": "chir-2017"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) complication(s) possible(s) d'une rupture massive et ancienne de la coiffe des rotateurs ?",
+  "options": [
+   "L'omarthrose excentrée",
+   "La dégénérescence graisseuse des muscles de la coiffe",
+   "L'amyotrophie des fosses sus- et sous-épineuses",
+   "La pseudoparalysie de l'épaule",
+   "La luxation antérieure récidivante de l'épaule"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : l'omarthrose excentrée est l'évolution de la rupture massive.",
+   "Vrai : la dégénérescence graisseuse est irréversible.",
+   "Vrai : l'amyotrophie accompagne la rupture chronique.",
+   "Vrai : la pseudoparalysie (impossibilité d'élever le bras) peut survenir.",
+   "Faux : la luxation récidivante est liée à l'instabilité, pas à la rupture de la coiffe."
+  ],
+  "id": "chir-2018"
+ },
+ {
+  "q": "Concernant les fractures pathologiques, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "options": [
+   "Elles surviennent sur un os fragilisé par une pathologie préexistante",
+   "Les métastases osseuses sont la cause la plus fréquente chez l'adulte",
+   "Les tumeurs osseuses primitives bénignes ou malignes peuvent en être la cause",
+   "L'ostéoporose sévère peut être à l'origine de fractures pathologiques",
+   "Elles surviennent toujours après un traumatisme à haute énergie"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : c'est la définition de la fracture pathologique.",
+   "Vrai : les métastases (sein, prostate, poumon, rein, thyroïde) sont la première cause.",
+   "Vrai : les tumeurs primitives (ostéosarcome, sarcome d'Ewing, kyste osseux) fragilisent l'os.",
+   "Vrai : l'ostéoporose est une cause fréquente de fracture sur os fragilisé.",
+   "Faux : elles surviennent après un traumatisme minime ou sans traumatisme."
+  ],
+  "id": "chir-2019"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant la prise en charge d'une fracture pathologique ?",
+  "options": [
+   "Le bilan doit rechercher la cause sous-jacente (tumeur, métastase, infection, métabolique)",
+   "La biopsie est indispensable avant tout traitement définitif en cas de suspicion tumorale",
+   "La fixation chirurgicale doit être stable et permettre une mobilisation précoce",
+   "Le traitement de la cause (chimiothérapie, radiothérapie) est associé au traitement orthopédique",
+   "Le traitement orthopédique seul suffit toujours sans bilan étiologique"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le bilan étiologique est indispensable.",
+   "Vrai : la biopsie avant traitement évite de méconnaître une tumeur.",
+   "Vrai : la stabilité et la mobilisation précoce sont les objectifs.",
+   "Vrai : le traitement étiologique complète le traitement local.",
+   "Faux : le bilan étiologique est toujours nécessaire."
+  ],
+  "id": "chir-2020"
+ },
+ {
+  "q": "Parmi les localisations suivantes, laquelle(lesquelles) est(sont) fréquemment concernée(s) par les fractures pathologiques métastatiques ?",
+  "options": [
+   "Le fémur proximal",
+   "L'humérus proximal",
+   "Le rachis",
+   "Le tibia distal",
+   "Le scaphoïde carpien"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : le fémur proximal est la localisation métastatique la plus fréquente.",
+   "Vrai : l'humérus proximal est souvent atteint.",
+   "Vrai : le rachis est une localisation fréquente des métastases.",
+   "Faux : le tibia distal est rarement atteint par les métastases.",
+   "Faux : le scaphoïde n'est pas une localisation métastatique habituelle."
+  ],
+  "id": "chir-2021"
+ },
+ {
+  "q": "Concernant le méga-œsophage idiopathique (achalasie), quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "options": [
+   "Il est dû à un défaut de relaxation du sphincter inférieur de l'œsophage et à une apéristalse du corps œsophagien",
+   "La dysphagie est paradoxale, touchant aussi bien les solides que les liquides",
+   "Les régurgitations d'aliments non digérés sont fréquentes",
+   "Le transit œso-gastro-duodénal montre un aspect en « queue de radis » ou « bec d'oiseau »",
+   "La manométrie œsophagienne est normale"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : l'achalasie associe apéristalse et hypertonie du SIO.",
+   "Vrai : la dysphagie paradoxale (solides = liquides) est classique.",
+   "Vrai : les régurgitations sont fréquentes, surtout nocturnes.",
+   "Vrai : l'aspect en bec d'oiseau est caractéristique au TOGD.",
+   "Faux : la manométrie est l'examen de référence et montre l'apéristalse et le défaut de relaxation du SIO."
+  ],
+  "id": "chir-2022"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant la physiopathologie de l'achalasie ?",
+  "options": [
+   "Elle résulte d'une dégénérescence des neurones du plexus d'Auerbach (myentérique)",
+   "La perte des neurones inhibiteurs (VIP, NO) entraîne l'hypertonie du sphincter inférieur",
+   "Elle peut être secondaire à une maladie de Chagas (Trypanosoma cruzi)",
+   "Elle prédispose au carcinome épidermoïde de l'œsophage",
+   "Elle est due à une obstruction mécanique par une tumeur"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la dégénérescence du plexus myentérique est la lésion fondamentale.",
+   "Vrai : la perte des neurones inhibiteurs explique l'hypertonie du SIO.",
+   "Vrai : la maladie de Chagas est la principale cause d'achalasie secondaire.",
+   "Vrai : l'achalasie est un facteur de risque de cancer œsophagien.",
+   "Faux : l'achalasie primitive n'est pas liée à une obstruction tumorale (pseudo-achalasie en cas de tumeur)."
+  ],
+  "id": "chir-2023"
+ },
+ {
+  "q": "Parmi les examens suivants, lequel(lesquels) est(sont) utile(s) au diagnostic de l'achalasie ?",
+  "options": [
+   "La fibroscopie œso-gastro-duodénale",
+   "La manométrie œsophagienne haute résolution",
+   "Le transit œso-gastro-duodénal (TOGD)",
+   "La scintigraphie œsophagienne",
+   "L'échographie abdominale"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la FOGD élimine une cause organique et peut montrer un œsophage dilaté avec résidus.",
+   "Vrai : la manométrie haute résolution est l'examen de référence (classification de Chicago).",
+   "Vrai : le TOGD montre la dilatation et l'aspect en bec d'oiseau.",
+   "Vrai : la scintigraphie peut évaluer la vidange œsophagienne.",
+   "Faux : l'échographie abdominale n'a pas d'intérêt diagnostique dans l'achalasie."
+  ],
+  "id": "chir-2024"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant le traitement de l'achalasie ?",
+  "options": [
+   "La dilatation pneumatique du sphincter inférieur est un traitement efficace",
+   "La myotomie de Heller (chirurgicale ou par voie endoscopique POEM) est le traitement de référence",
+   "L'injection de toxine botulique est réservée aux patients fragiles ou âgés",
+   "Le traitement vise à réduire la pression du sphincter inférieur, sans restaurer le péristaltisme",
+   "Les inhibiteurs de la pompe à protons guérissent l'achalasie"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la dilatation pneumatique est efficace mais avec risque de perforation.",
+   "Vrai : la myotomie de Heller (laparoscopique ou POEM) est le traitement de référence.",
+   "Vrai : la toxine botulique a un effet transitoire, réservée aux patients à haut risque chirurgical.",
+   "Vrai : aucun traitement ne restaure le péristaltisme ; tous visent à lever l'obstacle du SIO.",
+   "Faux : les IPP ne traitent que le reflux associé, pas l'achalasie elle-même."
+  ],
+  "id": "chir-2025"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) complication(s) possible(s) de l'achalasie non traitée ?",
+  "options": [
+   "La dénutrition et l'amaigrissement",
+   "La pneumopathie d'inhalation",
+   "Le cancer de l'œsophage",
+   "Le méga-œsophage avec dilatation majeure",
+   "La sténose pylorique"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la dysphagie entraîne dénutrition et amaigrissement.",
+   "Vrai : les régurgitations nocturnes favorisent les inhalations.",
+   "Vrai : le risque de carcinome épidermoïde est augmenté.",
+   "Vrai : l'œsophage se dilate progressivement en l'absence de traitement.",
+   "Faux : la sténose pylorique n'est pas une complication de l'achalasie."
+  ],
+  "id": "chir-2026"
+ },
+ {
+  "q": "Concernant la myotomie de Heller dans l'achalasie, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "options": [
+   "Elle consiste en une section longitudinale des fibres musculaires du sphincter inférieur de l'œsophage",
+   "Elle est associée à une fundoplicature partielle (Dor ou Toupet) pour prévenir le reflux",
+   "Elle peut être réalisée par voie laparoscopique ou par voie endoscopique (POEM)",
+   "Elle restaure le péristaltisme œsophagien normal",
+   "Elle est contre-indiquée en cas de méga-œsophage très dilaté"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : la myotomie sectionne la musculeuse du SIO sur 6-8 cm.",
+   "Vrai : la fundoplicature partielle prévient le reflux gastro-œsophagien post-myotomie.",
+   "Vrai : la myotomie peut être laparoscopique ou endoscopique (POEM).",
+   "Faux : la myotomie ne restaure pas le péristaltisme, elle lève l'obstacle.",
+   "Faux : le méga-œsophage très dilaté peut nécessiter une œsophagectomie, mais ce n'est pas une contre-indication absolue à la myotomie."
+  ],
+  "id": "chir-2027"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant la classification de Chicago de l'achalasie ?",
+  "options": [
+   "Elle repose sur la manométrie haute résolution",
+   "Le type I correspond à l'achalasie classique sans pressurisation",
+   "Le type II correspond à l'achalasie avec pressurisation pan-œsophagienne",
+   "Le type III correspond à l'achalasie spastique avec contractions prématurées",
+   "Le type I répond le mieux à la dilatation pneumatique"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la classification de Chicago est basée sur la manométrie haute résolution.",
+   "Vrai : le type I est l'achalasie classique (apéristalse, pas de pressurisation).",
+   "Vrai : le type II présente une pressurisation pan-œsophagienne.",
+   "Vrai : le type III est la forme spastique avec contractions prématurées.",
+   "Faux : le type II répond le mieux à tous les traitements ; le type III est le plus résistant."
+  ],
+  "id": "chir-2028"
+ },
+ {
+  "q": "Concernant la lithiase vésiculaire, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "options": [
+   "La majorité des calculs sont cholestéroliques",
+   "Les facteurs de risque incluent l'obésité, le sexe féminin et la grossesse",
+   "La plupart des lithiases vésiculaires sont asymptomatiques",
+   "La colique hépatique est la manifestation symptomatique la plus fréquente",
+   "La lithiase vésiculaire asymptomatique impose une cholécystectomie systématique"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : environ 80 % des calculs sont cholestéroliques.",
+   "Vrai : les « 4 F » (female, forty, fertile, fat) résument les facteurs de risque.",
+   "Vrai : 70-80 % des lithiases restent asymptomatiques.",
+   "Vrai : la colique hépatique est le mode de révélation le plus fréquent.",
+   "Faux : la lithiase asymptomatique ne nécessite pas de chirurgie systématique (surveillance)."
+  ],
+  "id": "chir-2029"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) caractéristique(s) de la colique hépatique ?",
+  "options": [
+   "Douleur de l'hypocondre droit ou épigastrique, intense et continue",
+   "Irradiation vers l'épaule droite ou la scapula",
+   "Début brutal, souvent après un repas riche en graisses",
+   "Durée de quelques heures, avec résolution spontanée",
+   "Fièvre élevée et frissons constants"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la douleur est intense, en barre, sous-costale droite ou épigastrique.",
+   "Vrai : l'irradiation scapulaire droite est classique.",
+   "Vrai : le repas gras déclenche la contraction vésiculaire et la douleur.",
+   "Vrai : la crise dure 1 à 6 heures puis cède spontanément.",
+   "Faux : la fièvre évoque une cholécystite aiguë, pas une simple colique hépatique."
+  ],
+  "id": "chir-2030"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant le diagnostic de la lithiase vésiculaire ?",
+  "options": [
+   "L'échographie abdominale est l'examen de référence",
+   "Elle montre des images hyperéchogènes avec cône d'ombre postérieur",
+   "La lithiase vésiculaire peut être radio-opaque ou radiotransparente",
+   "Le scanner abdominal est plus performant que l'échographie pour le diagnostic",
+   "La biologie est normale en dehors des complications"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "explain": [
+   "Vrai : l'échographie a une sensibilité > 95 % pour la lithiase vésiculaire.",
+   "Vrai : le cône d'ombre postérieur est caractéristique des calculs.",
+   "Vrai : seuls 10-20 % des calculs sont radio-opaques.",
+   "Faux : l'échographie est plus performante que le scanner pour la lithiase vésiculaire.",
+   "Vrai : la biologie est normale dans la lithiase non compliquée."
+  ],
+  "id": "chir-2031"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) complication(s) possible(s) de la lithiase vésiculaire ?",
+  "options": [
+   "La cholécystite aiguë",
+   "La migration lithiasique avec cholédocite et angiocholite",
+   "La pancréatite aiguë biliaire",
+   "L'iléus biliaire",
+   "La cirrhose biliaire primitive"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la cholécystite aiguë est la complication la plus fréquente.",
+   "Vrai : la migration peut obstruer la voie biliaire principale.",
+   "Vrai : la migration lithiasique est la première cause de pancréatite aiguë.",
+   "Vrai : l'iléus biliaire résulte d'une fistule cholécysto-duodénale.",
+   "Faux : la cirrhose biliaire primitive est une maladie auto-immune, sans rapport avec la lithiase."
+  ],
+  "id": "chir-2032"
+ },
+ {
+  "q": "Concernant le traitement de la lithiase vésiculaire symptomatique, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "options": [
+   "La cholécystectomie laparoscopique est le traitement de référence",
+   "La cholécystectomie est indiquée en cas de coliques hépatiques récidivantes",
+   "La dissolution médicamenteuse par acide ursodésoxycholique est réservée aux calculs cholestéroliques non calcifiés",
+   "La lithotritie extracorporelle est le traitement de première intention",
+   "La cholécystectomie est contre-indiquée en cas de cholécystite aiguë"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : la cholécystectomie laparoscopique est le gold standard.",
+   "Vrai : les coliques récidivantes justifient la cholécystectomie.",
+   "Vrai : l'acide ursodésoxycholique dissout les petits calculs cholestéroliques radiotransparents.",
+   "Faux : la lithotritie n'est pas un traitement de référence de la lithiase vésiculaire.",
+   "Faux : la cholécystectomie est le traitement de la cholécystite aiguë (dans les 72h ou différée)."
+  ],
+  "id": "chir-2033"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant la cholécystite aiguë lithiasique ?",
+  "options": [
+   "Elle résulte de l'obstruction du canal cystique par un calcul",
+   "La douleur est prolongée (> 6 heures) avec défense sous-costale droite",
+   "Le signe de Murphy est positif (douleur à la palpation sous-costale droite en inspiration)",
+   "La fièvre et l'hyperleucocytose sont habituelles",
+   "Le traitement repose sur la cholécystectomie en urgence dans tous les cas"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : l'obstruction cystique est le mécanisme principal.",
+   "Vrai : la douleur prolongée avec défense distingue la cholécystite de la colique.",
+   "Vrai : le signe de Murphy est caractéristique.",
+   "Vrai : le syndrome infectieux accompagne la cholécystite.",
+   "Faux : la cholécystectomie peut être réalisée en urgence ou différée (6-8 semaines) selon le terrain."
+  ],
+  "id": "chir-2034"
+ },
+ {
+  "q": "Parmi les propositions suivantes concernant les calculs biliaires, laquelle(lesquelles) est(sont) correcte(s) ?",
+  "options": [
+   "Les calculs cholestéroliques sont favorisés par la sursaturation de la bile en cholestérol",
+   "Les calculs pigmentaires noirs sont associés à l'hémolyse chronique",
+   "Les calculs pigmentaires bruns sont associés à l'infection biliaire",
+   "La lithiase vésiculaire est plus fréquente chez la femme que chez l'homme",
+   "Les calculs biliaires sont toujours visibles sur la radiographie standard"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la sursaturation en cholestérol est le mécanisme principal.",
+   "Vrai : les calculs noirs sont liés à l'excès de bilirubine non conjuguée (hémolyse).",
+   "Vrai : les calculs bruns résultent de l'infection et de la stase biliaire.",
+   "Vrai : le sex-ratio femme/homme est d'environ 2/1.",
+   "Faux : seuls 10-20 % des calculs sont radio-opaques."
+  ],
+  "id": "chir-2035"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant le syndrome de Mirizzi ?",
+  "options": [
+   "Il correspond à une compression de la voie biliaire principale par un calcul enclavé dans le collet vésiculaire ou le canal cystique",
+   "Il peut se compliquer d'une fistule cholécysto-biliaire",
+   "Il se manifeste par un ictère obstructif",
+   "La cholécystectomie est souvent difficile et à risque de lésion biliaire",
+   "Il est diagnostiqué uniquement en peropératoire"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : c'est la définition du syndrome de Mirizzi.",
+   "Vrai : la fistule cholécysto-biliaire est une complication évolutive.",
+   "Vrai : l'ictère obstructif est le mode de révélation habituel.",
+   "Vrai : la dissection est difficile avec risque de plaie de la voie biliaire principale.",
+   "Faux : le diagnostic peut être posé en préopératoire (échographie, bili-IRM, CPRE)."
+  ],
+  "id": "chir-2036"
+ },
+ {
+  "q": "Concernant le cancer des voies biliaires extra-hépatiques, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "options": [
+   "Le cholangiocarcinome est le type histologique le plus fréquent",
+   "La tumeur de Klatskin siège à la convergence des canaux hépatiques",
+   "La lithiase biliaire chronique est un facteur de risque",
+   "La cholangite sclérosante primitive est un facteur de risque majeur",
+   "Le pronostic est généralement favorable grâce au diagnostic précoce"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le cholangiocarcinome représente plus de 90 % des cancers des voies biliaires.",
+   "Vrai : la tumeur de Klatskin est le cholangiocarcinome hilaire.",
+   "Vrai : la lithiase chronique favorise la carcinogenèse biliaire.",
+   "Vrai : la CSP multiplie le risque de cholangiocarcinome.",
+   "Faux : le pronostic est sombre, le diagnostic étant le plus souvent tardif."
+  ],
+  "id": "chir-2037"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) manifestation(s) clinique(s) du cholangiocarcinome extra-hépatique ?",
+  "options": [
+   "L'ictère cholestatique progressif",
+   "Le prurit",
+   "La douleur de l'hypocondre droit",
+   "L'amaigrissement",
+   "La diarrhée aqueuse profuse"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : l'ictère cholestatique est le signe révélateur principal.",
+   "Vrai : le prurit résulte de la rétention des sels biliaires.",
+   "Vrai : la douleur est fréquente mais non spécifique.",
+   "Vrai : l'amaigrissement accompagne l'évolution.",
+   "Faux : la diarrhée aqueuse n'est pas une manifestation du cholangiocarcinome."
+  ],
+  "id": "chir-2038"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant le diagnostic du cholangiocarcinome extra-hépatique ?",
+  "options": [
+   "La bili-IRM (cholangio-IRM) est l'examen de référence pour la cartographie biliaire",
+   "La CPRE permet le diagnostic cytologique et le drainage biliaire",
+   "Le CA 19-9 peut être élevé mais n'est pas spécifique",
+   "L'écho-endoscopie est utile pour le bilan d'extension locorégionale",
+   "Le diagnostic repose sur la biopsie hépatique"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la bili-IRM visualise l'arbre biliaire et le niveau de l'obstacle.",
+   "Vrai : la CPRE permet brossage cytologique et mise en place de prothèse.",
+   "Vrai : le CA 19-9 est un marqueur utile mais non spécifique (aussi élevé en cas de cholestase).",
+   "Vrai : l'écho-endoscopie évalue l'extension ganglionnaire et vasculaire.",
+   "Faux : le diagnostic repose sur la cytologie biliaire ou la biopsie de la lésion, pas la biopsie hépatique."
+  ],
+  "id": "chir-2039"
+ },
+ {
+  "q": "Concernant le traitement du cholangiocarcinome extra-hépatique, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "options": [
+   "La résection chirurgicale complète (R0) est le seul traitement curatif",
+   "La tumeur de Klatskin peut nécessiter une hépatectomie associée à la résection biliaire",
+   "Le drainage biliaire préopératoire est indiqué en cas d'ictère sévère ou de cholangite",
+   "La chimiothérapie adjuvante (capécitabine) améliore la survie après résection",
+   "La radiothérapie seule guérit le cholangiocarcinome"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : seule la résection R0 offre une chance de guérison.",
+   "Vrai : l'exérèse de Klatskin inclut souvent une hépatectomie (droite le plus souvent).",
+   "Vrai : le drainage prévient la cholangite et améliore la fonction hépatique.",
+   "Vrai : la capécitabine adjuvante est le standard (étude BILCAP).",
+   "Faux : la radiothérapie seule n'est pas curative ; elle est palliative ou adjuvante."
+  ],
+  "id": "chir-2040"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant la classification de Bismuth-Corlette ?",
+  "options": [
+   "Elle classifie les tumeurs de Klatskin selon l'extension aux canaux hépatiques",
+   "Le type I concerne le canal hépatique commun sous la convergence",
+   "Le type II concerne la convergence sans extension aux canaux secondaires",
+   "Le type IIIa concerne la convergence avec extension au canal hépatique droit",
+   "Le type IV correspond à une tumeur du bas cholédoque"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : c'est la classification anatomique de référence des tumeurs hilaires.",
+   "Vrai : le type I est sous-convergent.",
+   "Vrai : le type II atteint la convergence.",
+   "Vrai : le type IIIa s'étend au canal droit (IIIb au canal gauche).",
+   "Faux : le type IV est l'atteinte bilatérale des canaux secondaires, pas une tumeur du bas cholédoque."
+  ],
+  "id": "chir-2041"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant le cancer de la vésicule biliaire ?",
+  "options": [
+   "Il est plus fréquent chez la femme",
+   "La lithiase vésiculaire chronique est le principal facteur de risque",
+   "Il est souvent découvert fortuitement sur une pièce de cholécystectomie",
+   "Le pronostic est sombre en cas de découverte à un stade avancé",
+   "Il se manifeste toujours par un ictère précoce"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le cancer de la vésicule est 2-3 fois plus fréquent chez la femme.",
+   "Vrai : la lithiase chronique est présente dans 80-90 % des cas.",
+   "Vrai : la découverte fortuite sur pièce de cholécystectomie est classique.",
+   "Vrai : le pronostic est mauvais au-delà du stade T1.",
+   "Faux : l'ictère est tardif ; la tumeur est longtemps asymptomatique."
+  ],
+  "id": "chir-2042"
+ },
+ {
+  "q": "Parmi les facteurs de risque du cholangiocarcinome, lequel(lesquels) est(sont) reconnu(s) ?",
+  "options": [
+   "La cholangite sclérosante primitive",
+   "La lithiase biliaire chronique",
+   "La maladie de Caroli",
+   "La douve du foie (Clonorchis sinensis, Opisthorchis viverrini)",
+   "La consommation modérée d'alcool"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la CSP est le principal facteur de risque en Occident.",
+   "Vrai : la lithiase chronique favorise la carcinogenèse.",
+   "Vrai : la maladie de Caroli (dilatation kystique des voies biliaires) prédispose.",
+   "Vrai : les douves du foie sont un facteur de risque majeur en Asie.",
+   "Faux : la consommation modérée d'alcool n'est pas un facteur de risque reconnu du cholangiocarcinome."
+  ],
+  "id": "chir-2043"
+ },
+ {
+  "q": "Concernant l'ictère rétentionnel (cholestatique) de l'adulte, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "options": [
+   "Il résulte d'une obstruction des voies biliaires ou d'une cholestase intrahépatique",
+   "Les urines sont foncées et les selles décolorées en cas d'obstruction complète",
+   "Le prurit est fréquent",
+   "La bilirubine conjuguée (directe) est prédominante",
+   "La bilirubine libre (indirecte) est prédominante"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : l'ictère rétentionnel peut être obstructif ou intrahépatique.",
+   "Vrai : la bilirubinurie fonce les urines et l'absence de bile décolore les selles.",
+   "Vrai : le prurit est lié à la rétention des sels biliaires.",
+   "Vrai : la bilirubine conjuguée augmente dans la cholestase.",
+   "Faux : la bilirubine libre prédomine dans les ictères hémolytiques, pas rétentionnels."
+  ],
+  "id": "chir-2044"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) cause(s) d'ictère rétentionnel par obstruction extra-hépatique ?",
+  "options": [
+   "La lithiase de la voie biliaire principale",
+   "Le cancer de la tête du pancréas",
+   "Le cholangiocarcinome",
+   "La sténose biliaire postopératoire",
+   "La maladie de Gilbert"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la lithiase cholédocienne est une cause fréquente.",
+   "Vrai : le cancer pancréatique comprime le bas cholédoque.",
+   "Vrai : le cholangiocarcinome obstrue la voie biliaire.",
+   "Vrai : les sténoses postopératoires peuvent obstruer la voie biliaire.",
+   "Faux : la maladie de Gilbert est un ictère à bilirubine libre, non rétentionnel."
+  ],
+  "id": "chir-2045"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant le bilan biologique de l'ictère cholestatique ?",
+  "options": [
+   "Les phosphatases alcalines (PAL) sont élevées",
+   "Les gamma-GT sont élevées",
+   "La bilirubine conjuguée est augmentée",
+   "Le temps de prothrombine peut être allongé (déficit en vitamine K)",
+   "Les transaminases sont toujours très élevées (> 20 N)"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : les PAL sont le marqueur de la cholestase.",
+   "Vrai : les gamma-GT confirment l'origine hépatobiliaire.",
+   "Vrai : la bilirubine conjuguée prédomine.",
+   "Vrai : la malabsorption de la vitamine K allonge le TP, corrigé par l'injection de vitamine K.",
+   "Faux : les transaminases sont modérément élevées dans la cholestase ; une élévation majeure évoque une hépatite."
+  ],
+  "id": "chir-2046"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant l'imagerie de l'ictère rétentionnel ?",
+  "options": [
+   "L'échographie abdominale est l'examen de première intention",
+   "Elle permet de détecter une dilatation des voies biliaires",
+   "La bili-IRM (cholangio-IRM) est l'examen de référence pour la cartographie biliaire",
+   "La CPRE permet le diagnostic et le traitement (sphinctérotomie, prothèse)",
+   "La radiographie standard suffit au diagnostic"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : l'échographie est l'examen de première ligne.",
+   "Vrai : la dilatation des voies biliaires oriente vers une obstruction.",
+   "Vrai : la bili-IRM est l'examen de référence non invasif.",
+   "Vrai : la CPRE est diagnostique et thérapeutique.",
+   "Faux : la radiographie standard n'a pas d'intérêt dans l'ictère."
+  ],
+  "id": "chir-2047"
+ },
+ {
+  "q": "Concernant la triade de Charcot, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "options": [
+   "Elle associe douleur, fièvre et ictère",
+   "Elle est caractéristique de l'angiocholite aiguë",
+   "Elle traduit une infection des voies biliaires obstruées",
+   "Elle impose un drainage biliaire en urgence",
+   "Elle est pathognomonique du cancer du pancréas"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la triade de Charcot est douleur + fièvre + ictère.",
+   "Vrai : elle est caractéristique de l'angiocholite.",
+   "Vrai : elle traduit l'infection biliaire sur obstacle.",
+   "Vrai : le drainage biliaire urgent est indispensable.",
+   "Faux : elle n'est pas spécifique du cancer du pancréas."
+  ],
+  "id": "chir-2048"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) cause(s) d'ictère rétentionnel intrahépatique ?",
+  "options": [
+   "La cholangite sclérosante primitive",
+   "La cirrhose biliaire primitive",
+   "L'hépatite médicamenteuse cholestatique",
+   "La cholestase gravidique",
+   "La lithiase cholédocienne"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la CSP est une cause de cholestase intrahépatique.",
+   "Vrai : la CBP (cholangiopathie auto-immune) cause une cholestase chronique.",
+   "Vrai : certains médicaments provoquent une cholestase intrahépatique.",
+   "Vrai : la cholestase gravidique est une cholestase intrahépatique du 3e trimestre.",
+   "Faux : la lithiase cholédocienne est une cause extra-hépatique."
+  ],
+  "id": "chir-2049"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant le signe de Courvoisier ?",
+  "options": [
+   "Il correspond à une vésicule biliaire palpable, distendue et indolore",
+   "Il évoque une obstruction néoplasique du bas cholédoque (cancer de la tête du pancréas)",
+   "Il est absent en cas de lithiase cholédocienne (vésicule scléro-atrophique)",
+   "Il est également appelé « loi de Courvoisier »",
+   "Il est pathognomonique de la lithiase vésiculaire"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la vésicule distendue et indolore est le signe de Courvoisier.",
+   "Vrai : il évoque une obstruction tumorale du bas cholédoque.",
+   "Vrai : la vésicule lithiasique chronique est scléreuse et non distensible.",
+   "Vrai : on parle de la loi de Courvoisier.",
+   "Faux : il est au contraire en faveur d'une cause tumorale, pas lithiasique."
+  ],
+  "id": "chir-2050"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant la prise en charge de l'ictère rétentionnel obstructif ?",
+  "options": [
+   "Le drainage biliaire est indiqué en cas de cholangite, de prurit invalidant ou avant chirurgie",
+   "Le drainage peut être endoscopique (CPRE avec prothèse) ou percutané",
+   "La correction du déficit en vitamine K par injection parentérale est nécessaire avant tout geste invasif",
+   "Le traitement étiologique (exérèse tumorale, extraction lithiasique) est l'objectif",
+   "L'antibiothérapie seule suffit à lever l'obstruction"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le drainage est indiqué dans ces situations.",
+   "Vrai : le drainage endoscopique ou percutané sont les deux voies.",
+   "Vrai : la vitamine K corrige le trouble de coagulation.",
+   "Vrai : le traitement de la cause est l'objectif définitif.",
+   "Faux : l'antibiothérapie traite l'infection mais ne lève pas l'obstacle mécanique."
+  ],
+  "id": "chir-2051"
+ },
+ {
+  "q": "Parmi les causes suivantes d'ictère, laquelle(lesquelles) donne(nt) un ictère à bilirubine libre (non conjuguée) ?",
+  "options": [
+   "La maladie de Gilbert",
+   "La maladie de Crigler-Najjar",
+   "L'hémolyse aiguë",
+   "La lithiase cholédocienne",
+   "Le cholangiocarcinome"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : la maladie de Gilbert est un déficit en glucuronyltransférase.",
+   "Vrai : la maladie de Crigler-Najjar est un déficit sévère en glucuronyltransférase.",
+   "Vrai : l'hémolyse augmente la production de bilirubine libre.",
+   "Faux : la lithiase cholédocienne donne un ictère à bilirubine conjuguée.",
+   "Faux : le cholangiocarcinome donne un ictère à bilirubine conjuguée."
+  ],
+  "id": "chir-2052"
+ },
+ {
+  "q": "Concernant le prolapsus rectal, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "options": [
+   "Il correspond à l'extériorisation de la paroi rectale à travers l'anus",
+   "On distingue le prolapsus muqueux (partiel) et le prolapsus total (procidence)",
+   "Il est plus fréquent chez la femme âgée",
+   "La constipation chronique et les efforts de poussée sont des facteurs favorisants",
+   "Il est synonyme de prolapsus hémorroïdaire"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : c'est la définition du prolapsus rectal.",
+   "Vrai : le prolapsus peut être muqueux ou total (toute la paroi).",
+   "Vrai : il prédomine chez la femme âgée multipare.",
+   "Vrai : la constipation et les efforts répétés favorisent le prolapsus.",
+   "Faux : le prolapsus hémorroïdaire est différent (prolapsus des paquets hémorroïdaires)."
+  ],
+  "id": "chir-2053"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) manifestation(s) clinique(s) du prolapsus rectal total ?",
+  "options": [
+   "L'extériorisation d'un cylindre rougeâtre par l'anus",
+   "La sensation de pesanteur périnéale",
+   "L'incontinence anale",
+   "Les saignements et la glaire",
+   "La douleur abdominale en fosse iliaque droite"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la procidence est visible à l'inspection et à l'effort de poussée.",
+   "Vrai : la pesanteur périnéale est fréquente.",
+   "Vrai : l'incontinence résulte de la distension sphinctérienne.",
+   "Vrai : les rectorragies et la glaire sont habituelles.",
+   "Faux : la douleur en fosse iliaque droite n'est pas un signe du prolapsus rectal."
+  ],
+  "id": "chir-2054"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant le diagnostic du prolapsus rectal ?",
+  "options": [
+   "Le diagnostic est clinique, basé sur l'inspection et l'examen proctologique",
+   "La défécographie dynamique permet d'évaluer le prolapsus et les troubles associés",
+   "La manométrie anorectale évalue la fonction sphinctérienne",
+   "La coloscopie totale est indiquée pour éliminer une lésion associée",
+   "Le diagnostic repose sur le scanner abdominal"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : l'examen clinique (au repos et à la poussée) fait le diagnostic.",
+   "Vrai : la défécographie visualise le prolapsus et les troubles de la statique pelvienne.",
+   "Vrai : la manométrie évalue le tonus sphinctérien et la sensibilité rectale.",
+   "Vrai : la coloscopie élimine une tumeur ou une MICI associée.",
+   "Faux : le scanner n'est pas l'examen diagnostique du prolapsus rectal."
+  ],
+  "id": "chir-2055"
+ },
+ {
+  "q": "Parmi les facteurs favorisants du prolapsus rectal, lequel(lesquels) est(sont) retenu(s) ?",
+  "options": [
+   "La constipation chronique",
+   "Les accouchements multiples (multiparité)",
+   "La faiblesse du plancher pelvien",
+   "La maladie de Hirschsprung chez l'enfant",
+   "La pratique du sport de haut niveau"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la constipation et les efforts de poussée sont des facteurs majeurs.",
+   "Vrai : la multiparité affaiblit le plancher pelvien.",
+   "Vrai : l'insuffisance du plancher pelvien est au centre de la physiopathologie.",
+   "Vrai : le prolapsus rectal peut révéler une maladie de Hirschsprung chez l'enfant.",
+   "Faux : le sport de haut niveau n'est pas un facteur favorisant reconnu."
+  ],
+  "id": "chir-2056"
+ },
+ {
+  "q": "Concernant le traitement du prolapsus rectal, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "options": [
+   "Le traitement médical (lutte contre la constipation) est un complément indispensable",
+   "La chirurgie par voie abdominale (rectopexie) est le traitement de référence chez le sujet jeune",
+   "La chirurgie par voie périnéale (Delorme, Altemeier) est préférée chez le sujet âgé fragile",
+   "La rectopexie vise à fixer le rectum au promontoire sacré",
+   "Le traitement chirurgical est contre-indiqué chez le sujet âgé"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la régulation du transit est indispensable en complément.",
+   "Vrai : la rectopexie abdominale (laparoscopique) est la référence chez le sujet en bon état général.",
+   "Vrai : la voie périnéale est moins invasive, adaptée au sujet âgé fragile.",
+   "Vrai : la rectopexie fixe le rectum au sacrum/promontoire.",
+   "Faux : la chirurgie périnéale reste possible chez le sujet âgé."
+  ],
+  "id": "chir-2057"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant l'intervention de Delorme ?",
+  "options": [
+   "Elle est réalisée par voie périnéale",
+   "Elle consiste en une mucosectomie du cylindre prolabé avec plicature musculaire",
+   "Elle est indiquée en cas de prolapsus rectal chez le sujet âgé",
+   "Le risque de récidive est plus élevé que pour la rectopexie abdominale",
+   "Elle nécessite une laparotomie"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : l'intervention de Delorme est périnéale.",
+   "Vrai : elle associe mucosectomie et plicature de la musculeuse rectale.",
+   "Vrai : elle est privilégiée chez le sujet âgé fragile.",
+   "Vrai : le taux de récidive est supérieur à celui de la voie abdominale.",
+   "Faux : aucune laparotomie n'est nécessaire, la voie est périnéale."
+  ],
+  "id": "chir-2058"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant l'intervention d'Altemeier ?",
+  "options": [
+   "Elle est réalisée par voie périnéale",
+   "Elle consiste en une résection sigmoïdo-rectale du segment prolabé",
+   "Elle permet de traiter un sigmoïde redondant associé",
+   "Elle est indiquée chez le sujet âgé avec prolapsus volumineux",
+   "Elle consiste en une fixation du rectum au promontoire"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : l'intervention d'Altemeier est périnéale.",
+   "Vrai : elle résèque le segment recto-sigmoïdien prolabé.",
+   "Vrai : elle traite le dolichosigmoïde associé.",
+   "Vrai : elle est adaptée au sujet âgé avec prolapsus important.",
+   "Faux : la fixation au promontoire est la rectopexie (voie abdominale)."
+  ],
+  "id": "chir-2059"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) complication(s) possible(s) du prolapsus rectal non traité ?",
+  "options": [
+   "L'incarcération et la strangulation du prolapsus",
+   "L'incontinence anale",
+   "L'ulcère solitaire du rectum",
+   "Les rectorragies",
+   "L'occlusion intestinale aiguë"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le prolapsus peut s'incarcérer et se stranguler (urgence).",
+   "Vrai : l'incontinence résulte de la distension sphinctérienne chronique.",
+   "Vrai : l'ulcère solitaire du rectum est associé au prolapsus et aux efforts de poussée.",
+   "Vrai : les saignements sont fréquents.",
+   "Faux : le prolapsus rectal ne cause pas d'occlusion intestinale aiguë."
+  ],
+  "id": "chir-2060"
+ },
+ {
+  "q": "Concernant le prolapsus rectal de l'enfant, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "options": [
+   "Il est le plus souvent lié à la constipation, la malnutrition ou la mucoviscidose",
+   "Il peut révéler une maladie de Hirschsprung",
+   "Le traitement médical (lutte contre la constipation) suffit le plus souvent",
+   "La chirurgie est indiquée en première intention",
+   "Il est identique au prolapsus rectal de l'adulte dans sa prise en charge"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : ces causes sont classiques chez l'enfant.",
+   "Vrai : la maladie de Hirschsprung doit être recherchée.",
+   "Vrai : le traitement médical est le plus souvent efficace chez l'enfant.",
+   "Faux : la chirurgie n'est indiquée qu'en cas d'échec du traitement médical ou de récidive.",
+   "Faux : la prise en charge de l'enfant est d'abord médicale, contrairement à l'adulte."
+  ],
+  "id": "chir-2061"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant la rectopexie ?",
+  "options": [
+   "Elle peut être réalisée par voie laparoscopique",
+   "Elle fixe le rectum au promontoire sacré à l'aide d'une prothèse ou de fils",
+   "Elle peut être associée à une résection sigmoïdienne en cas de constipation sévère",
+   "Elle a un taux de récidive plus faible que les interventions périnéales",
+   "Elle est contre-indiquée en cas de prolapsus récidivé"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la rectopexie laparoscopique est la voie de référence.",
+   "Vrai : la fixation au promontoire est le principe de la rectopexie.",
+   "Vrai : la résection sigmoïdienne associée traite la constipation (intervention de Frykman-Goldberg).",
+   "Vrai : le taux de récidive est plus bas que par voie périnéale.",
+   "Faux : la rectopexie peut être réalisée en cas de récidive après voie périnéale."
+  ],
+  "id": "chir-2062"
+ },
+ {
+  "q": "Concernant les sténoses de l'urètre, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "options": [
+   "Elles résultent le plus souvent d'un traumatisme, d'une infection ou d'une cause iatrogène",
+   "Le rétrécissement de l'urètre bulbaire est la localisation la plus fréquente chez l'homme",
+   "La dysurie progressive est le symptôme principal",
+   "Le diagnostic repose sur l'urétro-cystographie rétrograde et mictionnelle",
+   "La sténose urétrale est plus fréquente chez la femme"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : traumatismes, infections (urétrites) et gestes iatrogènes sont les principales causes.",
+   "Vrai : l'urètre bulbaire est le siège le plus fréquent.",
+   "Vrai : la dysurie progressive avec diminution du jet est classique.",
+   "Vrai : l'UCRM est l'examen de référence pour le bilan.",
+   "Faux : la sténose urétrale est beaucoup plus fréquente chez l'homme."
+  ],
+  "id": "chir-2063"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant le traitement des sténoses de l'urètre ?",
+  "options": [
+   "La dilatation urétrale est un traitement palliatif avec un taux de récidive élevé",
+   "L'urétrotomie interne endoscopique est indiquée pour les sténoses courtes et uniques",
+   "L'urétroplastie (résection-anastomose ou greffe de muqueuse buccale) est le traitement de référence des sténoses longues ou récidivantes",
+   "Le traitement médical par antibiotiques guérit la sténose",
+   "La dérivation urinaire définitive est le traitement de première intention"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : la dilatation a un taux de récidive élevé.",
+   "Vrai : l'urétrotomie interne convient aux sténoses courtes (< 1 cm) et non traumatiques.",
+   "Vrai : l'urétroplastie est le traitement définitif des sténoses longues ou récidivantes.",
+   "Faux : les antibiotiques traitent l'infection mais ne lèvent pas la fibrose sténotique.",
+   "Faux : la dérivation n'est qu'un recours en cas d'échec des autres traitements."
+  ],
+  "id": "chir-2064"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) complication(s) possible(s) d'une sténose de l'urètre non traitée ?",
+  "options": [
+   "La rétention vésicale complète",
+   "L'infection urinaire récidivante",
+   "La dilatation des voies urinaires supérieures",
+   "L'insuffisance rénale obstructive",
+   "Le cancer de la vessie"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la rétention aiguë peut survenir.",
+   "Vrai : la stase favorise les infections urinaires.",
+   "Vrai : l'obstacle chronique dilate le haut appareil urinaire.",
+   "Vrai : l'insuffisance rénale obstructive est une complication tardive.",
+   "Faux : la sténose urétrale ne cause pas le cancer de la vessie."
+  ],
+  "id": "chir-2065"
+ },
+ {
+  "q": "Concernant le kyste hydatique du poumon, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "options": [
+   "Il est dû à Echinococcus granulosus",
+   "Le chien est l'hôte définitif et le mouton l'hôte intermédiaire",
+   "L'homme est un hôte intermédiaire accidentel",
+   "Le poumon est la deuxième localisation après le foie",
+   "La contamination se fait par inhalation des œufs"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : Echinococcus granulosus est l'agent du kyste hydatique.",
+   "Vrai : le cycle implique le chien (définitif) et le mouton (intermédiaire).",
+   "Vrai : l'homme s'infecte accidentellement en ingérant les œufs.",
+   "Vrai : le poumon est la 2e localisation (10-30 % des cas).",
+   "Faux : la contamination se fait par ingestion des œufs (mains souillées, aliments), pas par inhalation."
+  ],
+  "id": "chir-2066"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant la clinique du kyste hydatique du poumon ?",
+  "options": [
+   "Il est souvent asymptomatique et découvert fortuitement",
+   "La toux et la douleur thoracique sont les symptômes les plus fréquents",
+   "L'hémoptysie peut survenir",
+   "La vomique hydatique (expectoration de liquide clair et de membranes) signe la rupture dans une bronche",
+   "La fièvre élevée est constante"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le kyste pulmonaire est longtemps latent.",
+   "Vrai : toux et douleur thoracique sont les symptômes principaux.",
+   "Vrai : l'hémoptysie peut révéler le kyste.",
+   "Vrai : la vomique est le signe pathognomonique de la rupture bronchique.",
+   "Faux : la fièvre n'est pas constante ; elle évoque une surinfection."
+  ],
+  "id": "chir-2067"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant l'imagerie du kyste hydatique du poumon ?",
+  "options": [
+   "La radiographie thoracique montre une opacité ronde, homogène, bien limitée",
+   "Le signe du « ménisque » ou du « croissant » traduit le décollement de la membrane",
+   "Le signe du « nénuphar » correspond à la membrane flottante après rupture",
+   "Le scanner thoracique précise le nombre, la taille et les rapports des kystes",
+   "L'échographie abdominale est l'examen de référence"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : l'opacité ronde homogène est l'aspect classique.",
+   "Vrai : le signe du ménisque (pneumokyste) traduit le décollement membranaire.",
+   "Vrai : le signe du nénuphar correspond à la membrane affaissée au fond du kyste.",
+   "Vrai : le scanner est l'examen le plus précis.",
+   "Faux : l'échographie abdominale ne visualise pas le kyste pulmonaire."
+  ],
+  "id": "chir-2068"
+ },
+ {
+  "q": "Concernant le traitement du kyste hydatique du poumon, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "options": [
+   "La chirurgie est le traitement de référence",
+   "La kystectomie avec conservation du parenchyme pulmonaire est privilégiée",
+   "La capitonnage (fermeture de la cavité résiduelle) prévient les fistules prolongées",
+   "L'albendazole est indiqué en complément en cas de rupture, de dissémination ou de kystes multiples",
+   "La ponction-aspiration du kyste est le traitement de première intention"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : l'exérèse chirurgicale est le traitement curatif.",
+   "Vrai : la chirurgie conservatrice (kystectomie) préserve le parenchyme.",
+   "Vrai : le capitonnage réduit les fistules aériennes prolongées.",
+   "Vrai : l'albendazole complète la chirurgie dans les formes compliquées.",
+   "Faux : la ponction est contre-indiquée (risque de rupture, d'anaphylaxie et de dissémination)."
+  ],
+  "id": "chir-2069"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) complication(s) possible(s) du kyste hydatique du poumon ?",
+  "options": [
+   "La rupture dans une bronche avec vomique",
+   "La rupture dans la plèvre avec pneumothorax ou pleurésie hydatique",
+   "La surinfection du kyste (abcès hydatique)",
+   "Le choc anaphylactique en cas de rupture",
+   "La métastase pulmonaire"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la rupture bronchique donne la vomique.",
+   "Vrai : la rupture pleurale cause pneumothorax ou pleurésie.",
+   "Vrai : la surinfection transforme le kyste en abcès.",
+   "Vrai : la libération massive d'antigènes peut provoquer un choc anaphylactique.",
+   "Faux : le kyste hydatique n'est pas une tumeur ; il ne métastase pas."
+  ],
+  "id": "chir-2070"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant la prophylaxie de l'hydatidose ?",
+  "options": [
+   "La déparasitage régulier des chiens",
+   "L'abattage contrôlé et la destruction des viscères parasités",
+   "L'hygiène des mains après contact avec les chiens",
+   "La vaccination des moutons (vaccin EG95)",
+   "La vaccination des humains exposés"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le déparasitage des chiens interrompt le cycle.",
+   "Vrai : la destruction des viscères parasités évite l'infection des chiens.",
+   "Vrai : l'hygiène des mains prévient l'ingestion des œufs.",
+   "Vrai : le vaccin EG95 protège les moutons.",
+   "Faux : il n'existe pas de vaccin contre l'hydatidose chez l'homme."
+  ],
+  "id": "chir-2071"
+ },
+ {
+  "q": "Parmi les propositions suivantes concernant le diagnostic biologique du kyste hydatique, laquelle(lesquelles) est(sont) correcte(s) ?",
+  "options": [
+   "La sérologie hydatique (ELISA, hémagglutination) aide au diagnostic",
+   "L'hyperéosinophilie est inconstante",
+   "La sérologie peut rester négative dans les kystes pulmonaires",
+   "La ponction diagnostique du kyste est recommandée pour confirmer le diagnostic",
+   "La sérologie positive affirme à elle seule le diagnostic"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : la sérologie est un argument diagnostique important.",
+   "Vrai : l'hyperéosinophilie n'est présente que dans 20-30 % des cas.",
+   "Vrai : la sérologie est plus souvent négative pour les kystes pulmonaires que hépatiques.",
+   "Faux : la ponction est contre-indiquée (risque de rupture et d'anaphylaxie).",
+   "Faux : la sérologie doit être interprétée avec l'imagerie et la clinique."
+  ],
+  "id": "chir-2072"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant les kystes hydatiques multiples ?",
+  "options": [
+   "Ils peuvent être pulmonaires bilatéraux",
+   "Une localisation hépatique associée doit être recherchée",
+   "L'albendazole est indiqué en cas de kystes multiples ou inopérables",
+   "La chirurgie peut être réalisée en un ou deux temps",
+   "Les kystes multiples sont toujours d'origine métastatique"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : les kystes pulmonaires peuvent être bilatéraux.",
+   "Vrai : le bilan d'extension (échographie hépatique) est systématique.",
+   "Vrai : l'albendazole est indiqué pour les formes multiples ou inopérables.",
+   "Vrai : la chirurgie bilatérale peut être en un ou deux temps.",
+   "Faux : les kystes multiples résultent d'infestations répétées ou d'une dissémination, pas de métastases."
+  ],
+  "id": "chir-2073"
+ },
+ {
+  "q": "Concernant la chirurgie du kyste hydatique du poumon, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "options": [
+   "L'intervention doit éviter la rupture du kyste en peropératoire",
+   "La protection du champ opératoire par des compresses imbibées de sérum salé hypertonique est recommandée",
+   "La résection pulmonaire (lobectomie) est réservée aux kystes géants ou compliqués avec destruction parenchymateuse",
+   "Le drainage pleural postopératoire est systématique",
+   "La thoracotomie est la seule voie d'abord possible"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la rupture peropératoire doit être évitée (dissémination, anaphylaxie).",
+   "Vrai : le sérum salé hypertonique est scolicide et protège le champ.",
+   "Vrai : la lobectomie est réservée aux destructions parenchymateuses majeures.",
+   "Vrai : le drainage pleural est systématique après thoracotomie.",
+   "Faux : la chirurgie vidéo-assistée (VATS) est possible pour certains kystes."
+  ],
+  "id": "chir-2074"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant l'évolution du kyste hydatique du poumon non traité ?",
+  "options": [
+   "La croissance est lente (quelques mm à 1 cm par an)",
+   "La rupture est la complication évolutive principale",
+   "La calcification de la paroi est rare au niveau pulmonaire",
+   "La guérison spontanée est fréquente",
+   "La transformation maligne est possible"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : la croissance du kyste est lente.",
+   "Vrai : la rupture (bronchique ou pleurale) est l'évolution redoutée.",
+   "Vrai : la calcification pariétale est rare au poumon (plus fréquente au foie).",
+   "Faux : la guérison spontanée est exceptionnelle.",
+   "Faux : le kyste hydatique ne se transforme pas en cancer."
+  ],
+  "id": "chir-2075"
+ },
+ {
+  "q": "Concernant les tumeurs sus-tentorielles de l'enfant, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "options": [
+   "Elles représentent environ la moitié des tumeurs cérébrales de l'enfant",
+   "Les gliomes (astrocytomes) sont les tumeurs les plus fréquentes",
+   "Le craniopharyngiome est une tumeur sus-tentorielle fréquente chez l'enfant",
+   "L'hypertension intra-crânienne est le mode de révélation le plus fréquent",
+   "Elles sont toujours malignes"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la répartition sus/sous-tentorielle est proche de 50/50 chez l'enfant.",
+   "Vrai : les astrocytomes sont les tumeurs cérébrales pédiatriques les plus fréquentes.",
+   "Vrai : le craniopharyngiome est une tumeur suprasellaire typique de l'enfant.",
+   "Vrai : l'HIC (céphalées, vomissements) est le mode de révélation principal.",
+   "Faux : beaucoup de tumeurs pédiatriques sont bénignes (grade I OMS)."
+  ],
+  "id": "chir-2076"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant le craniopharyngiome de l'enfant ?",
+  "options": [
+   "Il siège dans la région suprasellaire",
+   "Il se manifeste par un retard de croissance, des troubles visuels et un syndrome hypothalamo-hypophysaire",
+   "Il est souvent kystique et calcifié",
+   "Le traitement repose sur l'exérèse chirurgicale",
+   "Il s'agit d'une tumeur maligne de haut grade"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le craniopharyngiome est suprasellaire.",
+   "Vrai : le tableau associe atteinte visuelle, retard statural et troubles endocriniens.",
+   "Vrai : la calcification est caractéristique à l'imagerie.",
+   "Vrai : l'exérèse chirurgicale est le traitement de référence, parfois complétée par la radiothérapie.",
+   "Faux : le craniopharyngiome est une tumeur bénigne (grade I OMS)."
+  ],
+  "id": "chir-2077"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) manifestation(s) possible(s) d'une tumeur sus-tentorielle de l'enfant ?",
+  "options": [
+   "Les céphalées et vomissements (hypertension intra-crânienne)",
+   "Les crises d'épilepsie",
+   "Les troubles visuels (baisse d'acuité, hémianopsie)",
+   "Le retard de croissance et les troubles endocriniens",
+   "La fièvre prolongée isolée"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : l'HIC est le mode de révélation le plus fréquent.",
+   "Vrai : l'épilepsie révèle souvent les tumeurs supratentorielles.",
+   "Vrai : les troubles visuels traduisent l'atteinte des voies optiques.",
+   "Vrai : les tumeurs suprasellaires perturbent l'axe hypothalamo-hypophysaire.",
+   "Faux : la fièvre prolongée isolée n'est pas un mode de révélation des tumeurs cérébrales."
+  ],
+  "id": "chir-2078"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant l'imagerie des tumeurs cérébrales de l'enfant ?",
+  "options": [
+   "L'IRM cérébrale est l'examen de référence",
+   "Le scanner cérébral peut montrer des calcifications",
+   "L'IRM permet de préciser le siège, la taille et les rapports de la tumeur",
+   "La spectroscopie par IRM aide à la caractérisation tumorale",
+   "La radiographie du crâne suffit au diagnostic"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : l'IRM est l'examen de référence.",
+   "Vrai : le scanner détecte les calcifications (craniopharyngiome).",
+   "Vrai : l'IRM définit l'extension et la résécabilité.",
+   "Vrai : la spectroscopie apporte des informations métaboliques.",
+   "Faux : la radiographie du crâne n'a pas de place dans le diagnostic."
+  ],
+  "id": "chir-2079"
+ },
+ {
+  "q": "Concernant les gliomes de bas grade de l'enfant, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "options": [
+   "L'astrocytome pilocytique est le gliome de bas grade le plus fréquent",
+   "Il est de grade I selon l'OMS",
+   "L'exérèse chirurgicale complète peut être curative",
+   "Le pronostic est généralement favorable",
+   "La chimiothérapie est le traitement de première intention dans tous les cas"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : l'astrocytome pilocytique est la tumeur cérébrale pédiatrique la plus fréquente.",
+   "Vrai : il est classé grade I OMS (bénin).",
+   "Vrai : l'exérèse complète est curative dans la majorité des cas.",
+   "Vrai : la survie à long terme est excellente.",
+   "Faux : la chimiothérapie est réservée aux tumeurs non résécables ou évolutives."
+  ],
+  "id": "chir-2080"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant le traitement des tumeurs sus-tentorielles de l'enfant ?",
+  "options": [
+   "La chirurgie (exérèse) est le traitement de première intention quand elle est possible",
+   "La radiothérapie est réservée aux tumeurs malignes ou non résécables",
+   "La chimiothérapie est utilisée pour différer la radiothérapie chez le jeune enfant",
+   "La prise en charge est multidisciplinaire (neurochirurgie, oncologie, radiothérapie, endocrinologie)",
+   "La biopsie stéréotaxique est toujours nécessaire avant tout traitement"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : l'exérèse est le traitement de référence.",
+   "Vrai : la radiothérapie est indiquée selon le grade et la résécabilité.",
+   "Vrai : la chimiothérapie permet de retarder la radiothérapie chez le petit enfant (toxicité).",
+   "Vrai : la prise en charge multidisciplinaire est la règle.",
+   "Faux : la biopsie n'est pas toujours nécessaire si l'exérèse est réalisable d'emblée."
+  ],
+  "id": "chir-2081"
+ },
+ {
+  "q": "Parmi les tumeurs sus-tentorielles de l'enfant, laquelle(lesquelles) est(sont) fréquemment associée(s) à la neurofibromatose de type 1 ?",
+  "options": [
+   "Le gliome des voies optiques",
+   "L'astrocytome pilocytique",
+   "Le méningiome",
+   "Le craniopharyngiome",
+   "Le médulloblastome"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explain": [
+   "Vrai : le gliome des voies optiques est la tumeur cérébrale la plus fréquente de la NF1.",
+   "Vrai : l'astrocytome pilocytique est associé à la NF1.",
+   "Faux : le méningiome est associé à la NF2, pas à la NF1.",
+   "Faux : le craniopharyngiome n'est pas associé à la NF1.",
+   "Faux : le médulloblastome est une tumeur de la fosse postérieure, non associée à la NF1."
+  ],
+  "id": "chir-2082"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant l'astrocytome pilocytique ?",
+  "options": [
+   "Il est le plus souvent kystique avec un nodule mural prenant le contraste",
+   "Il siège volontiers au niveau du cervelet mais aussi en supratentoriel",
+   "Il est de croissance lente",
+   "Il peut régresser spontanément après exérèse partielle",
+   "Il s'agit d'une tumeur maligne de grade IV"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : l'aspect kystique avec nodule mural est classique.",
+   "Vrai : il siège au cervelet, mais aussi aux voies optiques et en hémisphérique.",
+   "Vrai : c'est une tumeur de croissance lente.",
+   "Vrai : la régression après exérèse partielle est décrite.",
+   "Faux : c'est une tumeur bénigne de grade I OMS."
+  ],
+  "id": "chir-2083"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant les séquelles possibles du traitement des tumeurs cérébrales de l'enfant ?",
+  "options": [
+   "Les troubles endocriniens (déficit en hormone de croissance, hypothyroïdie)",
+   "Les troubles cognitifs et des apprentissages",
+   "Les troubles visuels",
+   "L'hydrocéphalie",
+   "La transformation maligne systématique"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : les troubles endocriniens sont fréquents, surtout après radiothérapie.",
+   "Vrai : les séquelles cognitives sont une préoccupation majeure.",
+   "Vrai : les troubles visuels peuvent persister.",
+   "Vrai : l'hydrocéphalie peut compliquer l'évolution.",
+   "Faux : la transformation maligne n'est pas systématique."
+  ],
+  "id": "chir-2084"
+ },
+ {
+  "q": "Concernant le gliome des voies optiques de l'enfant, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "options": [
+   "Il est fréquemment associé à la neurofibromatose de type 1",
+   "Il se manifeste par une baisse d'acuité visuelle et un strabisme",
+   "Il est le plus souvent de bas grade (astrocytome pilocytique)",
+   "La surveillance peut être proposée en l'absence de progression",
+   "Il nécessite toujours une exérèse chirurgicale complète"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : l'association avec la NF1 est classique.",
+   "Vrai : la baisse visuelle et le strabisme sont les signes révélateurs.",
+   "Vrai : c'est le plus souvent un astrocytome pilocytique.",
+   "Vrai : la surveillance est possible pour les formes stables et asymptomatiques.",
+   "Faux : l'exérèse complète est souvent impossible (voies optiques) ; la chimiothérapie est privilégiée."
+  ],
+  "id": "chir-2085"
+ },
+ {
+  "q": "Concernant les tumeurs de l'angle ponto-cérébelleux, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "options": [
+   "Le schwannome vestibulaire (neurinome de l'acoustique) est la tumeur la plus fréquente",
+   "Le méningiome est la deuxième tumeur la plus fréquente de l'angle",
+   "Les tumeurs de l'angle sont le plus souvent bénignes",
+   "La triade classique associe surdité, acouphènes et vertiges",
+   "Les tumeurs de l'angle sont toujours malignes"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le schwannome vestibulaire représente 80-90 % des tumeurs de l'angle.",
+   "Vrai : le méningiome est la 2e tumeur de l'angle.",
+   "Vrai : la plupart sont bénignes (schwannome, méningiome).",
+   "Vrai : la triade cochléo-vestibulaire est le mode de révélation classique.",
+   "Faux : les tumeurs de l'angle sont le plus souvent bénignes."
+  ],
+  "id": "chir-2086"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) manifestation(s) clinique(s) du schwannome vestibulaire ?",
+  "options": [
+   "La surdité de perception unilatérale progressive",
+   "Les acouphènes unilatéraux",
+   "Les vertiges et troubles de l'équilibre",
+   "La paralysie faciale (tardive, par compression)",
+   "La cécité bilatérale brutale"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la surdité unilatérale progressive est le signe principal.",
+   "Vrai : les acouphènes unilatéraux sont fréquents.",
+   "Vrai : les troubles vestibulaires accompagnent l'atteinte du nerf vestibulaire.",
+   "Vrai : la paralysie faciale survient tardivement par compression du VII.",
+   "Faux : la cécité bilatérale n'est pas une manifestation du schwannome vestibulaire."
+  ],
+  "id": "chir-2087"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant le diagnostic du schwannome vestibulaire ?",
+  "options": [
+   "L'IRM avec injection de gadolinium est l'examen de référence",
+   "L'audiométrie tonale montre une surdité de perception unilatérale",
+   "Les potentiels évoqués auditifs montrent un allongement de l'intervalle I-V",
+   "La radiographie du rocher suffit au diagnostic",
+   "Le scanner cérébral est l'examen de référence"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explain": [
+   "Vrai : l'IRM visualise la tumeur prenant le contraste dans le conduit auditif interne.",
+   "Vrai : l'audiométrie montre une surdité de perception asymétrique.",
+   "Vrai : l'allongement de l'intervalle I-V traduit l'atteinte rétrocochléaire.",
+   "Faux : la radiographie du rocher n'a plus de place diagnostique.",
+   "Faux : l'IRM est supérieure au scanner pour cette pathologie."
+  ],
+  "id": "chir-2088"
+ },
+ {
+  "q": "Concernant le traitement du schwannome vestibulaire, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "options": [
+   "La surveillance est possible pour les petites tumeurs asymptomatiques",
+   "La chirurgie (exérèse) est indiquée en cas de tumeur volumineuse ou évolutive",
+   "La radiochirurgie (Gamma Knife) est une option pour les tumeurs de taille moyenne",
+   "Le choix dépend de la taille, de l'audition, de l'âge et de l'état général",
+   "L'exérèse chirurgicale préserve toujours l'audition"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la surveillance est proposée pour les petites tumeurs stables.",
+   "Vrai : la chirurgie est indiquée pour les grosses tumeurs ou en cas de progression.",
+   "Vrai : la radiochirurgie est une alternative pour les tumeurs < 3 cm.",
+   "Vrai : le choix est individualisé selon ces critères.",
+   "Faux : le risque de perte auditive postopératoire est réel."
+  ],
+  "id": "chir-2089"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant le méningiome de l'angle ponto-cérébelleux ?",
+  "options": [
+   "Il est plus fréquent chez la femme",
+   "Il se manifeste par des signes similaires au schwannome vestibulaire",
+   "L'IRM montre une tumeur à base d'implantation dure-mérienne large",
+   "Le « dural tail sign » (queue durale) est évocateur",
+   "Il est toujours malin"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le méningiome prédomine chez la femme.",
+   "Vrai : les signes cochléo-vestibulaires sont similaires.",
+   "Vrai : la base d'implantation large est caractéristique.",
+   "Vrai : le dural tail sign est évocateur du méningiome.",
+   "Faux : le méningiome est le plus souvent bénin (grade I OMS)."
+  ],
+  "id": "chir-2090"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) complication(s) possible(s) de la chirurgie des tumeurs de l'angle ponto-cérébelleux ?",
+  "options": [
+   "La paralysie faciale",
+   "La surdité",
+   "La fuite de liquide céphalo-rachidien",
+   "L'atteinte du nerf trijumeau",
+   "La cécité"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la paralysie faciale est la complication redoutée.",
+   "Vrai : la perte auditive peut survenir.",
+   "Vrai : la fuite de LCS est une complication postopératoire possible.",
+   "Vrai : le trijumeau peut être lésé par la dissection.",
+   "Faux : la cécité n'est pas une complication de cette chirurgie."
+  ],
+  "id": "chir-2091"
+ },
+ {
+  "q": "Parmi les propositions suivantes concernant la neurofibromatose de type 2, laquelle(lesquelles) est(sont) correcte(s) ?",
+  "options": [
+   "Elle se caractérise par des schwannomes vestibulaires bilatéraux",
+   "Elle est due à une mutation du gène NF2 (chromosome 22)",
+   "Elle peut s'accompagner de méningiomes et d'épendymomes",
+   "Elle est de transmission autosomique dominante",
+   "Elle est identique à la neurofibromatose de type 1"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : les schwannomes vestibulaires bilatéraux sont pathognomoniques de la NF2.",
+   "Vrai : le gène NF2 (merline/schwannomine) est sur le chromosome 22.",
+   "Vrai : méningiomes et épendymomes sont associés à la NF2.",
+   "Vrai : la transmission est autosomique dominante.",
+   "Faux : la NF1 et la NF2 sont des maladies distinctes (gènes et phénotypes différents)."
+  ],
+  "id": "chir-2092"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant les voies d'abord chirurgicales des tumeurs de l'angle ponto-cérébelleux ?",
+  "options": [
+   "La voie rétrosigmoïde est la plus utilisée",
+   "La voie translabyrinthique sacrifie l'audition",
+   "La voie sus-pétreuse (middle fossa) préserve l'audition pour les petites tumeurs intracanalaires",
+   "Le choix de la voie dépend de la taille tumorale et de l'audition préopératoire",
+   "La voie rétrosigmoïde est la seule voie possible"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la voie rétrosigmoïde est la voie classique.",
+   "Vrai : la voie translabyrinthique détruit le labyrinthe et l'audition.",
+   "Vrai : la voie de la fosse moyenne préserve l'audition pour les petites tumeurs.",
+   "Vrai : le choix est fonction de la taille et de l'audition.",
+   "Faux : plusieurs voies sont possibles."
+  ],
+  "id": "chir-2093"
+ },
+ {
+  "q": "Concernant l'ictère rétentionnel de l'adulte, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "options": [
+   "L'ictère rétentionnel se définit par une augmentation de la bilirubine conjuguée",
+   "La cause peut être une obstruction de la voie biliaire principale ou une cholestase intrahépatique",
+   "Les selles décolorées et les urines foncées traduisent la cholestase",
+   "Le prurit est un symptôme fréquent de l'ictère rétentionnel",
+   "L'ictère rétentionnel est toujours d'origine hémolytique"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : l'ictère rétentionnel est à bilirubine conjuguée.",
+   "Vrai : il peut être obstructif ou intrahépatique.",
+   "Vrai : l'absence de bile dans les selles les décolore et la bilirubinurie fonce les urines.",
+   "Vrai : le prurit résulte de la rétention des sels biliaires.",
+   "Faux : l'ictère hémolytique est à bilirubine libre, non rétentionnel."
+  ],
+  "id": "chir-2094"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant le diagnostic étiologique de l'ictère rétentionnel ?",
+  "options": [
+   "L'échographie abdominale est l'examen de première intention",
+   "La dilatation des voies biliaires à l'échographie oriente vers une obstruction extra-hépatique",
+   "La bili-IRM précise le siège et la cause de l'obstruction",
+   "La CPRE permet le diagnostic et le drainage en cas d'obstacle",
+   "Le diagnostic repose uniquement sur la biologie"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : l'échographie est l'examen de première ligne.",
+   "Vrai : la dilatation biliaire signe l'obstacle en amont.",
+   "Vrai : la bili-IRM est l'examen de référence pour la cartographie.",
+   "Vrai : la CPRE est diagnostique et thérapeutique.",
+   "Faux : la biologie seule ne permet pas le diagnostic étiologique."
+  ],
+  "id": "chir-2095"
+ },
+ {
+  "q": "Parmi les causes suivantes, laquelle(lesquelles) peut(peuvent) provoquer un ictère rétentionnel ?",
+  "options": [
+   "Le cancer de la tête du pancréas",
+   "La lithiase cholédocienne",
+   "Le cholangiocarcinome hilaire (tumeur de Klatskin)",
+   "La sténose biliaire post-cholécystectomie",
+   "L'hépatite virale A aiguë"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le cancer pancréatique comprime le bas cholédoque.",
+   "Vrai : la lithiase cholédocienne obstrue la voie biliaire principale.",
+   "Vrai : la tumeur de Klatskin obstrue la convergence biliaire.",
+   "Vrai : les sténoses postopératoires obstruent la voie biliaire.",
+   "Faux : l'hépatite A donne un ictère cytolytique (hépatocellulaire), pas rétentionnel pur."
+  ],
+  "id": "chir-2096"
+ },
+ {
+  "q": "Concernant le kyste hydatique du poumon, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "options": [
+   "Le kyste hydatique du poumon est dû à la larve d'Echinococcus granulosus",
+   "Le poumon est la deuxième localisation du kyste hydatique après le foie",
+   "Le kyste hydatique du poumon peut se rompre dans une bronche (vomique) ou dans la plèvre",
+   "La chirurgie est le traitement de référence du kyste hydatique du poumon",
+   "Le kyste hydatique du poumon est une tumeur maligne"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : Echinococcus granulosus est l'agent responsable.",
+   "Vrai : le poumon est la 2e localisation.",
+   "Vrai : la rupture bronchique ou pleurale est la complication principale.",
+   "Vrai : l'exérèse chirurgicale est le traitement curatif.",
+   "Faux : le kyste hydatique est une parasitose, pas une tumeur maligne."
+  ],
+  "id": "chir-2097"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant le diagnostic du kyste hydatique du poumon ?",
+  "options": [
+   "La radiographie thoracique montre une opacité ronde homogène bien limitée",
+   "Le signe du ménisque traduit le décollement de la membrane hydatique",
+   "Le scanner thoracique est l'examen le plus précis pour le kyste hydatique du poumon",
+   "La sérologie hydatique peut être négative dans le kyste hydatique du poumon",
+   "La ponction du kyste hydatique du poumon est recommandée pour le diagnostic"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : l'opacité ronde homogène est l'aspect classique.",
+   "Vrai : le signe du ménisque traduit le décollement membranaire.",
+   "Vrai : le scanner précise nombre, taille et rapports.",
+   "Vrai : la sérologie est souvent négative pour les kystes pulmonaires.",
+   "Faux : la ponction est contre-indiquée (rupture, anaphylaxie, dissémination)."
+  ],
+  "id": "chir-2098"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant la prise en charge du kyste hydatique du poumon ?",
+  "options": [
+   "La kystectomie conservatrice est l'intervention de choix pour le kyste hydatique du poumon",
+   "Le capitonnage de la cavité résiduelle prévient les fistules aériennes",
+   "L'albendazole est indiqué en cas de rupture ou de kystes hydatiques multiples",
+   "La protection du champ par du sérum salé hypertonique prévient la dissémination",
+   "La radiothérapie est le traitement de première intention du kyste hydatique du poumon"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la kystectomie préserve le parenchyme pulmonaire.",
+   "Vrai : le capitonnage réduit les fistules prolongées.",
+   "Vrai : l'albendazole complète la chirurgie dans les formes compliquées.",
+   "Vrai : le sérum salé hypertonique est scolicide.",
+   "Faux : la radiothérapie n'a aucune place dans le traitement du kyste hydatique."
+  ],
+  "id": "chir-2099"
+ },
+ {
+  "q": "Concernant les tumeurs sus-tentorielles de l'enfant, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "options": [
+   "Les tumeurs sus-tentorielles de l'enfant représentent environ la moitié des tumeurs cérébrales pédiatriques",
+   "Les tumeurs sus-tentorielles de l'enfant comprennent les gliomes, le craniopharyngiome et les tumeurs embryonnaires",
+   "L'hypertension intra-crânienne est le mode de révélation le plus fréquent des tumeurs sus-tentorielles de l'enfant",
+   "L'IRM est l'examen de référence pour les tumeurs sus-tentorielles de l'enfant",
+   "Les tumeurs sus-tentorielles de l'enfant sont toujours malignes"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : la répartition sus/sous-tentorielle est proche de 50/50.",
+   "Vrai : gliomes, craniopharyngiome, PNET et épendymomes supratentoriels sont les principaux types.",
+   "Vrai : l'HIC est le mode de révélation principal.",
+   "Vrai : l'IRM est l'examen de référence.",
+   "Faux : beaucoup de tumeurs sus-tentorielles pédiatriques sont bénignes (grade I)."
+  ],
+  "id": "chir-2100"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) tumeur(s) sus-tentorielle(s) fréquente(s) chez l'enfant ?",
+  "options": [
+   "L'astrocytome pilocytique sus-tentoriel",
+   "Le craniopharyngiome suprasellaire",
+   "Le gliome des voies optiques",
+   "L'épendymome supratentoriel",
+   "Le médulloblastome"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : l'astrocytome pilocytique peut siéger en supratentoriel.",
+   "Vrai : le craniopharyngiome est une tumeur suprasellaire sus-tentorielle.",
+   "Vrai : le gliome des voies optiques est sus-tentoriel.",
+   "Vrai : l'épendymome peut siéger en supratentoriel.",
+   "Faux : le médulloblastome est une tumeur de la fosse postérieure (sous-tentorielle)."
+  ],
+  "id": "chir-2101"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) manifestation(s) possible(s) d'une tumeur sus-tentorielle de l'enfant ?",
+  "options": [
+   "Les crises d'épilepsie",
+   "Les troubles visuels",
+   "Le retard de croissance par atteinte hypothalamo-hypophysaire",
+   "Les céphalées et vomissements (hypertension intra-crânienne)",
+   "Le syndrome cérébelleux"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : l'épilepsie révèle souvent les tumeurs supratentorielles.",
+   "Vrai : les troubles visuels traduisent l'atteinte des voies optiques.",
+   "Vrai : les tumeurs suprasellaires perturbent l'axe hypothalamo-hypophysaire.",
+   "Vrai : l'HIC est le mode de révélation principal.",
+   "Faux : le syndrome cérébelleux évoque une tumeur de la fosse postérieure."
+  ],
+  "id": "chir-2102"
+ },
+ {
+  "q": "Concernant le traitement des tumeurs sus-tentorielles de l'enfant, quelle(s) est(sont) la(les) proposition(s) correcte(s) ?",
+  "options": [
+   "L'exérèse chirurgicale est le traitement de première intention des tumeurs sus-tentorielles de l'enfant quand elle est possible",
+   "La chimiothérapie permet de différer la radiothérapie chez le jeune enfant atteint d'une tumeur sus-tentorielle",
+   "La radiothérapie est indiquée selon le grade et la résécabilité de la tumeur sus-tentorielle",
+   "La prise en charge des tumeurs sus-tentorielles de l'enfant est multidisciplinaire",
+   "La radiothérapie est sans risque chez le jeune enfant"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : l'exérèse est le traitement de référence.",
+   "Vrai : la chimiothérapie retarde la radiothérapie chez le petit enfant.",
+   "Vrai : la radiothérapie dépend du grade et de la résécabilité.",
+   "Vrai : la prise en charge est multidisciplinaire.",
+   "Faux : la radiothérapie a des séquelles cognitives et endocriniennes majeures chez l'enfant."
+  ],
+  "id": "chir-2103"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant le craniopharyngiome, tumeur sus-tentorielle de l'enfant ?",
+  "options": [
+   "Le craniopharyngiome est une tumeur sus-tentorielle suprasellaire",
+   "Le craniopharyngiome se manifeste par un retard de croissance et des troubles visuels",
+   "Le craniopharyngiome est souvent kystique et calcifié à l'imagerie",
+   "Le traitement du craniopharyngiome repose sur l'exérèse chirurgicale",
+   "Le craniopharyngiome est une tumeur maligne de grade IV"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le craniopharyngiome est suprasellaire, donc sus-tentoriel.",
+   "Vrai : le tableau associe retard statural, troubles visuels et troubles endocriniens.",
+   "Vrai : la calcification est caractéristique.",
+   "Vrai : l'exérèse est le traitement de référence.",
+   "Faux : le craniopharyngiome est une tumeur bénigne (grade I OMS)."
+  ],
+  "id": "chir-2104"
+ },
+ {
+  "q": "Quelle(s) est(sont) la(les) proposition(s) correcte(s) concernant le pronostic des tumeurs sus-tentorielles de l'enfant ?",
+  "options": [
+   "Le pronostic des tumeurs sus-tentorielles de l'enfant dépend du type histologique et du grade",
+   "L'exérèse complète améliore le pronostic des tumeurs sus-tentorielles de l'enfant",
+   "Les gliomes de bas grade sus-tentoriels ont un bon pronostic",
+   "Les séquelles endocriniennes et cognitives sont fréquentes après traitement d'une tumeur sus-tentorielle de l'enfant",
+   "Toutes les tumeurs sus-tentorielles de l'enfant ont un pronostic fatal"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explain": [
+   "Vrai : le type histologique et le grade déterminent le pronostic.",
+   "Vrai : l'exérèse complète est un facteur pronostique favorable.",
+   "Vrai : les gliomes de bas grade ont un excellent pronostic.",
+   "Vrai : les séquelles sont une préoccupation majeure.",
+   "Faux : beaucoup de tumeurs sus-tentorielles pédiatriques ont un bon pronostic."
+  ],
+  "id": "chir-2105"
  }
 ]
