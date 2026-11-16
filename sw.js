@@ -12,7 +12,7 @@ const CORE = [
   'classement.html', 'plan.html', 'profil.html', 'pathologies.html',
   'um6ss.html', 'um6ss-quiz.html', 'um6ss-logo.png',
   'styles.css', 'firebase-config.js', 'manifest.json',
-  'js/common.js', 'js/login.js', 'js/home.js', 'js/atlas-promo.js', 'js/discipline.js',
+  'js/common.js', 'js/login.js', 'js/home.js', 'js/atlas-promo.js', 'js/sr.js', 'js/sr-scheduler.js', 'js/review.js', 'review.html', 'js/discipline.js',
   'js/topic.js', 'js/qcm.js', 'js/quiz.js', 'js/classement.js',
   'js/plan.js', 'js/profil.js', 'js/patho.js', 'js/um6ss.js', 'js/um6ss-quiz.js',
   'vendor/firebase/firebase-app.js', 'vendor/firebase/firebase-auth.js',
